@@ -1,0 +1,566 @@
+2016-03-24 17:40:19	ℹ 	irc: connecting to server irc.snoonet.org/6697 (SSL)...
+2016-03-24 17:40:20	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-24 17:40:20	ℹ 	gnutls: receiving 4 certificates
+2016-03-24 17:40:20	ℹ 	 - certificate[1] info:
+2016-03-24 17:40:20	ℹ 	   - subject `OU=Domain Control Validated,OU=PositiveSSL Wildcard,CN=*.snoonet.org', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-01 00:00:00 UTC', expires `2017-03-03 23:59:59 UTC', SHA-1 fingerprint `39dde15eebcc73f9e1c6513d79f08dc6d423c710'
+2016-03-24 17:40:20	ℹ 	 - certificate[2] info:
+2016-03-24 17:40:20	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-02-12 00:00:00 UTC', expires `2029-02-11 23:59:59 UTC', SHA-1 fingerprint `339cdd57cfd5b141169b615ff31428782d1da639'
+2016-03-24 17:40:20	ℹ 	 - certificate[3] info:
+2016-03-24 17:40:20	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `f5ad0bcc1ad56cd150725b1c866c30ad92ef21b0'
+2016-03-24 17:40:20	ℹ 	 - certificate[4] info:
+2016-03-24 17:40:20	ℹ 	   - subject `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 2048 bits, signed using RSA-SHA1, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `02faf3e291435468607857694df5e45b68851868'
+2016-03-24 17:40:20	ℹ 	gnutls: peer's certificate is trusted
+2016-03-24 17:40:21	ℹ 	irc: connected to irc.snoonet.org/6697 (5.39.86.47)
+2016-03-24 17:40:21	ℹ 	caligula.snoonet.org: *** Looking up your hostname...
+2016-03-24 17:40:21	ℹ 	caligula.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG OxMMCZuS?F or /raw PONG OxMMCZuS?F now.
+2016-03-24 17:40:25	ℹ 	caligula.snoonet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (154.118.244.206) instead.
+2016-03-24 17:40:26	ℹ 	caligula.snoonet.org: Welcome to Snoonet!
+2016-03-24 17:40:26	ℹ 	Welcome to the Snoonet IRC Network Cenobite!cenobite@154.118.244.206
+2016-03-24 17:40:26	ℹ 	Your host is caligula.snoonet.org, running version InspIRCd-2.0
+2016-03-24 17:40:26	ℹ 	This server was created 02:27:15 Mar  2 2016
+2016-03-24 17:40:26	ℹ 	caligula.snoonet.org InspIRCd-2.0 BGHILORSTWcdghikorswx ABCDFGHIJKLMNOPQRSTUXYZbcdefghijklmnoprstuvwxz FHIJLUXYZbdefghjklovwx
+2016-03-24 17:40:26	ℹ 	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLUdfjlx,ABCDGKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2016-03-24 17:40:26	ℹ 	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2016-03-24 17:40:26	ℹ 	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2016-03-24 17:40:26	ℹ 	1CAAAE08G :your unique ID
+2016-03-24 17:40:26	ℹ 	caligula.snoonet.org message of the day
+2016-03-24 17:40:26	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-   _____                              _
+2016-03-24 17:40:26	ℹ 	-  / ____|                            | |
+2016-03-24 17:40:26	ℹ 	- | (___  _ __   ___   ___  _ __   ___| |_
+2016-03-24 17:40:26	ℹ 	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2016-03-24 17:40:26	ℹ 	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2016-03-24 17:40:26	ℹ 	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Welcome to the Snoonet Chat Network.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- By connecting to Snoonet you indicate that you have read and
+2016-03-24 17:40:26	ℹ 	- accept our policies as set out on http://www.snoonet.org/rules .
+2016-03-24 17:40:26	ℹ 	- Snoonet runs an open proxy scanner.  If you continue connecting
+2016-03-24 17:40:26	ℹ 	- to Snoonet, you agree to this scanning to protect our network
+2016-03-24 17:40:26	ℹ 	- from scammers, spammers and the propagation of viruses.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Please visit our ruleset listed at http://www.snoonet.org/rules .
+2016-03-24 17:40:26	ℹ 	- Yes, this is so important we list it twice. Snoonet does not have
+2016-03-24 17:40:26	ℹ 	- many network wide rules but the ones we do have we enforce
+2016-03-24 17:40:26	ℹ 	- to the best of our ability. This may also include the use of
+2016-03-24 17:40:26	ℹ 	- automated oper utilities and/or standalone network bots that may
+2016-03-24 17:40:26	ℹ 	- join/part your channel, or the mass setting of channel modes across
+2016-03-24 17:40:26	ℹ 	- all network channels to protect you and your users during times
+2016-03-24 17:40:26	ℹ 	- of network turmoil.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Please join #help if you have questions about any of the above
+2016-03-24 17:40:26	ℹ 	- information.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Network Administration may remove any problem user at any time
+2016-03-24 17:40:26	ℹ 	- for the betterment of all users. This includes, but is not limited
+2016-03-24 17:40:26	ℹ 	- to, trolling, attempting to receive or spread users personal
+2016-03-24 17:40:26	ℹ 	- information (also known as Doxxing), vote brigading on any social
+2016-03-24 17:40:26	ℹ 	- media websites, or any thing that network administration sees as
+2016-03-24 17:40:26	ℹ 	- potentially harmful to the atmosphere of Snoonet.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Our network rules are located here: http://www.snoonet.org/rules .
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- Ignorance is not an excuse - most of the network rules are common sense.
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	-
+2016-03-24 17:40:26	ℹ 	End of message of the day.
+2016-03-24 17:40:26	ℹ 	There are 142 users and 4581 invisible on 13 servers
+2016-03-24 17:40:26	ℹ 	30 :operator(s) online
+2016-03-24 17:40:26	ℹ 	1 :unknown connections
+2016-03-24 17:40:26	ℹ 	2846 :channels formed
+2016-03-24 17:40:26	ℹ 	I have 1209 clients and 1 servers
+2016-03-24 17:40:26	ℹ 	Current Local Users: 1209  Max: 1352
+2016-03-24 17:40:26	ℹ 	Current Global Users: 4723  Max: 5055
+2016-03-24 17:40:26	ℹ 	Snoonet-g5o.46c.22l2eo.IP :is now your displayed host
+2016-03-24 17:40:26	ℹ 	User mode [+wxiI] by Cenobite
+2016-03-24 17:40:26	ℹ 	caligula.snoonet.org: *** You are connected using SSL cipher "AES128-GCM-SHA256"
+2016-03-24 17:40:26	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Your nickname is not registered. To register it, use: /msg NickServ REGISTER password email
+2016-03-24 17:40:26	ℹ 	Global (Global@snoonet/services/Global): [Logon News - Oct 22 22:28:09 2015 UTC] Need to contact us for any reason and can't join #help? Snoonet has implemented a ticket system to serve you better. Support requests, including ban appeals, can now be initiated by visiting https://support.snoonet.org
+2016-03-24 17:40:26	ℹ 	Global (Global@snoonet/services/Global): [Random News - Oct 28 00:36:54 2015 UTC] Remember, we now have a ticketing system for network support requests and ban appeals! Visit https://support.snoonet.org to open a support ticket.
+2016-03-24 17:40:32	ℹ 	[Cenobite] (cenobite@Snoonet-g5o.46c.22l2eo.IP): cenobite
+2016-03-24 17:40:32	ℹ 	[Cenobite] is connecting from cenobite@154.118.244.206 154.118.244.206
+2016-03-24 17:40:32	ℹ 	[Cenobite] caligula.snoonet.org (Snoonet Client Leaf)
+2016-03-24 17:40:32	ℹ 	[Cenobite] is using modes +Iiwx
+2016-03-24 17:40:32	ℹ 	[Cenobite] is using a secure connection
+2016-03-24 17:40:32	ℹ 	[Cenobite] idle: 00 hours 00 minutes 06 seconds, signon at: Thu, 24 Mar 2016 17:40:16
+2016-03-24 17:40:32	ℹ 	[Cenobite] End of /WHOIS list.
+2016-03-24 17:40:42	ℹ 	MSG(nickserv): info Cenobite
+2016-03-24 17:40:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Nick Cenobite isn't registered.
+2016-03-24 17:40:48	ℹ 	MSG(nickserv): help register
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Syntax: register password email
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Registers your nickname in the NickServ database. Once
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): your nick is registered, you can use the SET and ACCESS
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): commands to configure your nick's settings as you like
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): them. Make sure you remember the password you use when
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): registering - you'll need it to make changes to your nick
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): later. (Note that case matters! ANOPE, Anope, and
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): anope are all different passwords!)
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Guidelines on choosing passwords:
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Passwords should not be easily guessable. For example,
+2016-03-24 17:40:48	ℹ 	NickServ (NickServ@snoonet/services/NickServ): using your real name as a password is a bad idea. Using
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): your nickname as a password is a much worse idea ;) and,
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): in fact, NickServ will not allow it. Also, short
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): passwords are vulnerable to trial-and-error searches, so
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): you should choose a password at least 5 characters long.
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Finally, the space character cannot be used in passwords.
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): This command also creates a new group for your nickname,
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): that will allow you to register other nicks later sharing
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): the same configuration, the same set of memos and the
+2016-03-24 17:40:49	ℹ 	NickServ (NickServ@snoonet/services/NickServ): same channel privileges.
+2016-03-24 17:41:26	ℹ 	MSG(nickserv): register **************************
+2016-03-24 17:41:26	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Nickname Cenobite registered.
+2016-03-24 17:41:26	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Your email address is not confirmed. To confirm it, follow the instructions that were emailed to you.
+2016-03-24 17:41:26	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Your account will expire, if not confirmed, in 1 day.
+2016-03-24 17:42:22	ℹ 	MSG(nickserv): confirm eKfOAgt4C
+2016-03-24 17:42:23	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Your email address of cal@calharding.net has been confirmed.
+2016-03-24 17:42:23	ℹ 	You are now logged in as Cenobite (Cenobite!cenobite@Snoonet-g5o.46c.22l2eo.IP)
+2016-03-24 17:42:23	ℹ 	User mode [+r] by NickServ
+2016-03-24 17:42:23	ℹ 	User mode [-x] by caligula.snoonet.org
+2016-03-24 17:42:23	ℹ 	user/Cenobite :is now your displayed host
+2016-03-24 17:42:23	ℹ 	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/Cenobite is now activated.
+2016-03-24 19:43:22	ℹ 	irc: disconnected from server
+2016-03-24 19:43:27	ℹ 	irc: connecting to server irc.snoonet.org/6697 (SSL)...
+2016-03-24 19:43:29	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-24 19:43:29	ℹ 	gnutls: receiving 4 certificates
+2016-03-24 19:43:29	ℹ 	 - certificate[1] info:
+2016-03-24 19:43:29	ℹ 	   - subject `OU=Domain Control Validated,OU=PositiveSSL Wildcard,CN=*.snoonet.org', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-01 00:00:00 UTC', expires `2017-03-03 23:59:59 UTC', SHA-1 fingerprint `39dde15eebcc73f9e1c6513d79f08dc6d423c710'
+2016-03-24 19:43:29	ℹ 	 - certificate[2] info:
+2016-03-24 19:43:29	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-02-12 00:00:00 UTC', expires `2029-02-11 23:59:59 UTC', SHA-1 fingerprint `339cdd57cfd5b141169b615ff31428782d1da639'
+2016-03-24 19:43:29	ℹ 	 - certificate[3] info:
+2016-03-24 19:43:29	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `f5ad0bcc1ad56cd150725b1c866c30ad92ef21b0'
+2016-03-24 19:43:29	ℹ 	 - certificate[4] info:
+2016-03-24 19:43:29	ℹ 	   - subject `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 2048 bits, signed using RSA-SHA1, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `02faf3e291435468607857694df5e45b68851868'
+2016-03-24 19:43:29	ℹ 	gnutls: peer's certificate is trusted
+2016-03-24 19:43:30	ℹ 	irc: connected to irc.snoonet.org/6697 (163.47.16.21)
+2016-03-24 19:43:30	ℹ 	drongo.snoonet.org: *** Looking up your hostname...
+2016-03-24 19:43:30	ℹ 	drongo.snoonet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (165.255.125.246) instead.
+2016-03-24 19:43:31	ℹ 	drongo.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG FTgA_^^ttY or /raw PONG FTgA_^^ttY now.
+2016-03-24 19:43:32	ℹ 	drongo.snoonet.org: Welcome to Snoonet!
+2016-03-24 19:43:32	ℹ 	Welcome to the Snoonet IRC Network Cenobite!cenobite@165.255.125.246
+2016-03-24 19:43:32	ℹ 	Your host is drongo.snoonet.org, running version InspIRCd-2.0
+2016-03-24 19:43:32	ℹ 	This server was created 11:44:25 Mar  2 2016
+2016-03-24 19:43:32	ℹ 	drongo.snoonet.org InspIRCd-2.0 BGHILORSTWcdghikorswx ABCDFGHIJKLMNOPQRSTUXYZbcdefghijklmnoprstuvwxz FHIJLUXYZbdefghjklovwx
+2016-03-24 19:43:32	ℹ 	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLUdfjlx,ABCDGKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2016-03-24 19:43:32	ℹ 	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2016-03-24 19:43:32	ℹ 	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2016-03-24 19:43:32	ℹ 	1DRAAAH1L :your unique ID
+2016-03-24 19:43:32	ℹ 	drongo.snoonet.org message of the day
+2016-03-24 19:43:32	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	-   _____                              _
+2016-03-24 19:43:32	ℹ 	-  / ____|                            | |
+2016-03-24 19:43:32	ℹ 	- | (___  _ __   ___   ___  _ __   ___| |_
+2016-03-24 19:43:32	ℹ 	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2016-03-24 19:43:32	ℹ 	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2016-03-24 19:43:32	ℹ 	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	- Welcome to the Snoonet Chat Network.
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	- By connecting to Snoonet you indicate that you have read and
+2016-03-24 19:43:32	ℹ 	- accept our policies as set out on http://www.snoonet.org/rules .
+2016-03-24 19:43:32	ℹ 	- Snoonet runs an open proxy scanner.  If you continue connecting
+2016-03-24 19:43:32	ℹ 	- to Snoonet, you agree to this scanning to protect our network
+2016-03-24 19:43:32	ℹ 	- from scammers, spammers and the propagation of viruses.
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	- Please visit our ruleset listed at http://www.snoonet.org/rules .
+2016-03-24 19:43:32	ℹ 	- Yes, this is so important we list it twice. Snoonet does not have
+2016-03-24 19:43:32	ℹ 	- many network wide rules but the ones we do have we enforce
+2016-03-24 19:43:32	ℹ 	- to the best of our ability. This may also include the use of
+2016-03-24 19:43:32	ℹ 	- automated oper utilities and/or standalone network bots that may
+2016-03-24 19:43:32	ℹ 	- join/part your channel, or the mass setting of channel modes across
+2016-03-24 19:43:32	ℹ 	- all network channels to protect you and your users during times
+2016-03-24 19:43:32	ℹ 	- of network turmoil.
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	- Please join #help if you have questions about any of the above
+2016-03-24 19:43:32	ℹ 	- information.
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:32	ℹ 	- Network Administration may remove any problem user at any time
+2016-03-24 19:43:32	ℹ 	- for the betterment of all users. This includes, but is not limited
+2016-03-24 19:43:32	ℹ 	- to, trolling, attempting to receive or spread users personal
+2016-03-24 19:43:32	ℹ 	- information (also known as Doxxing), vote brigading on any social
+2016-03-24 19:43:32	ℹ 	- media websites, or any thing that network administration sees as
+2016-03-24 19:43:32	ℹ 	- potentially harmful to the atmosphere of Snoonet.
+2016-03-24 19:43:32	ℹ 	-
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	- Our network rules are located here: http://www.snoonet.org/rules .
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	- Ignorance is not an excuse - most of the network rules are common sense.
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	-
+2016-03-24 19:43:33	ℹ 	End of message of the day.
+2016-03-24 19:43:33	ℹ 	There are 140 users and 4686 invisible on 13 servers
+2016-03-24 19:43:33	ℹ 	30 :operator(s) online
+2016-03-24 19:43:33	ℹ 	2858 :channels formed
+2016-03-24 19:43:33	ℹ 	I have 59 clients and 1 servers
+2016-03-24 19:43:33	ℹ 	Current Local Users: 59  Max: 116
+2016-03-24 19:43:33	ℹ 	Current Global Users: 4826  Max: 5055
+2016-03-24 19:43:33	ℹ 	Snoonet-4fp.q56.re1lg8.IP :is now your displayed host
+2016-03-24 19:43:33	ℹ 	User mode [+wxiI] by Cenobite
+2016-03-24 19:43:33	ℹ 	drongo.snoonet.org: *** You are connected using SSL cipher "AES128-GCM-SHA256"
+2016-03-24 19:43:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2016-03-24 19:43:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2016-03-24 19:43:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2016-03-24 19:43:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): If you do not change within 1 minute, I will change your nick.
+2016-03-24 19:43:33	ℹ 	Global (Global@snoonet/services/Global): [Logon News - Oct 22 22:28:09 2015 UTC] Need to contact us for any reason and can't join #help? Snoonet has implemented a ticket system to serve you better. Support requests, including ban appeals, can now be initiated by visiting https://support.snoonet.org
+2016-03-24 19:43:33	ℹ 	Global (Global@snoonet/services/Global): [Random News - Oct 28 00:36:54 2015 UTC] Remember, we now have a ticketing system for network support requests and ban appeals! Visit https://support.snoonet.org to open a support ticket.
+2016-03-24 19:43:45	ℹ 	MSG(nickserv): identify *******
+2016-03-24 19:43:46	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Password accepted - you are now recognized.
+2016-03-24 19:43:46	ℹ 	You are now logged in as Cenobite (Cenobite!cenobite@Snoonet-4fp.q56.re1lg8.IP)
+2016-03-24 19:43:46	ℹ 	User mode [-x] by drongo.snoonet.org
+2016-03-24 19:43:46	ℹ 	user/Cenobite :is now your displayed host
+2016-03-24 19:43:46	ℹ 	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/Cenobite is now activated.
+2016-03-24 19:43:46	ℹ 	User mode [+r] by NickServ
+2016-03-24 19:44:20	ℹ 	[Cenobite] (cenobite@user/Cenobite): cenobite
+2016-03-24 19:44:20	ℹ 	[Cenobite] is connecting from cenobite@165.255.125.246 165.255.125.246
+2016-03-24 19:44:20	ℹ 	[Cenobite] drongo.snoonet.org (Snoonet Client Leaf)
+2016-03-24 19:44:20	ℹ 	[Cenobite] is using modes +Iirw
+2016-03-24 19:44:20	ℹ 	[Cenobite] is logged in as Cenobite
+2016-03-24 19:44:20	ℹ 	[Cenobite] is a registered nick
+2016-03-24 19:44:20	ℹ 	[Cenobite] is using a secure connection
+2016-03-24 19:44:20	ℹ 	[Cenobite] idle: 00 hours 00 minutes 34 seconds, signon at: Thu, 24 Mar 2016 19:43:24
+2016-03-24 19:44:20	ℹ 	[Cenobite] End of /WHOIS list.
+2016-03-24 19:47:23	ℹ 	irc: disconnected from server
+2016-03-24 19:47:27	ℹ 	irc: connecting to server irc.snoonet.org/6697 (SSL)...
+2016-03-24 19:47:28	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-24 19:47:28	ℹ 	gnutls: receiving 4 certificates
+2016-03-24 19:47:28	ℹ 	 - certificate[1] info:
+2016-03-24 19:47:28	ℹ 	   - subject `OU=Domain Control Validated,OU=PositiveSSL Wildcard,CN=*.snoonet.org', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-01 00:00:00 UTC', expires `2017-03-03 23:59:59 UTC', SHA-1 fingerprint `39dde15eebcc73f9e1c6513d79f08dc6d423c710'
+2016-03-24 19:47:28	ℹ 	 - certificate[2] info:
+2016-03-24 19:47:28	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-02-12 00:00:00 UTC', expires `2029-02-11 23:59:59 UTC', SHA-1 fingerprint `339cdd57cfd5b141169b615ff31428782d1da639'
+2016-03-24 19:47:28	ℹ 	 - certificate[3] info:
+2016-03-24 19:47:28	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `f5ad0bcc1ad56cd150725b1c866c30ad92ef21b0'
+2016-03-24 19:47:28	ℹ 	 - certificate[4] info:
+2016-03-24 19:47:28	ℹ 	   - subject `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 2048 bits, signed using RSA-SHA1, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `02faf3e291435468607857694df5e45b68851868'
+2016-03-24 19:47:28	ℹ 	gnutls: peer's certificate is trusted
+2016-03-24 19:47:29	ℹ 	irc: connected to irc.snoonet.org/6697 (5.39.86.47)
+2016-03-24 19:47:29	ℹ 	caligula.snoonet.org: *** Looking up your hostname...
+2016-03-24 19:47:29	ℹ 	caligula.snoonet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (165.255.125.246) instead.
+2016-03-24 19:47:29	ℹ 	caligula.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG _LyAFtlVG} or /raw PONG _LyAFtlVG} now.
+2016-03-24 19:47:30	ℹ 	caligula.snoonet.org: Welcome to Snoonet!
+2016-03-24 19:47:30	ℹ 	Welcome to the Snoonet IRC Network Cenobite!cenobite@165.255.125.246
+2016-03-24 19:47:30	ℹ 	MSG(nickserv): identify *******
+2016-03-24 19:47:30	ℹ 	Your host is caligula.snoonet.org, running version InspIRCd-2.0
+2016-03-24 19:47:30	ℹ 	This server was created 02:27:15 Mar  2 2016
+2016-03-24 19:47:30	ℹ 	caligula.snoonet.org InspIRCd-2.0 BGHILORSTWcdghikorswx ABCDFGHIJKLMNOPQRSTUXYZbcdefghijklmnoprstuvwxz FHIJLUXYZbdefghjklovwx
+2016-03-24 19:47:30	ℹ 	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLUdfjlx,ABCDGKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2016-03-24 19:47:30	ℹ 	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2016-03-24 19:47:30	ℹ 	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2016-03-24 19:47:30	ℹ 	1CAAAE11F :your unique ID
+2016-03-24 19:47:30	ℹ 	caligula.snoonet.org message of the day
+2016-03-24 19:47:30	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-   _____                              _
+2016-03-24 19:47:30	ℹ 	-  / ____|                            | |
+2016-03-24 19:47:30	ℹ 	- | (___  _ __   ___   ___  _ __   ___| |_
+2016-03-24 19:47:30	ℹ 	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2016-03-24 19:47:30	ℹ 	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2016-03-24 19:47:30	ℹ 	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Welcome to the Snoonet Chat Network.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- By connecting to Snoonet you indicate that you have read and
+2016-03-24 19:47:30	ℹ 	- accept our policies as set out on http://www.snoonet.org/rules .
+2016-03-24 19:47:30	ℹ 	- Snoonet runs an open proxy scanner.  If you continue connecting
+2016-03-24 19:47:30	ℹ 	- to Snoonet, you agree to this scanning to protect our network
+2016-03-24 19:47:30	ℹ 	- from scammers, spammers and the propagation of viruses.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Please visit our ruleset listed at http://www.snoonet.org/rules .
+2016-03-24 19:47:30	ℹ 	- Yes, this is so important we list it twice. Snoonet does not have
+2016-03-24 19:47:30	ℹ 	- many network wide rules but the ones we do have we enforce
+2016-03-24 19:47:30	ℹ 	- to the best of our ability. This may also include the use of
+2016-03-24 19:47:30	ℹ 	- automated oper utilities and/or standalone network bots that may
+2016-03-24 19:47:30	ℹ 	- join/part your channel, or the mass setting of channel modes across
+2016-03-24 19:47:30	ℹ 	- all network channels to protect you and your users during times
+2016-03-24 19:47:30	ℹ 	- of network turmoil.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Please join #help if you have questions about any of the above
+2016-03-24 19:47:30	ℹ 	- information.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Network Administration may remove any problem user at any time
+2016-03-24 19:47:30	ℹ 	- for the betterment of all users. This includes, but is not limited
+2016-03-24 19:47:30	ℹ 	- to, trolling, attempting to receive or spread users personal
+2016-03-24 19:47:30	ℹ 	- information (also known as Doxxing), vote brigading on any social
+2016-03-24 19:47:30	ℹ 	- media websites, or any thing that network administration sees as
+2016-03-24 19:47:30	ℹ 	- potentially harmful to the atmosphere of Snoonet.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Our network rules are located here: http://www.snoonet.org/rules .
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- Ignorance is not an excuse - most of the network rules are common sense.
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	-
+2016-03-24 19:47:30	ℹ 	End of message of the day.
+2016-03-24 19:47:30	ℹ 	There are 140 users and 4703 invisible on 13 servers
+2016-03-24 19:47:30	ℹ 	30 :operator(s) online
+2016-03-24 19:47:30	ℹ 	1 :unknown connections
+2016-03-24 19:47:30	ℹ 	2854 :channels formed
+2016-03-24 19:47:30	ℹ 	I have 1262 clients and 1 servers
+2016-03-24 19:47:30	ℹ 	Current Local Users: 1262  Max: 1352
+2016-03-24 19:47:30	ℹ 	Current Global Users: 4843  Max: 5055
+2016-03-24 19:47:30	ℹ 	Snoonet-4fp.q56.re1lg8.IP :is now your displayed host
+2016-03-24 19:47:30	ℹ 	User mode [+wxiI] by Cenobite
+2016-03-24 19:47:30	ℹ 	caligula.snoonet.org: *** You are connected using SSL cipher "AES128-GCM-SHA256"
+2016-03-24 19:47:30	ℹ 	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2016-03-24 19:47:30	ℹ 	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2016-03-24 19:47:30	ℹ 	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2016-03-24 19:47:30	ℹ 	NickServ (NickServ@snoonet/services/NickServ): If you do not change within 1 minute, I will change your nick.
+2016-03-24 19:47:30	ℹ 	Global (Global@snoonet/services/Global): [Logon News - Oct 22 22:28:09 2015 UTC] Need to contact us for any reason and can't join #help? Snoonet has implemented a ticket system to serve you better. Support requests, including ban appeals, can now be initiated by visiting https://support.snoonet.org
+2016-03-24 19:47:30	ℹ 	Global (Global@snoonet/services/Global): [Random News - Oct 28 00:36:54 2015 UTC] Remember, we now have a ticketing system for network support requests and ban appeals! Visit https://support.snoonet.org to open a support ticket.
+2016-03-24 19:47:31	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Password accepted - you are now recognized.
+2016-03-24 19:47:31	ℹ 	You are now logged in as Cenobite (Cenobite!cenobite@Snoonet-4fp.q56.re1lg8.IP)
+2016-03-24 19:47:31	ℹ 	User mode [-x] by caligula.snoonet.org
+2016-03-24 19:47:31	ℹ 	user/Cenobite :is now your displayed host
+2016-03-24 19:47:31	ℹ 	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/Cenobite is now activated.
+2016-03-24 19:47:31	ℹ 	User mode [+r] by NickServ
+2016-03-24 19:47:43	ℹ 	[Cenobite] (cenobite@user/Cenobite): cenobite
+2016-03-24 19:47:43	ℹ 	[Cenobite] is connecting from cenobite@165.255.125.246 165.255.125.246
+2016-03-24 19:47:43	ℹ 	[Cenobite] caligula.snoonet.org (Snoonet Client Leaf)
+2016-03-24 19:47:43	ℹ 	[Cenobite] is using modes +Iirw
+2016-03-24 19:47:43	ℹ 	[Cenobite] is logged in as Cenobite
+2016-03-24 19:47:43	ℹ 	[Cenobite] is a registered nick
+2016-03-24 19:47:43	ℹ 	[Cenobite] is using a secure connection
+2016-03-24 19:47:43	ℹ 	[Cenobite] idle: 00 hours 00 minutes 13 seconds, signon at: Thu, 24 Mar 2016 19:47:24
+2016-03-24 19:47:43	ℹ 	[Cenobite] End of /WHOIS list.
+2016-03-24 19:58:07	ℹ 	MSG(nickserv): help set
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Syntax: set option parameters
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Sets various nickname options. option can be one of:
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET AUTOOP     Sets whether services should set channel status modes on you automatically.
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET DISPLAY    Set the display of your group in Services
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET EMAIL      Associate an E-mail address with your nickname
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET FACEBOOK   Associate a Facebook URL with your account
+2016-03-24 19:58:07	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET GREET      Associate a greet message with your nickname
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET HIDE       Hide certain pieces of nickname information
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET ICQ        Associate an ICQ account with your account
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET KEEPMODES  Enable or disable keep modes
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET KILL       Turn protection on or off
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET LANGUAGE   Set the language Services will use when messaging you
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET PASSWORD   Set your nickname password
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET PRIVATE    Prevent the nickname from appearing in the LIST command
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET SECURE     Turn nickname security on or off
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET TWITTER    Associate a Twitter account with your account
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ):     SET URL        Associate a URL with your account
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Type /msg NickServ HELP set option for more information
+2016-03-24 19:58:08	ℹ 	NickServ (NickServ@snoonet/services/NickServ): on a specific option.
+2016-03-24 19:58:33	ℹ 	MSG(nickserv): help set kill
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Syntax: set kill {ON | QUICK | IMMED | OFF}
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Turns the automatic protection option for your nick
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): on or off. With protection on, if another user
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): tries to take your nick, they will be given one minute to
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): change to another nick, after which NickServ will forcibly change
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): their nick.
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 19:58:33	ℹ 	NickServ (NickServ@snoonet/services/NickServ): If you select QUICK, the user will be given only 20 seconds
+2016-03-24 19:58:34	ℹ 	NickServ (NickServ@snoonet/services/NickServ): to change nicks instead of the usual 60. If you select
+2016-03-24 19:58:34	ℹ 	NickServ (NickServ@snoonet/services/NickServ): IMMED, the user's nick will be changed immediately without being
+2016-03-24 19:58:34	ℹ 	NickServ (NickServ@snoonet/services/NickServ): warned first or given a chance to change their nick; please
+2016-03-24 19:58:34	ℹ 	NickServ (NickServ@snoonet/services/NickServ): do not use this option unless necessary. Also, your
+2016-03-24 19:58:34	ℹ 	NickServ (NickServ@snoonet/services/NickServ): network's administrators may have disabled this option.
+2016-03-24 19:58:53	ℹ 	MSG(nickserv): set kill quick
+2016-03-24 19:58:54	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Protection is now on for Cenobite, with a reduced delay.
+2016-03-24 19:59:13	ℹ 	MSG(nickserv): help set secure
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Syntax: set secure {ON | OFF}
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Turns NickServ's security features on or off for your
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): nick. With SECURE set, you must enter your password
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): before you will be recognized as the owner of the nick,
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): regardless of whether your address is on the access
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): list. However, if you are on the access list, NickServ
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): will not auto-kill you regardless of the setting of the
+2016-03-24 19:59:13	ℹ 	NickServ (NickServ@snoonet/services/NickServ): KILL option.
+2016-03-24 19:59:28	ℹ 	MSG(nickserv): set secure on
+2016-03-24 19:59:29	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Secure option is now on for Cenobite.
+2016-03-24 19:59:42	ℹ 	MSG(nickserv): help set private
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Syntax: set private {ON | OFF}
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ):  
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Turns NickServ's privacy option on or off for your nick.
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): With PRIVATE set, your nickname will not appear in
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): nickname lists generated with NickServ's LIST command.
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): (However, anyone who knows your nickname can still get
+2016-03-24 19:59:43	ℹ 	NickServ (NickServ@snoonet/services/NickServ): information on it using the INFO command.)
+2016-03-24 20:02:04	ℹ 	Channel Users Name
+2016-03-24 20:02:04	ℹ 	#beer(59): [+CFHJTdfjnrtx 5:60 20:3600 2 3 5:1 5:5 10:4] Welcome! type /join #beertrade! Everything you hate about beer culture, consolidated into a single chat room!
+2016-03-24 20:02:04	ℹ 	End of channel list.
+2016-03-24 20:04:19	ℹ 	Channel Users Name
+2016-03-24 20:04:19	ℹ 	#breakingbad(12): [+rx 10:4] RIP edify, #breakingbad founder, friend of many. You'll be deeply missed.
+2016-03-24 20:04:19	ℹ 	End of channel list.
+2016-03-24 20:05:12	ℹ 	Channel Users Name
+2016-03-24 20:05:12	ℹ 	#metal(69): [+CFJTnrtx 5:60 2 10:4] <ZeroThePenguin>I'm terribly racist and I think Trump is a prat, so don't lump me in with the subhumans | View today's metal releases: ;releases | Pizza Counter: 1222 | http://i.imgur.com/ImTgfHs.jpg | https://i.imgur.com/sbaVtM8.gif
+2016-03-24 20:05:12	ℹ 	End of channel list.
+2016-03-24 20:05:42	ℹ 	Channel Users Name
+2016-03-24 20:05:42	ℹ 	*(122)
+2016-03-24 20:05:42	ℹ 	End of channel list.
+2016-03-24 20:06:52	ℹ 	Channel Users Name
+2016-03-24 20:06:52	ℹ 	End of channel list.
+2016-03-24 20:07:16	ℹ 	Channel Users Name
+2016-03-24 20:07:16	ℹ 	#fifthworldproblems(3): [+CFPTfjnrtx 5:60 30:5 5:1 7:3] #fifthworldproblems look = #fifthworld
+2016-03-24 20:07:16	ℹ 	End of channel list.
+2016-03-24 20:07:28	ℹ 	Channel Users Name
+2016-03-24 20:07:28	ℹ 	#fifthworld(5): [+CFPTfjnrtx 5:60 30:5 5:1 7:3] Fö̵́l҉̢͞l̷͝͡õ̀͏ẅ͏̵̸:͏: ̢0. ̨͏ZÄ̢L͏T̢͟H̴͢ÖЯ̡ï̸͝š̶̴̢ ̸n̵ëẅ̶ ̶̨͡gõd́.̷  ̴1. Äl̷l ̷̡͜шïth ̸öt͘͡h͜͝ë̢̕г̶̀͝ẅ̴̨ïš̵ë̢͜ ͞t͜h̡͘į̈͝n͠k̴ï̀͜n̵ǵ̷ ̛͢ш̧̛ïl̀̀͘l ̡s̨h̷͘ä̸m͘͞҉ë̶ .́4.̀ DÕG͡LÄẄ Ę̴̈͝MЬ̴̡͟ЯÄ͡Ć̨Ë б. D̸ÖGŠ̸PËД͝К ͞Ü̕SE, HÜ̡M̛Д̷ИŠ͡P̨ËÄ͘К ДLLOW 7. /r/fifthworldproblems /r/fi
+2016-03-24 20:07:28	ℹ 	End of channel list.
+2016-03-24 20:08:41	ℹ 	Channel Users Name
+2016-03-24 20:08:41	ℹ 	#soccer(2): [+CFTfjnrtx 5:60 30:5 5:1 10:5] Group A: Mexico vs. Cameroon 12 PM [EST] | Group B: Spain vs. Netherlands 3PM [EST] | Group B: Chile vs. Australia 6 PM [EST]
+2016-03-24 20:08:41	ℹ 	End of channel list.
+2016-03-24 20:09:15	ℹ 	Channel Users Name
+2016-03-24 20:09:15	ℹ 	#linuxmasterrace(133): [+HJPUdnrtx 10:3000 60 5:5 0 10:4] https://i.imgur.com/U49A9we.jpg | https://github.com/Leo-G/DevopsWiki | Mumble: mumble.winterfox.xyz | MUD: unixbird.imegumii.space:6250 |
+2016-03-24 20:09:15	ℹ 	End of channel list.
+2016-03-24 20:23:31	ℹ 	Channel Users Name
+2016-03-24 20:23:31	ℹ 	#math(63): [+CFHJPTfjnrtx 5:60 10:3600 2 30:5 5:1 10:4] Welcome to the official /r/math irc channel! Please be patient - Not everyone is on at the same time | Some fun problems: http://sumc.tk/ngs7n | Latex Bin: http://texpaste.com | Real-time collaborative whiteboard: http://twiddla.com | More sites/resources: https://pastelink.net/xp8 | #not-math for off-topic chat | Also check out #physics, #chemistry, #science
+2016-03-24 20:23:31	ℹ 	End of channel list.
+2016-03-24 20:23:48	ℹ 	Channel Users Name
+2016-03-24 20:23:48	ℹ 	#linux(69): [+nrtx 10:4] Welcome to #linux ...
+2016-03-24 20:23:48	ℹ 	End of channel list.
+2016-03-24 20:25:04	ℹ 	USERS: Unknown command
+2016-03-24 20:48:04	ℹ 	[Cenobite] (cenobite@user/Cenobite): cenobite
+2016-03-24 20:48:04	ℹ 	[Cenobite] is connecting from cenobite@165.255.125.246 165.255.125.246
+2016-03-24 20:48:04	ℹ 	[Cenobite] #linuxmasterrace #linux
+2016-03-24 20:48:04	ℹ 	[Cenobite] caligula.snoonet.org (Snoonet Client Leaf)
+2016-03-24 20:48:04	ℹ 	[Cenobite] is using modes +Iirw
+2016-03-24 20:48:04	ℹ 	[Cenobite] is logged in as Cenobite
+2016-03-24 20:48:04	ℹ 	[Cenobite] is a registered nick
+2016-03-24 20:48:04	ℹ 	[Cenobite] is using a secure connection
+2016-03-24 20:48:04	ℹ 	[Cenobite] idle: 00 hours 48 minutes 21 seconds, signon at: Thu, 24 Mar 2016 19:47:24
+2016-03-24 20:48:04	ℹ 	[Cenobite] End of /WHOIS list.
+2016-03-24 21:38:57	ℹ 	irc: disconnected from server
+2016-03-25 17:38:12	ℹ 	irc: connecting to server irc.snoonet.org/6697 (SSL)...
+2016-03-25 17:38:13	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2016-03-25 17:38:13	ℹ 	gnutls: receiving 4 certificates
+2016-03-25 17:38:13	ℹ 	 - certificate[1] info:
+2016-03-25 17:38:13	ℹ 	   - subject `OU=Domain Control Validated,OU=PositiveSSL Wildcard,CN=*.snoonet.org', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-01 00:00:00 UTC', expires `2017-03-03 23:59:59 UTC', SHA-1 fingerprint `39dde15eebcc73f9e1c6513d79f08dc6d423c710'
+2016-03-25 17:38:13	ℹ 	 - certificate[2] info:
+2016-03-25 17:38:13	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Domain Validation Secure Server CA', issuer `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', RSA key 2048 bits, signed using RSA-SHA384, activated `2014-02-12 00:00:00 UTC', expires `2029-02-11 23:59:59 UTC', SHA-1 fingerprint `339cdd57cfd5b141169b615ff31428782d1da639'
+2016-03-25 17:38:13	ℹ 	 - certificate[3] info:
+2016-03-25 17:38:13	ℹ 	   - subject `C=GB,ST=Greater Manchester,L=Salford,O=COMODO CA Limited,CN=COMODO RSA Certification Authority', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 4096 bits, signed using RSA-SHA384, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `f5ad0bcc1ad56cd150725b1c866c30ad92ef21b0'
+2016-03-25 17:38:13	ℹ 	 - certificate[4] info:
+2016-03-25 17:38:13	ℹ 	   - subject `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', issuer `C=SE,O=AddTrust AB,OU=AddTrust External TTP Network,CN=AddTrust External CA Root', RSA key 2048 bits, signed using RSA-SHA1, activated `2000-05-30 10:48:38 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `02faf3e291435468607857694df5e45b68851868'
+2016-03-25 17:38:13	ℹ 	gnutls: peer's certificate is trusted
+2016-03-25 17:38:13	ℹ 	irc: connected to irc.snoonet.org/6697 (5.39.86.47)
+2016-03-25 17:38:13	ℹ 	caligula.snoonet.org: *** Looking up your hostname...
+2016-03-25 17:38:13	ℹ 	caligula.snoonet.org: *** Could not resolve your hostname: Domain name not found; using your IP address (165.255.125.246) instead.
+2016-03-25 17:38:14	ℹ 	caligula.snoonet.org: *** If you are having problems connecting due to ping timeouts, please type /quote PONG cwnSTXV]Tq or /raw PONG cwnSTXV]Tq now.
+2016-03-25 17:38:14	ℹ 	caligula.snoonet.org: Welcome to Snoonet!
+2016-03-25 17:38:14	ℹ 	Welcome to the Snoonet IRC Network Cenobite!cenobite@165.255.125.246
+2016-03-25 17:38:14	ℹ 	MSG(nickserv): identify *******
+2016-03-25 17:38:14	ℹ 	Your host is caligula.snoonet.org, running version InspIRCd-2.0
+2016-03-25 17:38:14	ℹ 	This server was created 02:27:15 Mar  2 2016
+2016-03-25 17:38:14	ℹ 	caligula.snoonet.org InspIRCd-2.0 BGHILORSTWcdghikorswx ABCDFGHIJKLMNOPQRSTUXYZbcdefghijklmnoprstuvwxz FHIJLUXYZbdefghjklovwx
+2016-03-25 17:38:14	ℹ 	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=IXZbegw,k,FHJLUdfjlx,ABCDGKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ABCNOQRSTUcjmprsz FNC INVEX=I :are supported by this server
+2016-03-25 17:38:14	ℹ 	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=200 MAXPARA=32 MAXTARGETS=20 MODES=50 NAMESX NETWORK=Snoonet NICKLEN=27 OPERLOG PREFIX=(Yohv)!@%+ REMOVE :are supported by this server
+2016-03-25 17:38:14	ℹ 	SECURELIST SILENCE=32 SSL=[::]:6697 STATUSMSG=!@%+ TOPICLEN=1000 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=64 :are supported by this server
+2016-03-25 17:38:14	ℹ 	1CAAAFBYM :your unique ID
+2016-03-25 17:38:14	ℹ 	caligula.snoonet.org message of the day
+2016-03-25 17:38:14	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-   _____                              _
+2016-03-25 17:38:14	ℹ 	-  / ____|                            | |
+2016-03-25 17:38:14	ℹ 	- | (___  _ __   ___   ___  _ __   ___| |_
+2016-03-25 17:38:14	ℹ 	-  \___ \| '_ \ / _ \ / _ \| '_ \ / _ \ __|
+2016-03-25 17:38:14	ℹ 	-  ____) | | | | (_) | (_) | | | |  __/ |_
+2016-03-25 17:38:14	ℹ 	- |_____/|_| |_|\___/ \___/|_| |_|\___|\__|
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Welcome to the Snoonet Chat Network.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- By connecting to Snoonet you indicate that you have read and
+2016-03-25 17:38:14	ℹ 	- accept our policies as set out on http://www.snoonet.org/rules .
+2016-03-25 17:38:14	ℹ 	- Snoonet runs an open proxy scanner.  If you continue connecting
+2016-03-25 17:38:14	ℹ 	- to Snoonet, you agree to this scanning to protect our network
+2016-03-25 17:38:14	ℹ 	- from scammers, spammers and the propagation of viruses.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Please visit our ruleset listed at http://www.snoonet.org/rules .
+2016-03-25 17:38:14	ℹ 	- Yes, this is so important we list it twice. Snoonet does not have
+2016-03-25 17:38:14	ℹ 	- many network wide rules but the ones we do have we enforce
+2016-03-25 17:38:14	ℹ 	- to the best of our ability. This may also include the use of
+2016-03-25 17:38:14	ℹ 	- automated oper utilities and/or standalone network bots that may
+2016-03-25 17:38:14	ℹ 	- join/part your channel, or the mass setting of channel modes across
+2016-03-25 17:38:14	ℹ 	- all network channels to protect you and your users during times
+2016-03-25 17:38:14	ℹ 	- of network turmoil.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Please join #help if you have questions about any of the above
+2016-03-25 17:38:14	ℹ 	- information.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Network Administration may remove any problem user at any time
+2016-03-25 17:38:14	ℹ 	- for the betterment of all users. This includes, but is not limited
+2016-03-25 17:38:14	ℹ 	- to, trolling, attempting to receive or spread users personal
+2016-03-25 17:38:14	ℹ 	- information (also known as Doxxing), vote brigading on any social
+2016-03-25 17:38:14	ℹ 	- media websites, or any thing that network administration sees as
+2016-03-25 17:38:14	ℹ 	- potentially harmful to the atmosphere of Snoonet.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Our network rules are located here: http://www.snoonet.org/rules .
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- Ignorance is not an excuse - most of the network rules are common sense.
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	- #/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-#/-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	-
+2016-03-25 17:38:14	ℹ 	End of message of the day.
+2016-03-25 17:38:14	ℹ 	There are 137 users and 4506 invisible on 13 servers
+2016-03-25 17:38:14	ℹ 	30 :operator(s) online
+2016-03-25 17:38:14	ℹ 	1 :unknown connections
+2016-03-25 17:38:14	ℹ 	2853 :channels formed
+2016-03-25 17:38:14	ℹ 	I have 1174 clients and 1 servers
+2016-03-25 17:38:14	ℹ 	Current Local Users: 1174  Max: 1352
+2016-03-25 17:38:14	ℹ 	Current Global Users: 4643  Max: 5055
+2016-03-25 17:38:14	ℹ 	Snoonet-4fp.q56.re1lg8.IP :is now your displayed host
+2016-03-25 17:38:14	ℹ 	User mode [+wxiI] by Cenobite
+2016-03-25 17:38:14	ℹ 	caligula.snoonet.org: *** You are connected using SSL cipher "AES128-GCM-SHA256"
+2016-03-25 17:38:14	ℹ 	NickServ (NickServ@snoonet/services/NickServ): This nickname is registered and protected.  If it is your
+2016-03-25 17:38:14	ℹ 	NickServ (NickServ@snoonet/services/NickServ): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2016-03-25 17:38:14	ℹ 	NickServ (NickServ@snoonet/services/NickServ): please choose a different nick.
+2016-03-25 17:38:14	ℹ 	NickServ (NickServ@snoonet/services/NickServ): If you do not change within 20 seconds, I will change your nick.
+2016-03-25 17:38:14	ℹ 	Global (Global@snoonet/services/Global): [Logon News - Oct 22 22:28:09 2015 UTC] Need to contact us for any reason and can't join #help? Snoonet has implemented a ticket system to serve you better. Support requests, including ban appeals, can now be initiated by visiting https://support.snoonet.org
+2016-03-25 17:38:14	ℹ 	Global (Global@snoonet/services/Global): [Random News - Jun 12 17:58:20 2015 UTC] Did you know: ThatOneRoadie once apologized for being too Canadian, shortly after body checking a moose on skates because the moose roughed up his goalie.
+2016-03-25 17:38:15	ℹ 	NickServ (NickServ@snoonet/services/NickServ): Password accepted - you are now recognized.
+2016-03-25 17:38:15	ℹ 	You are now logged in as Cenobite (Cenobite!cenobite@Snoonet-4fp.q56.re1lg8.IP)
+2016-03-25 17:38:15	ℹ 	User mode [-x] by caligula.snoonet.org
+2016-03-25 17:38:15	ℹ 	user/Cenobite :is now your displayed host
+2016-03-25 17:38:15	ℹ 	HostServ (HostServ@snoonet/services/HostServ): Your vhost of user/Cenobite is now activated.
+2016-03-25 17:38:15	ℹ 	User mode [+r] by NickServ
+2016-03-25 17:38:18	ℹ 	[Cenobite] (cenobite@user/Cenobite): cenobite
+2016-03-25 17:38:18	ℹ 	[Cenobite] is connecting from cenobite@165.255.125.246 165.255.125.246
+2016-03-25 17:38:18	ℹ 	[Cenobite] caligula.snoonet.org (Snoonet Client Leaf)
+2016-03-25 17:38:18	ℹ 	[Cenobite] is using modes +Iirw
+2016-03-25 17:38:18	ℹ 	[Cenobite] is logged in as Cenobite
+2016-03-25 17:38:18	ℹ 	[Cenobite] is a registered nick
+2016-03-25 17:38:18	ℹ 	[Cenobite] is using a secure connection
+2016-03-25 17:38:18	ℹ 	[Cenobite] idle: 00 hours 00 minutes 03 seconds, signon at: Fri, 25 Mar 2016 17:38:08
+2016-03-25 17:38:18	ℹ 	[Cenobite] End of /WHOIS list.
+2016-03-25 18:16:59	ℹ 	irc: disconnected from server

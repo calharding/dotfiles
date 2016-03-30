@@ -1,0 +1,243 @@
+2016-03-24 11:24:51	◥	Cenobite (~cenobite@unaffiliated/cenobite) has joined #freebsd
+2016-03-24 11:24:51	ℹ 	Topic for #freebsd is "Welcome to #FreeBSD! | Have fun, Be civilized, Respect people, Stay on-topic else { #freebsd-social } | /join #freebsd-ops for channel assistance"
+2016-03-24 11:24:51	ℹ 	Topic set by koobs on Sat, 09 Jan 2016 19:10:06
+2016-03-24 11:24:51	ℹ 	Channel #freebsd: 741 nicks (0 ops, 0 voices, 741 normals)
+2016-03-24 11:24:51	ℹ 	PvNotice(ChanServ): Please check the FreeBSD Handbook and Manual Pages first: http://freebsd.org/handbook - http://freebsd.org/cgi/man.cgi | Use a pastebin for more than 4 lines: https://dpaste.de/ | Other FreeBSD IRC Channels: https://wiki.freebsd.org/IrcChannels
+2016-03-24 11:24:53	ℹ 	Channel created on Sun, 03 Aug 2003 23:25:41
+2016-03-24 11:31:07	◣	aaro (~aaro@unaffiliated/xyox/x-040147) has quit (Ping timeout: 240 seconds)
+2016-03-24 11:32:30	◣	deflected (~recursive@37-143-218-237.sf.ddns.bulsat.com) has quit (Remote host closed the connection)
+2016-03-24 11:33:18	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 11:34:23	◥	shabgard (~shabgard@unaffiliated/shabgard) has joined #freebsd
+2016-03-24 11:35:42	◥	blackmesa (~blackmesa@aftr-37-201-227-133.unity-media.net) has joined #freebsd
+2016-03-24 11:36:00	◥	deflected (~recursive@37-143-218-237.sf.ddns.bulsat.com) has joined #freebsd
+2016-03-24 11:36:03	◥	esoel_ (~esoel_@194.168.210.162) has joined #freebsd
+2016-03-24 11:37:10	◥	ob-sed (~obesd@unaffiliated/obesd) has joined #freebsd
+2016-03-24 11:37:56	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2016-03-24 11:38:08	◣	wowi42 (~wowi42@80.227.153.18) has quit (Remote host closed the connection)
+2016-03-24 11:39:06	◥	wowi42 (~wowi42@80.227.153.18) has joined #freebsd
+2016-03-24 11:41:00	ℹ 	shabgard is now known as mms
+2016-03-24 11:42:03	◥	DrNick42 (~DrNick42@w-250.cust-u527.ip.static.uno.uk.net) has joined #freebsd
+2016-03-24 11:42:41	◣	gmago (uid125689@gateway/web/irccloud.com/x-vumwfhzkztdmarkw) has quit (Quit: Connection closed for inactivity)
+2016-03-24 11:43:01	◣	gh (~gh@unaffiliated/gh) has quit (Quit: Leaving)
+2016-03-24 11:43:41	◣	squ (~Thunderbi@unaffiliated/squ) has quit (Quit: squ)
+2016-03-24 11:48:54	◥	sxen (~sven@dslb-188-106-013-011.188.106.pools.vodafone-ip.de) has joined #freebsd
+2016-03-24 11:49:12	◥	jamesaxl (298ffc71@gateway/web/freenode/ip.41.143.252.113) has joined #freebsd
+2016-03-24 11:49:16	jamesaxl	hello
+2016-03-24 11:49:53	jamesaxl	cpet: hello
+2016-03-24 11:50:20	◥	SnowyNight (~Thunderbi@h238240.net.pulawy.pl) has joined #freebsd
+2016-03-24 11:50:42	◣	SnowyNight (~Thunderbi@h238240.net.pulawy.pl) has quit (Client Quit)
+2016-03-24 11:55:07	◣	Maggie (~MaggieC@unaffiliated/maggiec) has quit (Quit: Leaving)
+2016-03-24 11:56:07	◣	_JZ_ (~jzaitz@207.238.76.174) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2016-03-24 12:02:49	◥	Relsak (~dragan@unaffiliated/kasler) has joined #freebsd
+2016-03-24 12:02:58	◣	githogori (~githogori@c-73-70-12-67.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2016-03-24 12:07:06	◣	chihhsin (~chihhsin@winpc13.cs.nctu.edu.tw) has quit (Quit: leaving)
+2016-03-24 12:09:37	◣	Cthulu201 (~Cthulu201@unaffiliated/cthulu201) has quit (Ping timeout: 248 seconds)
+2016-03-24 12:10:21	◥	Cthulu201 (~Cthulu201@unaffiliated/cthulu201) has joined #freebsd
+2016-03-24 12:13:35	◥	vadmeste (~vadmeste@unaffiliated/vadmeste) has joined #freebsd
+2016-03-24 12:18:29	◣	beatdown (beatdown@beatdown.satanic.ro) has quit (Ping timeout: 240 seconds)
+2016-03-24 12:19:35	◥	kaiza (~kaiza@204.187.100.19) has joined #freebsd
+2016-03-24 12:20:22	◣	Relsak (~dragan@unaffiliated/kasler) has quit (Ping timeout: 268 seconds)
+2016-03-24 12:20:45	◥	shafire (2edf879b@gateway/web/freenode/ip.46.223.135.155) has joined #freebsd
+2016-03-24 12:20:47	shafire	hi
+2016-03-24 12:21:02	shafire	do you know a good "usb over ip/network" solution?
+2016-03-24 12:24:18	◥	githogori (~githogori@c-73-70-12-67.hsd1.ca.comcast.net) has joined #freebsd
+2016-03-24 12:26:29	◥	mr_ws (~western@185.133.32.19) has joined #freebsd
+2016-03-24 12:27:20	mr_ws	is it true that freebsd dropped plans to get aslr support upstream? i read that somewhere, forget where i read it...
+2016-03-24 12:28:04	◥	gnoze5 (~gnoze5@a79-168-104-119.cpe.netcabo.pt) has joined #freebsd
+2016-03-24 12:32:26	◣	divine (~divine@2001:470:8247:1::30) has quit (Read error: Connection reset by peer)
+2016-03-24 12:32:55	◣	mr_ws (~western@185.133.32.19) has quit (Ping timeout: 264 seconds)
+2016-03-24 12:33:10	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 12:36:33	◥	JuanMiguel (~JuanMigue@160.red-81-39-37.dynamicip.rima-tde.net) has joined #freebsd
+2016-03-24 12:38:18	◣	sleejer (~username@d51A4CE26.access.telenet.be) has quit (Ping timeout: 260 seconds)
+2016-03-24 12:38:19	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 264 seconds)
+2016-03-24 12:38:21	◥	AlexDenisov (~AlexDenis@46.189.27.100) has joined #freebsd
+2016-03-24 12:38:25	◣	talsamon (~talsamon@62-47-168-80.adsl.highway.telekom.at) has quit (Ping timeout: 246 seconds)
+2016-03-24 12:38:51	◥	vados (~vados@77.122.70.180) has joined #freebsd
+2016-03-24 12:38:53	◥	talsamon (~talsamon@91-115-91-15.adsl.highway.telekom.at) has joined #freebsd
+2016-03-24 12:39:57	◥	sleejer (~username@d51A4CE26.access.telenet.be) has joined #freebsd
+2016-03-24 12:44:39	ℹ 	Mob is now known as MobGod
+2016-03-24 12:47:35	◣	pr1ntf (~tparis@76.73.76.122) has quit (Ping timeout: 248 seconds)
+2016-03-24 12:48:18	◣	DrNick42 (~DrNick42@w-250.cust-u527.ip.static.uno.uk.net) has quit (Quit: Zzz...)
+2016-03-24 12:48:23	◥	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has joined #freebsd
+2016-03-24 12:48:38	◣	jamesaxl (298ffc71@gateway/web/freenode/ip.41.143.252.113) has quit (Ping timeout: 250 seconds)
+2016-03-24 12:49:18	◥	DrNick42 (~DrNick42@w-250.cust-u527.ip.static.uno.uk.net) has joined #freebsd
+2016-03-24 12:49:49	◣	JuanMiguel (~JuanMigue@160.red-81-39-37.dynamicip.rima-tde.net) has quit (Quit: Saliendo)
+2016-03-24 12:50:39	◥	JuanMiguel (~JuanMigue@160.Red-81-39-37.dynamicIP.rima-tde.net) has joined #freebsd
+2016-03-24 12:52:25	◣	AlexDenisov (~AlexDenis@46.189.27.100) has quit (Read error: Connection reset by peer)
+2016-03-24 12:52:36	◥	AlexDenisov (~AlexDenis@46.189.27.100) has joined #freebsd
+2016-03-24 12:53:06	◥	Gathis (~TheGrey@unaffiliated/gathis) has joined #freebsd
+2016-03-24 12:53:28	◣	wowi42 (~wowi42@80.227.153.18) has quit (Remote host closed the connection)
+2016-03-24 12:53:41	tsoome	such changes will take time and lots of testing.
+2016-03-24 12:55:27	◣	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-24 12:56:22	◥	wowi42 (~wowi42@80.227.153.18) has joined #freebsd
+2016-03-24 12:56:25	◥	denis_k (~denisk@60.225.173.162) has joined #freebsd
+2016-03-24 12:57:15	◣	wildlander (~wild@unaffiliated/wildlander) has quit (Quit: Saliendo)
+2016-03-24 12:58:55	◣	denisk (~denisk@60.225.173.162) has quit (Ping timeout: 276 seconds)
+2016-03-24 12:59:54	serpn	afaik it's actually something that has been getting looked into quite a lot lately, seems very on-the-cards
+2016-03-24 13:00:09	◥	Steelpan (~ubuntu@srtest1.sidn.utr.surfcloud.nl) has joined #freebsd
+2016-03-24 13:01:35	◣	[diablo] (~diablo@unaffiliated/miles/x-000000001) has quit (Quit: Leaving)
+2016-03-24 13:03:49	◥	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has joined #freebsd
+2016-03-24 13:06:52	◣	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has quit (Client Quit)
+2016-03-24 13:08:47	◣	macdice (~user@freebsd/user/macdice) has quit (Remote host closed the connection)
+2016-03-24 13:09:13	◣	teresko (~teresko@84.237.231.176) has quit (Ping timeout: 246 seconds)
+2016-03-24 13:09:20	◥	radious (~radious@2001:19f0:ac00:523::6697) has joined #freebsd
+2016-03-24 13:11:48	◣	frotz47 (~matthew@cpe-108-183-162-219.maine.res.rr.com) has quit (Quit: Leaving)
+2016-03-24 13:13:11	◣	Gronghon (~joyeux@ARennes-356-1-166-46.w2-13.abo.wanadoo.fr) has quit (Ping timeout: 244 seconds)
+2016-03-24 13:14:43	◣	phobos (~phobos@unaffiliated/phobos-anomaly/x-6744724) has quit (Read error: Connection reset by peer)
+2016-03-24 13:14:50	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 13:17:30	◥	DarkUranium (~DarkUrani@cpe-77.38.77.88.cable.t-1.si) has joined #freebsd
+2016-03-24 13:17:55	◣	wokko (~wokko@unaffiliated/wokko) has quit (Quit: leaving)
+2016-03-24 13:18:03	◥	Gronghon (~joyeux@ARennes-356-1-164-228.w2-13.abo.wanadoo.fr) has joined #freebsd
+2016-03-24 13:18:53	◣	esoel_ (~esoel_@194.168.210.162) has quit (Ping timeout: 240 seconds)
+2016-03-24 13:19:21	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2016-03-24 13:25:18	kerio	how do ports add "system" users?
+2016-03-24 13:25:23	kerio	i want to do that manually
+2016-03-24 13:27:10	◥	giacomo1989 (~giacomo19@2.236.131.191) has joined #freebsd
+2016-03-24 13:27:40	◣	NormanClegg (~norman@adsl-70-232-32-143.dsl.ltrkar.sbcglobal.net) has quit (Quit: Leaving)
+2016-03-24 13:28:32	◥	flight16 (~flight16@36-2-209-147.tokyo.ap.gmo-isp.jp) has joined #freebsd
+2016-03-24 13:29:05	◥	Link001 (~Link001@86.120.34.204) has joined #freebsd
+2016-03-24 13:33:02	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 13:34:24	◣	wa5qjh (~Thunderbi@121.54.58.133) has quit (Quit: wa5qjh)
+2016-03-24 13:34:49	◥	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has joined #freebsd
+2016-03-24 13:35:45	arader	kerio: man pw
+2016-03-24 13:35:47	daemon	kerio, 'pw' I believe
+2016-03-24 13:36:04	arader	pw useradd, set options as necessary
+2016-03-24 13:36:07	daemon	no one replies then 2 reply at the same time :)
+2016-03-24 13:36:26	arader	heh
+2016-03-24 13:37:50	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2016-03-24 13:39:13	◥	lmaury (~loic@pri24-1-78-224-77-42.fbx.proxad.net) has joined #freebsd
+2016-03-24 13:51:36	◣	shafire (2edf879b@gateway/web/freenode/ip.46.223.135.155) has quit (Quit: Page closed)
+2016-03-24 13:54:08	◣	blackmesa (~blackmesa@aftr-37-201-227-133.unity-media.net) has quit (Ping timeout: 260 seconds)
+2016-03-24 13:55:47	◣	lavros (~lavros@85.117.110.9) has quit (Quit: leaving)
+2016-03-24 13:57:35	ℹ 	MobGod is now known as Mob
+2016-03-24 13:58:05	◣	DrNick42 (~DrNick42@w-250.cust-u527.ip.static.uno.uk.net) has quit (Quit: Zzz...)
+2016-03-24 14:00:00	◣	denis_k (~denisk@60.225.173.162) has quit (Remote host closed the connection)
+2016-03-24 14:00:21	◥	LadySerena (~jlhawkwel@unaffiliated/ladyserena) has joined #freebsd
+2016-03-24 14:01:12	◥	butlerx (~butlerx@45.55.6.41) has joined #freebsd
+2016-03-24 14:01:34	◣	well_laid_lawn (~Jean-luc@c122-104-151-194.rochd6.qld.optusnet.com.au) has quit (Quit: thisisapartmessage)
+2016-03-24 14:02:06	kerio	can i add deprecated addresses to a jail?
+2016-03-24 14:02:17	◥	[diablo] (~diablo@unaffiliated/miles/x-000000001) has joined #freebsd
+2016-03-24 14:06:03	◥	mayday (~core@unaffiliated/mayday) has joined #freebsd
+2016-03-24 14:06:26	◣	DarkUranium (~DarkUrani@cpe-77.38.77.88.cable.t-1.si) has quit (Read error: Connection reset by peer)
+2016-03-24 14:09:04	◥	denisk (~denisk@60.225.173.162) has joined #freebsd
+2016-03-24 14:10:09	◥	dexter___ (~dexter@modemcable136.201-161-184.mc.videotron.ca) has joined #freebsd
+2016-03-24 14:10:30	◣	mayday (~core@unaffiliated/mayday) has left #freebsd ("WeeChat 1.4")
+2016-03-24 14:10:39	◣	pk12 (~pk12@23.105.129.219) has quit (Quit: byezzzzzzzzzz)
+2016-03-24 14:11:56	MegaManSec	Has anybody experienced firefox not saving certain settings, in freebsd?
+2016-03-24 14:12:02	◥	pk12 (~pk12@104.243.24.236) has joined #freebsd
+2016-03-24 14:14:13	MegaManSec	wait actually that's the addon having a bug.. my bad lmao
+2016-03-24 14:14:23	◣	Elronnd (elronnd@znc.dank.ninja) has quit (Quit: Let's jump!)
+2016-03-24 14:14:23	◣	kerio (kerio@bad.memes.vs.dank.ninja) has quit (Quit: this wasn't supposed to happen)
+2016-03-24 14:14:23	◣	deepy (deepy@wrongplanet/deepa) has quit (Quit: meow)
+2016-03-24 14:14:32	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 14:17:35	◣	amonk (~amonk@unaffiliated/amonk) has quit (Remote host closed the connection)
+2016-03-24 14:18:14	◥	DrNick42 (~DrNick42@w-250.cust-u527.ip.static.uno.uk.net) has joined #freebsd
+2016-03-24 14:18:52	◣	jaffachief (~textual@cpc11-broo8-2-0-cust51.14-2.cable.virginm.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-24 14:19:13	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2016-03-24 14:21:24	◥	kgadek (~kgadek@89-74-177-103.dynamic.chello.pl) has joined #freebsd
+2016-03-24 14:21:28	◥	deepy (znc@wrongplanet/deepa) has joined #freebsd
+2016-03-24 14:22:39	◥	Elronnd (znc@znc.dank.ninja) has joined #freebsd
+2016-03-24 14:24:06	◥	kerio (kerio@bad.memes.vs.dank.ninja) has joined #freebsd
+2016-03-24 14:24:59	◥	woxidu (~woxidu@c-76-23-245-111.hsd1.ma.comcast.net) has joined #freebsd
+2016-03-24 14:26:44	◣	Elronnd (znc@znc.dank.ninja) has quit (Quit: Let's jump!)
+2016-03-24 14:27:03	◣	deepy (znc@wrongplanet/deepa) has quit (Quit: meow)
+2016-03-24 14:27:21	◥	Elronnd (elronnd@znc.dank.ninja) has joined #freebsd
+2016-03-24 14:27:22	◥	deepy (deepy@wrongplanet/deepa) has joined #freebsd
+2016-03-24 14:27:40	◥	chihhsin (~chihhsin@winpc13.cs.nctu.edu.tw) has joined #freebsd
+2016-03-24 14:28:18	◥	astrofog (~astrofog@unaffiliated/astrofog) has joined #freebsd
+2016-03-24 14:29:59	◥	grahamperrin (~grahamper@79-66-130-177.dynamic.dsl.as9105.com) has joined #freebsd
+2016-03-24 14:31:23	◥	TvL2386 (~tom@185.24.48.180) has joined #freebsd
+2016-03-24 14:37:52	◥	ninefathom (~ninefatho@128.172.48.234) has joined #freebsd
+2016-03-24 14:39:23	◣	Tazen (Tazen@gateway/shell/xzibition.com/x-rernbfjbupcsraiy) has quit (Quit: ZNC 1.6.1 - http://znc.in)
+2016-03-24 14:39:55	◣	sxen (~sven@dslb-188-106-013-011.188.106.pools.vodafone-ip.de) has quit (Quit: Leaving.)
+2016-03-24 14:44:00	◥	aaro (~aaro@unaffiliated/xyox/x-040147) has joined #freebsd
+2016-03-24 14:45:25	◣	flight16 (~flight16@36-2-209-147.tokyo.ap.gmo-isp.jp) has quit (Quit: flight16)
+2016-03-24 14:47:50	◣	sysx1000 (~s@unaffiliated/sysx1000) has quit (Quit: leaving)
+2016-03-24 14:48:35	◥	FreedomFighter (~anonymous@39.47.87.57) has joined #freebsd
+2016-03-24 14:50:03	◣	FreedomFighter (~anonymous@39.47.87.57) has quit (Client Quit)
+2016-03-24 14:50:15	◥	blackmesa (~blackmesa@aftr-37-201-227-133.unity-media.net) has joined #freebsd
+2016-03-24 14:50:41	ℹ 	raztoki- is now known as raztoki
+2016-03-24 14:51:51	◣	tigersharke (~quassel@pcbsd/op/tigersharke) has quit (Ping timeout: 248 seconds)
+2016-03-24 14:51:57	◥	FreedomFighter (~anonymous@39.47.87.57) has joined #freebsd
+2016-03-24 14:52:07	◣	badon (~badon@pdpc/supporter/active/badon) has quit (Ping timeout: 264 seconds)
+2016-03-24 14:53:57	◣	XenophonF (~XenophonF@24.123.13.50) has left #freebsd
+2016-03-24 14:54:09	◥	XenophonF (~XenophonF@24.123.13.50) has joined #freebsd
+2016-03-24 14:54:54	◥	badon (~badon@pdpc/supporter/active/badon) has joined #freebsd
+2016-03-24 14:56:03	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 14:56:33	◣	blackmesa (~blackmesa@aftr-37-201-227-133.unity-media.net) has quit (Ping timeout: 244 seconds)
+2016-03-24 14:58:54	◣	FreedomFighter (~anonymous@39.47.87.57) has quit (Quit: FreedomFighter)
+2016-03-24 14:59:07	◣	fstd (~fstd@unaffiliated/fisted) has quit (Remote host closed the connection)
+2016-03-24 14:59:29	◥	fstd (~fstd@unaffiliated/fisted) has joined #freebsd
+2016-03-24 14:59:34	◥	gh34 (~textual@66.195.151.70) has joined #freebsd
+2016-03-24 15:00:37	◣	plonk (~plonk@unaffiliated/plonk) has quit (Read error: Connection reset by peer)
+2016-03-24 15:00:39	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 244 seconds)
+2016-03-24 15:02:50	◣	astrofog (~astrofog@unaffiliated/astrofog) has quit (Quit: Quite)
+2016-03-24 15:03:30	◥	plonk (~plonk@unaffiliated/plonk) has joined #freebsd
+2016-03-24 15:05:19	◥	jaffachief (~textual@130.209.157.35) has joined #freebsd
+2016-03-24 15:05:58	◣	jaffachief (~textual@130.209.157.35) has quit (Client Quit)
+2016-03-24 15:06:14	◣	pk12 (~pk12@104.243.24.236) has quit (Quit: byezzzzzzzzzz)
+2016-03-24 15:06:38	◥	Relsak (~dragan@unaffiliated/kasler) has joined #freebsd
+2016-03-24 15:06:52	◥	semeion (~semeion@unaffiliated/semeion) has joined #freebsd
+2016-03-24 15:10:25	◣	Kurlon (~Kurlon@cpe-104-228-216-170.maine.res.rr.com) has quit (Ping timeout: 248 seconds)
+2016-03-24 15:14:12	◥	terminalrecluse (~terminalr@c-67-160-141-127.hsd1.or.comcast.net) has joined #freebsd
+2016-03-24 15:18:29	◣	terminalrecluse (~terminalr@c-67-160-141-127.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2016-03-24 15:18:31	◣	aaro (~aaro@unaffiliated/xyox/x-040147) has quit (Ping timeout: 264 seconds)
+2016-03-24 15:18:44	◣	jgp (justin@hostmask.org) has quit (Remote host closed the connection)
+2016-03-24 15:19:39	◥	aquilon (~aquilon@unaffiliated/aquilon) has joined #freebsd
+2016-03-24 15:20:05	◥	mices (~fugee@unaffiliated/mices) has joined #freebsd
+2016-03-24 15:20:15	◥	draz204 (~draz204@c-50-148-81-120.hsd1.in.comcast.net) has joined #freebsd
+2016-03-24 15:20:42	◥	jgp (justin@hostmask.org) has joined #freebsd
+2016-03-24 15:20:50	mices	hey everyone gm, can someone please point me to the best guide to installing and configuring dovecot
+2016-03-24 15:22:19	◥	lavros (~lavros@85.117.114.149) has joined #freebsd
+2016-03-24 15:22:21	◥	nando293921 (~fernando@64.189.57.235) has joined #freebsd
+2016-03-24 15:22:30	◥	jaffachief (~textual@130.209.157.35) has joined #freebsd
+2016-03-24 15:22:47	◣	jaffachief (~textual@130.209.157.35) has quit (Client Quit)
+2016-03-24 15:25:20	draz204	http://wiki2.dovecot.org/
+2016-03-24 15:25:34	◥	dryicebomb (sid26977@gateway/web/irccloud.com/x-wnhrfzedrecugqrh) has joined #freebsd
+2016-03-24 15:25:49	◥	flight16 (~flight16@36-2-209-147.tokyo.ap.gmo-isp.jp) has joined #freebsd
+2016-03-24 15:26:48	◥	ziyourenxiang (~ziyourenx@unaffiliated/ziyourenxiang) has joined #freebsd
+2016-03-24 15:28:04	◥	FreedomFighter (~anonymous@39.47.87.57) has joined #freebsd
+2016-03-24 15:32:01	◥	torpet (~torpet@212-88-25-134.adsl.highway.telekom.at) has joined #freebsd
+2016-03-24 15:32:22	◥	niseak_ (~niseak@162.222.47.218) has joined #freebsd
+2016-03-24 15:32:51	◣	draz204 (~draz204@c-50-148-81-120.hsd1.in.comcast.net) has quit (Quit: Leaving)
+2016-03-24 15:33:24	◣	torpet (~torpet@212-88-25-134.adsl.highway.telekom.at) has quit (Client Quit)
+2016-03-24 15:33:25	◣	kgadek (~kgadek@89-74-177-103.dynamic.chello.pl) has quit (Read error: Connection reset by peer)
+2016-03-24 15:33:48	◥	torpet (~torpet@212-88-25-134.adsl.highway.telekom.at) has joined #freebsd
+2016-03-24 15:34:11	ℹ 	pierregh1 is now known as pierreghz
+2016-03-24 15:34:11	◥	kgadek (~kgadek@89-74-177-103.dynamic.chello.pl) has joined #freebsd
+2016-03-24 15:34:50	◣	JuanMiguel (~JuanMigue@160.Red-81-39-37.dynamicIP.rima-tde.net) has quit (Quit: Saliendo)
+2016-03-24 15:34:51	◥	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has joined #freebsd
+2016-03-24 15:37:25	◥	swills (~swills@freebsd/developer/swills) has joined #freebsd
+2016-03-24 15:40:07	◣	hotpancakes (~hotpancak@cpe-74-71-35-100.nyc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2016-03-24 15:43:58	◥	holmja (~holmja@96.92.49.213) has joined #freebsd
+2016-03-24 15:44:47	◥	nasuga (~nasuga@unaffiliated/nasuga) has joined #freebsd
+2016-03-24 15:45:14	◣	serpn (~serp@unaffiliated/serpentine) has quit (Read error: No route to host)
+2016-03-24 15:48:10	◥	chendy (~alexc@113.102.162.40) has joined #freebsd
+2016-03-24 15:48:27	◥	vdamewood (~vdamewood@unaffiliated/vdamewood) has joined #freebsd
+2016-03-24 15:50:25	◣	FreedomFighter (~anonymous@39.47.87.57) has quit (Quit: FreedomFighter)
+2016-03-24 15:51:10	◣	vdamewood (~vdamewood@unaffiliated/vdamewood) has quit (Max SendQ exceeded)
+2016-03-24 15:53:17	◣	sleejer (~username@d51A4CE26.access.telenet.be) has quit (Ping timeout: 240 seconds)
+2016-03-24 15:53:22	◥	entrop (~entrop@unaffiliated/entrop) has joined #freebsd
+2016-03-24 15:54:01	◣	[diablo] (~diablo@unaffiliated/miles/x-000000001) has quit (Quit: This computer has gone to sleep)
+2016-03-24 15:55:33	◣	kgadek (~kgadek@89-74-177-103.dynamic.chello.pl) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-24 15:56:12	◥	vdamewood (~vdamewood@unaffiliated/vdamewood) has joined #freebsd
+2016-03-24 15:56:45	◥	loki116 (~yaaic@2607:fb90:45:ebe0:6171:d363:d250:d2ed) has joined #freebsd
+2016-03-24 15:57:14	◣	giacomo1989 (~giacomo19@2.236.131.191) has quit
+2016-03-24 15:57:30	◣	loki116 (~yaaic@2607:fb90:45:ebe0:6171:d363:d250:d2ed) has quit (Client Quit)
+2016-03-24 15:57:38	◥	loki116 (~yaaic@2607:fb90:45:ebe0:6171:d363:d250:d2ed) has joined #freebsd
+2016-03-24 15:59:23	◥	hotpancakes (~hotpancak@74.71.35.100) has joined #freebsd
+2016-03-24 16:03:51	◣	Moorwen (~Death@cm-84.214.16.139.getinternet.no) has quit (Read error: Connection reset by peer)
+2016-03-24 16:04:40	◥	Moorwen (~Death@cm-84.214.16.139.getinternet.no) has joined #freebsd
+2016-03-24 16:06:06	◣	tsyn (~tsyn@unaffiliated/tsyn) has quit (Quit: Space is big. Really big. You just won't believe how vastly, hugely, mindbogglingly big it is. I mean, you may think it's a long way down the road to the chemist's, but that's just peanuts to space)
+2016-03-24 16:06:53	◣	probonono (~User@unaffiliated/probonono) has quit (Ping timeout: 252 seconds)
+2016-03-24 16:09:29	◥	jaffachief (~textual@130.209.157.35) has joined #freebsd
+2016-03-24 16:09:48	◥	djmentos (djmentos@nat/intel/x-sphglqgsrhzwlsyv) has joined #freebsd
+2016-03-24 16:09:48	◥	mew007 (~mew007@194.28.72.29) has joined #freebsd
+2016-03-24 16:09:52	mew007	hello all
+2016-03-24 16:10:00	djmentos	hi
+2016-03-24 16:10:12	◣	jaffachief (~textual@130.209.157.35) has quit (Client Quit)
+2016-03-24 16:11:32	mew007	I have read only file /usr/.snap/dump_snapshot . /usr is 791G, but '/bin/ls -l /usr/.snap/dump_snapshot' gives me '-r--------  1 root  operator  876586565632 Jan  7 18:02 /usr/.snap/dump_snapshot'
+2016-03-24 16:11:56	mew007	816G Jan  7 18:02 /usr/.snap/dump_snapshot
+2016-03-24 16:12:04	mew007	It's very strange...
+2016-03-24 16:12:40	mew007	 '/bin/df -h' shows '/dev/mfid0s1f          791G     91G    636G    13%    /usr'
+2016-03-24 16:13:19	ℹ 	x7c00 is now known as Helio_

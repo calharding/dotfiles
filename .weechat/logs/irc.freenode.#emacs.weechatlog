@@ -1,0 +1,391 @@
+2016-03-23 15:04:04	-->	Cenobite (~cenobite@unaffiliated/cenobite) has joined #emacs
+2016-03-23 15:04:04	--	Topic for #emacs is ""Emacs! Thou pendulum betwixt a smile and tear" -- Lord Byron | The third Emacs 25 pretest is here; submit bug reports and proofread the manuals | emacswiki.org/EmacsChannel | Emacs questions trump offtopic chatter, so ask! | Treat people with respect. No sexism, racism, homophobia, or other bigotry | No public logging! What happens in #emacs stays in #emacs"
+2016-03-23 15:04:04	--	Topic set by forcer (~forcer@loki.jorgenschaefer.de) on Tue, 22 Mar 2016 11:32:38
+2016-03-23 15:04:04	--	Channel #emacs: 948 nicks (0 ops, 0 voices, 948 normals)
+2016-03-23 15:04:04	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2016-03-23 15:04:06	--	Channel created on Sun, 26 Nov 2006 08:42:33
+2016-03-23 15:04:10	-->	przl (~przlrkt@80.82.202.196) has joined #emacs
+2016-03-23 15:05:00	-->	sg2002 (~user@broadband-95-84-209-126.nationalcablenetworks.ru) has joined #emacs
+2016-03-23 15:05:15	-->	ansraliant (~user@unaffiliated/ansraliant) has joined #emacs
+2016-03-23 15:05:27	-->	DistopicoVegan (~user@181.55.167.110) has joined #emacs
+2016-03-23 15:06:08	-->	Rizy (~Rizy@125.161.207.26) has joined #emacs
+2016-03-23 15:07:39	-->	aajjbb (~aajjbb@177.193.234.224) has joined #emacs
+2016-03-23 15:09:57	-->	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #emacs
+2016-03-23 15:10:17	-->	UrsoBranco (~UrsoBranc@200.189.118.83) has joined #emacs
+2016-03-23 15:11:19	-->	cdg (~cdg@157.166.173.4) has joined #emacs
+2016-03-23 15:12:31	<--	psachin (sacpatil@nat/redhat/x-jovghqfqalixlruy) has quit (Ping timeout: 252 seconds)
+2016-03-23 15:12:40	-->	jao (~jao@pdpc/supporter/professional/jao) has joined #emacs
+2016-03-23 15:14:03	<--	Luke (~Luke@unaffiliated/luke) has quit (Quit: sleep)
+2016-03-23 15:15:42	-->	paluche (~user@71-13-7-218.static.ftbg.wi.charter.com) has joined #emacs
+2016-03-23 15:16:11	-->	ivan-kanis (~user@46.218.71.241) has joined #emacs
+2016-03-23 15:18:28	-->	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has joined #emacs
+2016-03-23 15:18:30	<--	divansantana (~user@41.183.141.253) has quit (Read error: Connection reset by peer)
+2016-03-23 15:19:33	-->	choki (~choki@unaffiliated/choki) has joined #emacs
+2016-03-23 15:20:48	-->	weox (uid112413@gateway/web/irccloud.com/x-vzmpppljoibyilsj) has joined #emacs
+2016-03-23 15:21:03	ski	sqz : put `xterm-256color' in your X resources for XTerm ?
+2016-03-23 15:23:32	-->	wavekidsjp (~wavekidsj@h175-177-077-183.catv02.itscom.jp) has joined #emacs
+2016-03-23 15:23:45	-->	Laynef (~Laynef@70.70.88.91.rev.sfr.net) has joined #emacs
+2016-03-23 15:24:33	-->	swerter (~Swerter@31.24.15.104) has joined #emacs
+2016-03-23 15:25:32	<--	sg2002 (~user@broadband-95-84-209-126.nationalcablenetworks.ru) has quit (Remote host closed the connection)
+2016-03-23 15:25:35	-->	ddellacosta (~ddellacos@ool-435139c7.dyn.optonline.net) has joined #emacs
+2016-03-23 15:26:05	kodein	rudybot: quote
+2016-03-23 15:26:05	rudybot	kodein: Let's be tickless.
+2016-03-23 15:26:17	-->	korayal (~korayal@unaffiliated/koray) has joined #emacs
+2016-03-23 15:26:35	kodein	rudybot: that sounds like a good idea, because lyme disease is a bad thing
+2016-03-23 15:26:36	bremner	won't someone think of the bloodsucking parisites?
+2016-03-23 15:26:42	rudybot	kodein: they give you lyme disease
+2016-03-23 15:27:13	bremner	inb4, politician = bloodsucking parasite 
+2016-03-23 15:27:25	-->	FroBro (ceb12b4a@gateway/web/freenode/ip.206.177.43.74) has joined #emacs
+2016-03-23 15:28:06	-->	vila (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has joined #emacs
+2016-03-23 15:28:39	<--	koray (~korayal@unaffiliated/koray) has quit (Ping timeout: 244 seconds)
+2016-03-23 15:29:11	<--	ohama (ohama@cicolina.org) has quit (Ping timeout: 260 seconds)
+2016-03-23 15:29:51	<--	ansraliant (~user@unaffiliated/ansraliant) has quit (Remote host closed the connection)
+2016-03-23 15:29:53	-->	phracek_ (phracek@nat/redhat/x-xcwfrkricttdqwpg) has joined #emacs
+2016-03-23 15:30:23	mns	when installing org-mode using package.el, is it better to install org or org-plus-contrib ? 
+2016-03-23 15:30:37	<--	ddellacosta (~ddellacos@ool-435139c7.dyn.optonline.net) has quit (Ping timeout: 276 seconds)
+2016-03-23 15:31:29	wgreenhouse	mns: they're both fine, but org-plus-contrib includes e.g. several of the babel languages that aren't in core org yet
+2016-03-23 15:31:55	<--	phracek (phracek@nat/redhat/x-kawwtczxuhmwyhwp) has quit (Ping timeout: 276 seconds)
+2016-03-23 15:32:03	-->	ohama (ohama@cicolina.org) has joined #emacs
+2016-03-23 15:34:25	taylan	why is there UINT16, UInt16, uint16_t, and u_int16_t?
+2016-03-23 15:34:40	forcer	Hysterical raisins?
+2016-03-23 15:34:52	forcer	TIMTOWTDI?
+2016-03-23 15:34:52	fsbot	TIMTOWTDI is [0] There Is More Than One Way To Do It
+2016-03-23 15:34:53	fsbot	[1] http://c2.com/cgi/wiki?TimTowTdi
+2016-03-23 15:35:00	 *	forcer pats fsbot
+2016-03-23 15:35:09	<--	Kaligule (~Kaligule@nat-wlan2.rrze.uni-erlangen.de) has quit (Ping timeout: 276 seconds)
+2016-03-23 15:36:03	taylan	ah, UINT16 is a macro in this weird framework I have to use, and expands to u_int16_t.  so that's one out.
+2016-03-23 15:36:23	<--	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2016-03-23 15:36:23	taylan	UInt16 is in MacTypes.h, so Apple stuff, that's another one out
+2016-03-23 15:36:40	taylan	uint16_t is in the C std AFAIK.  I wonder where u_int16_t comes from.
+2016-03-23 15:36:51	-->	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has joined #emacs
+2016-03-23 15:36:53	<--	FroBro (ceb12b4a@gateway/web/freenode/ip.206.177.43.74) has quit (Quit: Page closed)
+2016-03-23 15:37:33	-->	ansraliant (~user@unaffiliated/ansraliant) has joined #emacs
+2016-03-23 15:37:33	mns	wgreenhouse: yes, but when I install other org-related packages via package.el they all have a dependency on org, and so i end up with both org and org-plus-contrib being installed.  
+2016-03-23 15:37:58	-->	vila_ (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has joined #emacs
+2016-03-23 15:38:02	wgreenhouse	mns: dependency on org should be satsfied by the org that's pre-installed in emacs
+2016-03-23 15:38:43	<--	vila_ (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has quit (Remote host closed the connection)
+2016-03-23 15:39:18	-->	vila_ (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has joined #emacs
+2016-03-23 15:39:23	-->	boudiccas (~boudiccas@239.137.115.87.dyn.plus.net) has joined #emacs
+2016-03-23 15:40:16	taylan	apparently u_intX_t is some old Unix convention
+2016-03-23 15:41:55	-->	nilg (~user@92.247.176.162) has joined #emacs
+2016-03-23 15:42:18	<--	boudicca (~boudiccas@37.152.223.24) has quit (Ping timeout: 276 seconds)
+2016-03-23 15:42:22	<--	vila_ (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has quit (Client Quit)
+2016-03-23 15:43:32	mns	taylan: http://www.cs.virginia.edu/pipermail/splint-discuss/2006-September/000855.html   
+2016-03-23 15:43:32	rudybot	http://teensy.info/BiIIWCPSa1
+2016-03-23 15:44:05	-->	kouthie (~kouthie@ntszok059227.szok.nt.ngn.ppp.infoweb.ne.jp) has joined #emacs
+2016-03-23 15:44:57	-->	User458764 (~textual@62.147.220.187) has joined #emacs
+2016-03-23 15:45:43	<--	kouthie (~kouthie@ntszok059227.szok.nt.ngn.ppp.infoweb.ne.jp) has quit (Remote host closed the connection)
+2016-03-23 15:45:45	mns	u_int16_t is a Linux invention as its not found on any other system, based on that thread.
+2016-03-23 15:46:28	mns	wgreenhouse: thats what I would have thought as well.  
+2016-03-23 15:46:48	wgreenhouse	which packages in particular?
+2016-03-23 15:46:50	forcer	Apparently, BSD had them before: https://lists.freedesktop.org/archives/release-wranglers/2004-August/000923.html
+2016-03-23 15:46:51	rudybot	http://teensy.info/6VPxCGto5l
+2016-03-23 15:47:17	mns	ok so forcer just correct me on it being a Linux only thing :)
+2016-03-23 15:47:30	-->	jschoolcraft (~jschoolcr@pool-173-79-236-42.washdc.fios.verizon.net) has joined #emacs
+2016-03-23 15:47:39	<--	boudiccas (~boudiccas@239.137.115.87.dyn.plus.net) has quit (Ping timeout: 268 seconds)
+2016-03-23 15:49:24	-->	m1dnight_ (~m1dnight@2a02:a03f:1340:1700:f433:4a3f:ff23:9f9a) has joined #emacs
+2016-03-23 15:49:50	-->	vlatkoB_ (~IRC_clien@unaffiliated/vlatkob) has joined #emacs
+2016-03-23 15:50:14	User458764	Hi, when I open a .md file the markdown mode don't start can someone help me?
+2016-03-23 15:50:18	mns	wgreenhouse: org-impress-js ox-html5slide ox-ioslide org-gcal.  they all have requirements for org-8 org-8.2.4 org-8.0  
+2016-03-23 15:53:11	<--	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has quit (Ping timeout: 248 seconds)
+2016-03-23 15:53:26	<--	vlatkoB (~IRC_clien@unaffiliated/vlatkob) has quit (Ping timeout: 244 seconds)
+2016-03-23 15:53:26	<--	to1ne (~toon@d5153c033.access.telenet.be) has quit (Remote host closed the connection)
+2016-03-23 15:53:45	wgreenhouse	mns: hm, confirmed. ox-ioslide pulled in an org even though I already have a newer org than it supposedly requires.
+2016-03-23 15:53:48	wgreenhouse	pretty irritating
+2016-03-23 15:53:57	<--	savi0r (~user@119.2.17.141) has quit (Ping timeout: 244 seconds)
+2016-03-23 15:54:27	-->	ryjm (~user@63.113.210.254) has joined #emacs
+2016-03-23 15:54:35	kensanata	User458764: usually your init file should say something involving add-to-alist and auto-mode-alist... Unless you're using Emacs packages?
+2016-03-23 15:55:13	User458764	kensanata I am using a package right
+2016-03-23 15:55:15	-->	nilg` (~user@92.247.176.162) has joined #emacs
+2016-03-23 15:55:29	kensanata	User458764: In which case nothing was required on my end. Look here: https://github.com/kensanata/emacs-setup/blob/master/config/markdown-conf.el
+2016-03-23 15:55:29	rudybot	http://teensy.info/yt84pmSfYj
+2016-03-23 15:55:44	-->	theseb (~user@50.254.117.17) has joined #emacs
+2016-03-23 15:56:01	kensanata	User458764: What's the value of major-mode in the buffer with your .md file? Perhaps some other mode got picked instead?
+2016-03-23 15:56:19	User458764	kensanata Fundamental
+2016-03-23 15:56:27	-->	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has joined #emacs
+2016-03-23 15:56:50	kensanata	User458764: When you look at the value of auto-mode-alist, do you see the appropriate element for markdown mode?
+2016-03-23 15:57:00	kensanata	User458764: On my system that would be ("\\.md\\'" . markdown-mode)
+2016-03-23 15:57:06	-->	nilg`` (~user@92.247.176.162) has joined #emacs
+2016-03-23 15:58:05	<--	nilg (~user@92.247.176.162) has quit (Ping timeout: 244 seconds)
+2016-03-23 15:58:23	<--	theseb (~user@50.254.117.17) has left #emacs
+2016-03-23 15:58:57	<--	tennix (~vagrant@unaffiliated/tennix) has quit (Ping timeout: 248 seconds)
+2016-03-23 15:59:13	mns	wgreenhouse: do packages have a facility for specifying what they provide ?  Like in Debian packages, I can install lighttpd or nginx and the package says it provides httpd, so anything depending on httpd will install without pulling in any other web server.
+2016-03-23 15:59:16	<--	m0li (~m0li@unaffiliated/m0li) has quit (Quit: bye.)
+2016-03-23 15:59:21	-->	coolboy (~coolboy@50.241.207.137) has joined #emacs
+2016-03-23 15:59:23	-->	jgama (~jgama@2607:fad8:4:6:f2de:f1ff:fec9:2353) has joined #emacs
+2016-03-23 15:59:34	kensanata	mns: (provide 'foo) is the elisp way?
+2016-03-23 15:59:36	-->	ype (~ype@217.72.116.170) has joined #emacs
+2016-03-23 15:59:43	User458764	kensanata I don't have markdown in auto-mode-alist https://gist.github.com/gsorbier/52a17935682a1f93fb66 :(
+2016-03-23 15:59:52	offby1	heh: FIXME: vitriol.
+2016-03-23 16:00:01	-->	presto (~presto@unaffiliated/presto) has joined #emacs
+2016-03-23 16:00:36	kensanata	User458764: if you installed it using a package, I'm suspecting that your init code is not being executed or aborts with an error.
+2016-03-23 16:00:37	<--	m1dnight_ (~m1dnight@2a02:a03f:1340:1700:f433:4a3f:ff23:9f9a) has quit (Quit: WeeChat 1.4-dev)
+2016-03-23 16:00:41	<--	nilg` (~user@92.247.176.162) has quit (Ping timeout: 260 seconds)
+2016-03-23 16:00:55	<--	qubitnerd (~neutrino@unaffiliated/electron/x-8286743) has quit (Ping timeout: 252 seconds)
+2016-03-23 16:01:05	User458764	kensanata I use a all battery included emacs configuration called spacemacs :)
+2016-03-23 16:01:11	<--	jatt (~user@unaffiliated/jatt) has quit (Remote host closed the connection)
+2016-03-23 16:01:20	User458764	kensanata I think it is an issue
+2016-03-23 16:01:35	<--	xvx (~xvx@62.68.161.130) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-23 16:01:39	kensanata	User458764: You could start a new Emacs and check the *Messages* buffer, just to be sure.
+2016-03-23 16:02:37	<--	seangrove (~user@c-50-174-77-118.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:03:10	jschoolcraft	I use evil, testing the waters, and am trying to (in vim terms) yank to the system buffer.  "*y.  Is there some simple trick so that y just yanks to the system clipboard.  I'm on OSX btw.
+2016-03-23 16:03:40	wgreenhouse	mns: sadly I think the resolution of the ;; Package-Requires: header line is not that sophisticated, nor is the `define-package' syntax. (the former doesn't seem to have an or operator like you probably remember from debian packages, and the latter doesn't seem to have a facility for specifying alternate names).
+2016-03-23 16:04:08	User458764	kensanata I have this *Warnings* https://gist.github.com/gsorbier/4636316ced1bfa877751
+2016-03-23 16:04:22	mns	jschoolcraft: I just do a M-w and it copies to the system clipboard.
+2016-03-23 16:04:24	User458764	kensanata only with Emacs GUI
+2016-03-23 16:04:35	-->	jatt (~user@93.189.156.14) has joined #emacs
+2016-03-23 16:04:55	<--	jatt (~user@93.189.156.14) has quit (Changing host)
+2016-03-23 16:04:55	-->	jatt (~user@unaffiliated/jatt) has joined #emacs
+2016-03-23 16:05:02	sbrg	seriously. some of the people that are choosing some of the default visual settings for emacs must literally be blind
+2016-03-23 16:05:03	-->	m1dnight_ (~m1dnight@2a02:a03f:1340:1700:be5f:f4ff:fe9a:a91e) has joined #emacs
+2016-03-23 16:05:11	kensanata	User458764: What does"only with Emacs GUI" mean -- is this what you would normally start? In that case I wonder whether the errors abort loading the rest of your stuff.
+2016-03-23 16:05:13	User458764	kensanata except for the second warning which is also present in Terminal 
+2016-03-23 16:05:43	sbrg	no wonder that the emacs userbase grows so slowly when showing people standard emacs visuals is pretty much equivalent to stabbing them in the eyes
+2016-03-23 16:05:47	User458764	kensanata I mean Emacs Cocoa
+2016-03-23 16:05:47	kensanata	User458764: The warnings don't ring a bell, sadly. I'm out of ideas, I fear.
+2016-03-23 16:05:52	taylan	things I hate: documentation not visually or otherwise easily distinguishing between literal text and variable names
+2016-03-23 16:06:16	-->	mastokley (~mastokley@71-212-84-157.tukw.qwest.net) has joined #emacs
+2016-03-23 16:06:17	User458764	kensanata no problem I think I have some ideas to explore
+2016-03-23 16:06:32	kensanata	User458764: Well, I'd say you need to start your Spacemacs or whatever it is and see whether this startup shows errors. There's also the --debug-init command line option which might help.
+2016-03-23 16:06:43	-->	Lokathor (~Lokathor^@65.129.89.253) has joined #emacs
+2016-03-23 16:06:49	kensanata	User458764: But it only helps if you actually have an error occuring, obviously. :)
+2016-03-23 16:07:10	User458764	kensanata I will do it thanks for the help :)
+2016-03-23 16:07:19	kensanata	User458764: You're welcome.
+2016-03-23 16:07:35	mns	sbrg: what are you talking about ? 
+2016-03-23 16:07:36	taylan	"Select Font Command: ESC RS F n  (Hex.: 1B 1E 46 n) ..."  me: wtf, 'n' is not a hex digit ... oh, it's supposed to be an arbitrary byte value
+2016-03-23 16:08:03	<--	Lokathor (~Lokathor^@65.129.89.253) has quit (Read error: Connection reset by peer)
+2016-03-23 16:08:11	taylan	it's a good thing they also specify it in hex, otherwise I'd be scratching my head for a while
+2016-03-23 16:08:38	<--	grettke (~textual@cpe-65-28-162-8.wi.res.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2016-03-23 16:08:38	<--	satbyy (bnc-satbyy@gateway/shell/fnordserver.eu/x-bichkieqoqkbelxk) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:08:38	<--	borkdude_ (~borkdude@2a02:2308:20:0:216:3eff:fe5f:4c0b) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:08:49	<--	rudolfochrist (~user@ip5f59bbba.dynamic.kabel-deutschland.de) has quit (Read error: No route to host)
+2016-03-23 16:08:50	-->	choki_ (~choki@unaffiliated/choki) has joined #emacs
+2016-03-23 16:08:54	-->	Lokathor (~Lokathor^@65.129.89.253) has joined #emacs
+2016-03-23 16:08:56	-->	rudolfochrist (~user@ip5f59bbba.dynamic.kabel-deutschland.de) has joined #emacs
+2016-03-23 16:08:59	<--	coolboy (~coolboy@50.241.207.137) has quit (Remote host closed the connection)
+2016-03-23 16:09:04	<--	karosaur (~karosauru@2001:41d0:8:b26e::1) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:04	<--	snow_bckspc (~snow_bcks@ganon.dot-server.net) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:04	<--	chaoflow (~cf1@0x2c.org) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:05	<--	nemesit|znc (~nemesit@2a01:488:66:1000:5bfa:72aa:0:1) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:13	<--	hualet (~hualet@113.57.50.52) has quit (Read error: Connection reset by peer)
+2016-03-23 16:09:30	<--	jgama (~jgama@2607:fad8:4:6:f2de:f1ff:fec9:2353) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:30	<--	baboon` (~baboon@aud75-2-78-194-104-87.fbxo.proxad.net) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:30	<--	aspiers (~adam@2001:8b0:11a6:73d0:3e97:eff:fe1a:9aab) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:30	<--	loke` (~user@2001:d98:8015:2::40) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:30	<--	ndrst (~ndrst@2a01:4f8:130:53ec::2) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:31	<--	cantstanya (~chatting@unaffiliated/cantstanya) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:31	<--	jaster (~jaster@unaffiliated/jaster) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:31	<--	ingenious (~nortimer@unaffiliated/ingenious) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:09:45	wgreenhouse	taylan: that would be a good use for the unicode italic 𝓃 :P
+2016-03-23 16:09:51	<--	frobware (~frobware@178.62.20.154) has quit (Ping timeout: 268 seconds)
+2016-03-23 16:10:11	-->	siwica` (~user@2001:6f8:1ccb:1:1847:80b4:cb3a:c807) has joined #emacs
+2016-03-23 16:10:13	-->	loke` (~user@2001:d98:8015:2::40) has joined #emacs
+2016-03-23 16:10:25	-->	TreyHarr1 (~trey@lopsa/foundingmember/TreyHarris) has joined #emacs
+2016-03-23 16:10:48	<--	zos (~zos@81-178-225-158.dsl.pipex.com) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:10:48	<--	franco (~franco@190.195.103.25) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:10:57	<--	daemian (~daemian@cpe-45-37-213-163.nc.res.rr.com) has quit (Read error: Connection reset by peer)
+2016-03-23 16:11:05	-->	ingenious (~nortimer@unaffiliated/ingenious) has joined #emacs
+2016-03-23 16:11:14	<--	jabot (~jakob@ente.hawo.stw.uni-erlangen.de) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:11:22	-->	daemian (~daemian@cpe-45-37-213-163.nc.res.rr.com) has joined #emacs
+2016-03-23 16:11:34	<--	juh (~quassel@p5DCA7D9E.dip0.t-ipconnect.de) has quit (Quit: No Ping reply in 180 seconds.)
+2016-03-23 16:11:38	<--	claw (~quassel@triple6.org) has quit (Remote host closed the connection)
+2016-03-23 16:11:40	-->	nowhereman (~pierre@AStrasbourg-653-1-199-10.w90-13.abo.wanadoo.fr) has joined #emacs
+2016-03-23 16:11:40	<--	slick (~slick@unaffiliated/anderson) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:11:40	<--	thelonereaper_ (~thelonere@192.241.198.140) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:11:40	<--	lyro (~lyro@unaffiliated/lyro) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:11:42	<--	venmx (~pactadmin@hertz.phys.susx.ac.uk) has quit (Ping timeout: 268 seconds)
+2016-03-23 16:11:51	myrkraverk	I am trying to remember a story where IBM got hacked and used to subvert patches for a military outpost.  This is probably a very old story, but I can't remember enough good keywords to google it.
+2016-03-23 16:11:56	-->	borkdude (~borkdude@2a02:2308:20:0:216:3eff:fe5f:4c0b) has joined #emacs
+2016-03-23 16:11:57	myrkraverk	Any of you familiar with it?
+2016-03-23 16:11:58	-->	jabot (1013@ente.hawo.stw.uni-erlangen.de) has joined #emacs
+2016-03-23 16:12:06	<--	shosti (~shosti@unaffiliated/shosti) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:11	-->	jrm2 (~jrm@unaffiliated/jrm) has joined #emacs
+2016-03-23 16:12:16	-->	dustfinger (~user@fw.edc.gov.ab.ca) has joined #emacs
+2016-03-23 16:12:19	paluche	𝘯𝘦𝘢𝘵
+2016-03-23 16:12:27	-->	venmx (~pactadmin@hertz.phys.susx.ac.uk) has joined #emacs
+2016-03-23 16:12:29	-->	nanoz (~nanoz@117.192.168.77) has joined #emacs
+2016-03-23 16:12:32	<--	treaki_ (~treaki@p5B11C42B.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:32	<--	Posterdati (~kvirc@95.234.209.43) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:37	taylan	huh, those display but the 𝓃 didn't
+2016-03-23 16:12:40	-->	juh (~quassel@p5DCA7D9E.dip0.t-ipconnect.de) has joined #emacs
+2016-03-23 16:12:56	<--	fionnan (fionnan@cube.netsoc.tcd.ie) has quit (Ping timeout: 268 seconds)
+2016-03-23 16:12:58	<--	drot (~drot@unaffiliated/drot) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:58	<--	sendq_ (~sendq@portemanteau.ca) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:58	<--	NaCl (~NaCl@unaffilated/nacl/x-827312) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:12:58	<--	remote (~remote@portemanteau.ca) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:04	wgreenhouse	it seems Symbola is handling it here
+2016-03-23 16:13:11	wgreenhouse	per C-u C-x =
+2016-03-23 16:13:24	<--	_AnK (~AnK@pool-173-71-120-27.cmdnnj.fios.verizon.net) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:24	<--	SirCmpwn (~sircmpwn@irc.sircmpwn.com) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:24	<--	vxxe (~pizzaguy@107.170.83.91) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:24	<--	correlr (~correlr@162.243.99.237) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:33	<--	tobiasBora (~tobiasBor@zamok.crans.org) has quit (Ping timeout: 268 seconds)
+2016-03-23 16:13:43	-->	NaCl (~NaCl@li321-87.members.linode.com) has joined #emacs
+2016-03-23 16:13:44	<--	NaCl (~NaCl@li321-87.members.linode.com) has quit (Changing host)
+2016-03-23 16:13:44	-->	NaCl (~NaCl@unaffilated/nacl/x-827312) has joined #emacs
+2016-03-23 16:13:45	-->	claw (~quassel@triple6.org) has joined #emacs
+2016-03-23 16:13:50	<--	catern (~catern@catern.com) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:50	<--	papal_ (~palanche@pc-papal.u-strasbg.fr) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:13:50	<--	axion (~axion@li61-202.members.linode.com) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:14:10	<--	siwica (~user@pD9E76481.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2016-03-23 16:14:11	-->	remote (~remote@portemanteau.ca) has joined #emacs
+2016-03-23 16:14:22	-->	vxxe (~pizzaguy@107.170.83.91) has joined #emacs
+2016-03-23 16:14:24	-->	papal (~palanche@pc-papal.u-strasbg.fr) has joined #emacs
+2016-03-23 16:14:52	-->	nemesit|znc (~nemesit@2a01:488:66:1000:5bfa:72aa:0:1) has joined #emacs
+2016-03-23 16:14:57	-->	baboon` (~baboon@aud75-2-78-194-104-87.fbxo.proxad.net) has joined #emacs
+2016-03-23 16:15:00	sbrg	mns: stuff like using bezels everywhere. I think they're called bezels anyway
+2016-03-23 16:15:08	<--	pc-m (~user@modemcable094.94-70-69.static.videotron.ca) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:15:27	-->	Posterdati (~kvirc@95.234.209.43) has joined #emacs
+2016-03-23 16:15:33	-->	catern (~catern@catern.com) has joined #emacs
+2016-03-23 16:15:34	<--	nowhere_man (~pierre@AStrasbourg-653-1-199-10.w90-13.abo.wanadoo.fr) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:15:42	<--	ype (~ype@217.72.116.170) has quit (Quit: bye)
+2016-03-23 16:15:56	-->	SirCmpwn (sircmpwn@irc.sircmpwn.com) has joined #emacs
+2016-03-23 16:15:59	-->	sendq (~sendq@portemanteau.ca) has joined #emacs
+2016-03-23 16:16:01	mns	sbrg: not sure what you're refering to when you say bezels 
+2016-03-23 16:16:03	-->	jpwall (~jpwall@strugee.net) has joined #emacs
+2016-03-23 16:16:06	-->	treaki_ (~treaki@p5B11C42B.dip0.t-ipconnect.de) has joined #emacs
+2016-03-23 16:16:17	-->	correlr (~correlr@162.243.99.237) has joined #emacs
+2016-03-23 16:16:22	-->	lacrymology (~lacrymolo@212.90.54.142) has joined #emacs
+2016-03-23 16:16:23	wgreenhouse	you mean e.g. in M-x customize-face mode-line
+2016-03-23 16:16:27	wgreenhouse	with the default face specs?
+2016-03-23 16:16:30	<--	TheCowboy (~TheCowboy@ip70-161-163-39.hr.hr.cox.net) has quit (Quit: Leaving)
+2016-03-23 16:16:34	-->	salva0 (~salva@213.37.131.197.static.user.ono.com) has joined #emacs
+2016-03-23 16:16:36	-->	franco (~franco@190.195.103.25) has joined #emacs
+2016-03-23 16:16:39	<--	przl (~przlrkt@80.82.202.196) has quit (Ping timeout: 244 seconds)
+2016-03-23 16:16:41	wgreenhouse	yeah, such early '90s :)
+2016-03-23 16:17:08	-->	gemie (~mrfantazt@94.234.185.8) has joined #emacs
+2016-03-23 16:17:10	-->	satbyy (bnc-satbyy@gateway/shell/fnordserver.eu/x-uhvplunwjnwlmbhx) has joined #emacs
+2016-03-23 16:17:19	-->	karosaur (~karosaur@2001:41d0:8:b26e::1) has joined #emacs
+2016-03-23 16:17:44	-->	shosti (~shosti@unaffiliated/shosti) has joined #emacs
+2016-03-23 16:17:45	-->	Johnade (~Johnade@81.200.189.7) has joined #emacs
+2016-03-23 16:18:09	gemie	Hi, I am using "ag" for searching in my projects. I think the behavior of when I press enter over a line in the results buffer, sometimes it change another buffers content, sometimes creates a new buffer etc etc. I tried to find in the documentation about this but could not find anything. Anyone knows?
+2016-03-23 16:18:10	<--	aajjbb (~aajjbb@177.193.234.224) has quit (Ping timeout: 250 seconds)
+2016-03-23 16:18:36	<--	choki (~choki@unaffiliated/choki) has quit (Quit: WeeChat 1.4)
+2016-03-23 16:18:37	<--	TreyHarris (~trey@lopsa/foundingmember/TreyHarris) has quit (Read error: Connection reset by peer)
+2016-03-23 16:18:37	<--	Bentbot (~Bentbot@pool-98-111-224-231.pitbpa.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:18:37	<--	jrm (~jrm@unaffiliated/jrm) has quit (Read error: Connection reset by peer)
+2016-03-23 16:18:37	<--	JesseWalling (~jpwall@strugee.net) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:18:38	-->	fionnan_ (fionnan@cube.netsoc.tcd.ie) has joined #emacs
+2016-03-23 16:18:38	<--	salva (~salva@213.37.131.197.static.user.ono.com) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:18:38	-->	frobware_ (~frobware@178.62.20.154) has joined #emacs
+2016-03-23 16:18:38	-->	jaster_ (~jaster@2607:5300:100::ff) has joined #emacs
+2016-03-23 16:18:38	--	jrm2 is now known as jrm
+2016-03-23 16:19:18	-->	aajjbb (~aajjbb@177.193.234.224) has joined #emacs
+2016-03-23 16:19:21	<--	mastokley (~mastokley@71-212-84-157.tukw.qwest.net) has quit (Ping timeout: 260 seconds)
+2016-03-23 16:19:21	-->	zos (~zos@81-178-225-158.dsl.pipex.com) has joined #emacs
+2016-03-23 16:19:42	-->	slick (~slick@unaffiliated/anderson) has joined #emacs
+2016-03-23 16:19:43	-->	drot (drot@unaffiliated/drot) has joined #emacs
+2016-03-23 16:19:44	-->	tobiasBora (~tobiasBor@zamok.crans.org) has joined #emacs
+2016-03-23 16:20:05	-->	thelonereaper (~thelonere@192.241.198.140) has joined #emacs
+2016-03-23 16:20:13	-->	ype (~ype@217.72.116.170) has joined #emacs
+2016-03-23 16:20:16	<--	rudolfochrist (~user@ip5f59bbba.dynamic.kabel-deutschland.de) has quit (Ping timeout: 244 seconds)
+2016-03-23 16:20:18	-->	_AnK (~AnK@pool-173-71-120-27.cmdnnj.fios.verizon.net) has joined #emacs
+2016-03-23 16:21:35	-->	lyro (~lyro@unaffiliated/lyro) has joined #emacs
+2016-03-23 16:22:05	-->	chaoflow (~cf1@0x2c.org) has joined #emacs
+2016-03-23 16:22:08	-->	juanpablo_ (~juanpablo@181.39.194.188) has joined #emacs
+2016-03-23 16:22:16	-->	ndrst (~ndrst@2a01:4f8:130:53ec::2) has joined #emacs
+2016-03-23 16:22:41	--	ndrst is now known as Guest52539
+2016-03-23 16:22:47	-->	aspiers (~adam@2001:8b0:11a6:73d0:3e97:eff:fe1a:9aab) has joined #emacs
+2016-03-23 16:22:48	-->	jgama (~jgama@2607:fad8:4:6:f2de:f1ff:fec9:2353) has joined #emacs
+2016-03-23 16:22:51	-->	cantstanya (~chatting@unaffiliated/cantstanya) has joined #emacs
+2016-03-23 16:22:52	-->	snow_bckspc (~snow_bcks@ganon.dot-server.net) has joined #emacs
+2016-03-23 16:23:48	kensanata	gemie: These are probably overlays or text-properties. Use M-x describe-text-properties and look for a property called keymap or local-map. 
+2016-03-23 16:24:31	kensanata	gemie: Another possiblity is that they rebound RET to something interesting. Use C-h k RET to see what it is bound to.
+2016-03-23 16:25:38	kensanata	gemie: I'm not sure that the actual documentation of these features will help you -- there's a node called Special Properties in the Elisp manual, for example. You probably want a mode-specific help. I'd try C-h m and see whether it leads anywhere interesting?
+2016-03-23 16:25:57	-->	Luke (~Luke@unaffiliated/luke) has joined #emacs
+2016-03-23 16:26:11	paluche	gemie: is that what you were asking about? 
+2016-03-23 16:27:36	-->	adamdecaf (~adamdecaf@38.108.133.158) has joined #emacs
+2016-03-23 16:28:36	gemie	let me write those commands and see
+2016-03-23 16:30:16	-->	mattlea (~user@host81-159-23-200.range81-159.btcentralplus.com) has joined #emacs
+2016-03-23 16:30:53	<--	phracek_ (phracek@nat/redhat/x-xcwfrkricttdqwpg) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:31:03	-->	rudolfochrist (~user@ip5f59bbba.dynamic.kabel-deutschland.de) has joined #emacs
+2016-03-23 16:31:09	paluche	ag/next-error-function in ag.el deals with opening search results.
+2016-03-23 16:31:58	-->	doomlord (~textual@host217-42-162-151.range217-42.btcentralplus.com) has joined #emacs
+2016-03-23 16:32:01	-->	iclon (~iclon@38.140.23.90) has joined #emacs
+2016-03-23 16:32:19	<--	jaster_ (~jaster@2607:5300:100::ff) has quit (Changing host)
+2016-03-23 16:32:20	-->	jaster_ (~jaster@unaffiliated/jaster) has joined #emacs
+2016-03-23 16:32:30	-->	cvandusen (~user@68-90-30-246.ded.swbell.net) has joined #emacs
+2016-03-23 16:32:42	--	jaster_ is now known as jaster
+2016-03-23 16:32:46	gemie	I really need to learn emacs lisp so I can read the source code of the packages I use :/
+2016-03-23 16:32:53	<--	choki_ (~choki@unaffiliated/choki) has quit (Quit: WeeChat 1.4)
+2016-03-23 16:33:04	<--	freebsd (bsd@nat/redhat/x-oszonkbgpckddilm) has quit (Remote host closed the connection)
+2016-03-23 16:33:34	cvandusen	to what end?
+2016-03-23 16:33:45	<--	davemq (~user@99-156-81-143.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 244 seconds)
+2016-03-23 16:34:03	myrkraverk	cvandusen: why not?
+2016-03-23 16:34:11	-->	sg2002 (~user@broadband-95-84-209-126.nationalcablenetworks.ru) has joined #emacs
+2016-03-23 16:34:20	myrkraverk	reading source code is a healthy exercise for the little gray cells.
+2016-03-23 16:34:23	cvandusen	touché 
+2016-03-23 16:34:48	cvandusen	so is Faulkner
+2016-03-23 16:34:49	myrkraverk	And you never know what bugs a newbie code reviewer will stumble upon.
+2016-03-23 16:34:50	-->	snamellit (~snamellit@94-227-140-59.access.telenet.be) has joined #emacs
+2016-03-23 16:34:53	<--	adamdecaf (~adamdecaf@38.108.133.158) has quit (Read error: No route to host)
+2016-03-23 16:35:12	-->	adamdecaf (~adamdecaf@38.108.133.158) has joined #emacs
+2016-03-23 16:35:31	gemie	cvandusen: why not learn emacs lisp? I love emacs as an editor but would be nice to be able to read source code since the documentation is many times lacking etc and of course also to write some own stuff that I need so I don't have to get a package that has what I ask for but with 10x more other stuff that I don't need etc.
+2016-03-23 16:36:13	paluche	gemie: did you have a more specific question about ag or opening ag search results?
+2016-03-23 16:36:20	cvandusen	I wasn't arguing against it, I was just curious
+2016-03-23 16:36:53	myrkraverk	gemie: I learned lisp by asking specific questions here; in a day or two I was coding stuff.
+2016-03-23 16:37:09	mns	or even to debug issues like the one I have right now:  package.el has connecting to melpa when there is a proxy involved.  It used to work when I set it up initially a couple of weeks ago.  Doesn't any more.
+2016-03-23 16:37:19	paluche	let's start a company called NIH Software Inc.
+2016-03-23 16:37:40	-->	Hastouki (~nenchev@CPEbc4dfb9f9443-CMbc4dfb9f9440.cpe.net.cable.rogers.com) has joined #emacs
+2016-03-23 16:37:41	wgreenhouse	gemie: if the ag mode is like `grep-mode', it is probably using the facility ,,df next-error,,
+2016-03-23 16:37:41	fsbot	next-error is an interactive compiled Lisp function in `simple.el'.
+2016-03-23 16:37:41	fsbot	It is bound to C-x `, M-g n, M-g M-n.
+2016-03-23 16:37:41	fsbot	(next-error &optional ARG RESET)
+2016-03-23 16:37:41	fsbot	Visit next `next-error' message and corresponding source code. ;;[Type ,more]
+2016-03-23 16:37:50	myrkraverk	paluche: no, no, NIH Software Technologies, so we can acronym it NIHST.
+2016-03-23 16:38:47	snamellit	myrkraverk: gezundheit
+2016-03-23 16:38:58	<--	mattlea (~user@host81-159-23-200.range81-159.btcentralplus.com) has quit (Remote host closed the connection)
+2016-03-23 16:39:26	--	nowhereman is now known as nowhere_man
+2016-03-23 16:39:28	-->	to1ne (~toon@109.140.218.171) has joined #emacs
+2016-03-23 16:39:31	-->	dyelar (~dyelar@31.158.45.66.cm.sunflower.com) has joined #emacs
+2016-03-23 16:39:48	Hastouki	anyone know what projectile-switch-project-action can be set to in order to CD into the project root?
+2016-03-23 16:39:49	-->	DingoSaar_ (~hagen@pD9E08697.dip0.t-ipconnect.de) has joined #emacs
+2016-03-23 16:40:13	-->	hs366 (~hs366@sessfw99-sesbfw99-93.ericsson.net) has joined #emacs
+2016-03-23 16:41:02	-->	axion (~axion@li61-202.members.linode.com) has joined #emacs
+2016-03-23 16:41:20	gemie	paluche: not really. what I want is like in the search-result-buffer. when I press a certain key, for example enter open in a new buffer, when I press something else, let's just say "x" it should open the result in last modified buffer etc..
+2016-03-23 16:41:26	-->	pandeiro (~user@2606:6000:6093:9000:6e29:95ff:fea6:8d62) has joined #emacs
+2016-03-23 16:41:36	gemie	when the cursor is over a certain line in the results-buffer
+2016-03-23 16:41:41	wgreenhouse	gemie: are you talking about buffers or windows?
+2016-03-23 16:42:01	gemie	wgreenhouse: when I do M-x "ag" and then I do a search, a new buffer is opened with the search results from ag
+2016-03-23 16:42:05	loke`	Good evening Emacs!
+2016-03-23 16:42:29	wgreenhouse	gemie: yes, and that I assume lists a series of line numbers with matches, like grep-mode
+2016-03-23 16:42:40	gemie	if I go into that buffer and then press RET on a result, it changes my other buffer to the content of that file, I sometimes want to show the result content in a new buffer and not replace my other opened buffer etc.
+2016-03-23 16:42:43	-->	phracek (phracek@nat/redhat/x-aolvargcsgpwkxkd) has joined #emacs
+2016-03-23 16:42:56	wgreenhouse	gemie: yes, so you're talking about windows, not buffers. :)
+2016-03-23 16:42:58	gemie	wgreenhouse: could be, I haven't used grep-mode
+2016-03-23 16:43:02	<--	vds (~vds@host220-12-dynamic.250-95-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2016-03-23 16:43:02	<--	DingoSaar (~hagen@pD9E09FAE.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2016-03-23 16:43:09	wgreenhouse	look for calls to `display-buffer' in the ag mode source code
+2016-03-23 16:43:12	-->	dc2 (~dcunit3d@c-73-148-46-229.hsd1.va.comcast.net) has joined #emacs
+2016-03-23 16:43:48	wgreenhouse	you could tell it to use `display-buffer-pop-up-window' or `display-buffer-in-side-window'
+2016-03-23 16:43:51	paluche	Hastouki: it may only require a trivial change to projectile-switch-project-by-name.
+2016-03-23 16:43:59	gemie	wgreenhouse: right.. so confusing emacs calls them windows.. for me it's the opposite a "frame" should not be a "window" :) but you are right
+2016-03-23 16:44:19	Hastouki	paluche: change the actual projectile source?
+2016-03-23 16:44:21	-->	lethjakman (~lethjakma@71.56.221.51) has joined #emacs
+2016-03-23 16:44:30	-->	holomorph (~holomorph@unaffiliated/holomorph) has joined #emacs
+2016-03-23 16:44:32	gemie	wgreenhouse: ok will have a check in the source code, don't know emacs lisp but I might be able to grasp what is going on anyways.
+2016-03-23 16:44:36	wgreenhouse	gemie: a buffer is the lisp object in emacs's memory that contains the file (or the output of a process, or whatever). a buffer may be displayed in 0 or more windows :)
+2016-03-23 16:44:40	<--	User458764 (~textual@62.147.220.187) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2016-03-23 16:44:41	paluche	Hastouki: rather, redefining a projectile function in your init.
+2016-03-23 16:44:48	<--	instilled (~Adium@160.80.61.188.dynamic.wline.res.cust.swisscom.ch) has quit (Quit: Leaving.)
+2016-03-23 16:44:54	gemie	wgreenhouse: I see
+2016-03-23 16:44:54	wgreenhouse	gemie: the window management rules for windows are very flexible but also a bit hard to grasp
+2016-03-23 16:45:11	myrkraverk	gemie: the emacs terminology seems to be older than most windowing systems, and the terms make sense in a terminal.
+2016-03-23 16:45:20	Hastouki	paluche: right, but the author already offers projectile-switch-project-action, which just needs the right "CD" command
+2016-03-23 16:45:30	gemie	myrkraverk: ye you are right
+2016-03-23 16:45:42	wgreenhouse	gemie: C-h f display-buffer will give an idea of some of the possibilities, and there's also C-h v display-buffer-alist which provides a kind of override facility, to decide how a window that matches some characteristic should be created/displayed
+2016-03-23 16:47:04	-->	ddellacosta (~ddellacos@ool-435139c7.dyn.optonline.net) has joined #emacs
+2016-03-23 16:48:07	<--	sidoaight (sidoaight@2604:180::91c2:e72d) has quit (Disconnected by services)
+2016-03-23 16:48:22	gemie	wgreenhouse: thanks
+2016-03-23 16:48:44	-->	Guest9160 (sidoaight@2604:180::91c2:e72d) has joined #emacs
+2016-03-23 16:49:07	<--	lethjakman (~lethjakma@71.56.221.51) has quit (Ping timeout: 240 seconds)
+2016-03-23 16:49:20	-->	paldepind (~paldepind@84.238.65.104) has joined #emacs
+2016-03-23 16:50:03	paldepind	How can I dynamically create interactive functions? I can define a function with `fset`but not an interactive one.
+2016-03-23 16:50:19	-->	tennix (~vagrant@unaffiliated/tennix) has joined #emacs
+2016-03-23 16:50:34	--	Guest9160 is now known as sidoaight
+2016-03-23 16:50:37	-->	meta-x (~meta-x@186.7.238.69) has joined #emacs
+2016-03-23 16:50:51	-->	sud0x3 (~sud0x3@79-67-20-28.dynamic.dsl.as9105.com) has joined #emacs
+2016-03-23 16:51:11	wgreenhouse	paldepind: an interactive function is just a function or lambda that contains (interactive)
+2016-03-23 16:51:41	wgreenhouse	you certainly can fset one
+2016-03-23 16:52:36	python476	anyone wrote a macro to turn a function into an interactive, potentially io-ing one ?
+2016-03-23 16:52:49	--	irc: disconnected from server

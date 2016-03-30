@@ -1,0 +1,886 @@
+2016-03-21 17:24:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-21 17:25:06	=!=	You can not write text in this buffer
+2016-03-21 17:25:08		fifo: pipe closed
+2016-03-21 21:38:42		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-21 21:38:47		fifo: pipe closed
+2016-03-21 22:07:55		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-21 22:08:00		fifo: pipe closed
+2016-03-22 08:50:41		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-22 08:50:52		[core]
+2016-03-22 08:50:52		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2016-03-22 08:50:52		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2016-03-22 08:50:52		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2016-03-22 08:50:52		[logger]
+2016-03-22 08:50:52		  logger
+2016-03-22 08:50:52		[guile]
+2016-03-22 08:50:52		  guile
+2016-03-22 08:50:52		[trigger]
+2016-03-22 08:50:52		  trigger
+2016-03-22 08:50:52		[alias]
+2016-03-22 08:50:52		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2016-03-22 08:50:52		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2016-03-22 08:50:52		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2016-03-22 08:50:52		[script]
+2016-03-22 08:50:52		  script
+2016-03-22 08:50:52		[ruby]
+2016-03-22 08:50:52		  ruby
+2016-03-22 08:50:52		[xfer]
+2016-03-22 08:50:52		  me  xfer
+2016-03-22 08:50:52		[fifo]
+2016-03-22 08:50:52		  fifo
+2016-03-22 08:50:52		[aspell]
+2016-03-22 08:50:52		  aspell
+2016-03-22 08:50:52		[python]
+2016-03-22 08:50:52		  python
+2016-03-22 08:50:52		[irc]
+2016-03-22 08:50:52		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2016-03-22 08:50:52		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2016-03-22 08:50:52		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2016-03-22 08:50:52		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2016-03-22 08:50:52		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2016-03-22 08:50:52		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2016-03-22 08:50:52		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2016-03-22 08:50:52		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2016-03-22 08:50:52		[exec]
+2016-03-22 08:50:52		  exec
+2016-03-22 08:50:52		[lua]
+2016-03-22 08:50:52		  lua
+2016-03-22 08:50:52		[relay]
+2016-03-22 08:50:52		  relay
+2016-03-22 08:50:52		[javascript]
+2016-03-22 08:50:52		  javascript
+2016-03-22 08:50:52		[tcl]
+2016-03-22 08:50:52		  tcl
+2016-03-22 08:50:52		[perl]
+2016-03-22 08:50:52		  perl
+2016-03-22 08:50:52		[charset]
+2016-03-22 08:50:52		  charset
+2016-03-22 08:50:54		fifo: pipe closed
+2016-03-22 09:19:06		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-22 09:19:16		[core]
+2016-03-22 09:19:16		  away     color    debug    help     key      mute     proxy    repeat   set      uptime   window 
+2016-03-22 09:19:16		  bar      command  eval     history  layout   plugin   quit     save     unset    version
+2016-03-22 09:19:16		  buffer   cursor   filter   input    mouse    print    reload   secure   upgrade  wait   
+2016-03-22 09:19:16		[logger]
+2016-03-22 09:19:16		  logger
+2016-03-22 09:19:16		[guile]
+2016-03-22 09:19:16		  guile
+2016-03-22 09:19:16		[trigger]
+2016-03-22 09:19:16		  trigger
+2016-03-22 09:19:16		[alias]
+2016-03-22 09:19:16		  AAWAY    AMSG     BYE      CL       IG       KB       MSGBUF   Q        SIGNOFF  UMODE    WC       WW     
+2016-03-22 09:19:16		  alias    ANICK    C        CLOSE    J        LEAVE    MUB      REDRAW   T        V        WI     
+2016-03-22 09:19:16		  AME      BEEP     CHAT     EXIT     K        M        N        SAY      UB       W        WII    
+2016-03-22 09:19:16		[script]
+2016-03-22 09:19:16		  script
+2016-03-22 09:19:16		[ruby]
+2016-03-22 09:19:16		  ruby
+2016-03-22 09:19:16		[xfer]
+2016-03-22 09:19:16		  me  xfer
+2016-03-22 09:19:16		[fifo]
+2016-03-22 09:19:16		  fifo
+2016-03-22 09:19:16		[aspell]
+2016-03-22 09:19:16		  aspell
+2016-03-22 09:19:16		[python]
+2016-03-22 09:19:16		  python
+2016-03-22 09:19:16		[irc]
+2016-03-22 09:19:16		  admin       cycle       ignore      links       names       pong        sajoin      squery      unquiet     whois     
+2016-03-22 09:19:16		  allchan     dcc         info        list        nick        query       samode      squit       userhost    whowas    
+2016-03-22 09:19:16		  allpv       dehalfop    invite      lusers      notice      quiet       sanick      stats       users     
+2016-03-22 09:19:16		  allserv     deop        ison        map         notify      quote       sapart      summon      version   
+2016-03-22 09:19:16		  ban         devoice     join        me          op          reconnect   saquit      time        voice     
+2016-03-22 09:19:16		  cap         die         kick        mode        oper        rehash      server      topic       wallchops 
+2016-03-22 09:19:16		  connect     disconnect  kickban     motd        part        remove      service     trace       wallops   
+2016-03-22 09:19:16		  ctcp        halfop      kill        msg         ping        restart     servlist    unban       who       
+2016-03-22 09:19:16		[exec]
+2016-03-22 09:19:16		  exec
+2016-03-22 09:19:16		[lua]
+2016-03-22 09:19:16		  lua
+2016-03-22 09:19:16		[relay]
+2016-03-22 09:19:16		  relay
+2016-03-22 09:19:16		[javascript]
+2016-03-22 09:19:16		  javascript
+2016-03-22 09:19:16		[tcl]
+2016-03-22 09:19:16		  tcl
+2016-03-22 09:19:16		[perl]
+2016-03-22 09:19:16		  perl
+2016-03-22 09:19:16		[charset]
+2016-03-22 09:19:16		  charset
+2016-03-22 09:19:20		No server
+2016-03-22 09:19:22	=!=	Error with command "/server help" (help on command: /help server)
+2016-03-22 09:19:26		[irc]  /server  list|listfull [<server>]
+2016-03-22 09:19:26		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-22 09:19:26		                copy|rename <server> <new_name>
+2016-03-22 09:19:26		                reorder <server> [<server>...]
+2016-03-22 09:19:26		                del|keep <server>
+2016-03-22 09:19:26		                deloutq|jump|raw
+2016-03-22 09:19:26		list, add or remove IRC servers
+2016-03-22 09:19:26		    list: list servers (without argument, this list is displayed)
+2016-03-22 09:19:26		listfull: list servers with detailed info for each server
+2016-03-22 09:19:26		     add: add a new server
+2016-03-22 09:19:26		  server: server name, for internal and display use
+2016-03-22 09:19:26		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-22 09:19:26		    temp: add a temporary server (not saved)
+2016-03-22 09:19:26		  option: set option for server (for boolean option, value can be omitted)
+2016-03-22 09:19:26		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-22 09:19:26		    copy: duplicate a server
+2016-03-22 09:19:26		  rename: rename a server
+2016-03-22 09:19:26		 reorder: reorder list of servers
+2016-03-22 09:19:26		    keep: keep server in config file (for temporary servers only)
+2016-03-22 09:19:26		     del: delete a server
+2016-03-22 09:19:26		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-22 09:19:26		    jump: jump to server buffer
+2016-03-22 09:19:26		     raw: open buffer with raw IRC data
+2016-03-22 09:19:26		Examples:
+2016-03-22 09:19:26		  /server listfull
+2016-03-22 09:19:26		  /server add freenode chat.freenode.net
+2016-03-22 09:19:26		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-22 09:19:26		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-22 09:19:26		  /server copy freenode freenode-test
+2016-03-22 09:19:26		  /server rename freenode-test freenode2
+2016-03-22 09:19:26		  /server reorder freenode2 freenode
+2016-03-22 09:19:26		  /server del freenode
+2016-03-22 09:19:26		  /server deloutq
+2016-03-22 09:19:33		No server
+2016-03-22 09:20:13		[crypt] (sec.conf)
+2016-03-22 09:20:13		  sec.crypt.cipher = aes256
+2016-03-22 09:20:13		  sec.crypt.hash_algo = sha256
+2016-03-22 09:20:13		  sec.crypt.passphrase_file = ""
+2016-03-22 09:20:13		  sec.crypt.salt = on
+2016-03-22 09:20:13		[startup] (weechat.conf)
+2016-03-22 09:20:13		  weechat.startup.command_after_plugins = ""
+2016-03-22 09:20:13		  weechat.startup.command_before_plugins = ""
+2016-03-22 09:20:13		  weechat.startup.display_logo = on
+2016-03-22 09:20:13		  weechat.startup.display_version = on
+2016-03-22 09:20:13		  weechat.startup.sys_rlimit = ""
+2016-03-22 09:20:13		[look] (weechat.conf)
+2016-03-22 09:20:13		  weechat.look.align_end_of_lines = message
+2016-03-22 09:20:13		  weechat.look.bar_more_down = "++"
+2016-03-22 09:20:13		  weechat.look.bar_more_left = "<<"
+2016-03-22 09:20:13		  weechat.look.bar_more_right = ">>"
+2016-03-22 09:20:13		  weechat.look.bar_more_up = "--"
+2016-03-22 09:20:13		  weechat.look.bare_display_exit_on_input = on
+2016-03-22 09:20:13		  weechat.look.bare_display_time_format = "%H:%M"
+2016-03-22 09:20:13		  weechat.look.buffer_auto_renumber = on
+2016-03-22 09:20:13		  weechat.look.buffer_notify_default = all
+2016-03-22 09:20:13		  weechat.look.buffer_position = end
+2016-03-22 09:20:13		  weechat.look.buffer_search_case_sensitive = off
+2016-03-22 09:20:13		  weechat.look.buffer_search_force_default = off
+2016-03-22 09:20:13		  weechat.look.buffer_search_regex = off
+2016-03-22 09:20:13		  weechat.look.buffer_search_where = prefix_message
+2016-03-22 09:20:13		  weechat.look.buffer_time_format = "%H:%M:%S"
+2016-03-22 09:20:13		  weechat.look.color_basic_force_bold = off
+2016-03-22 09:20:13		  weechat.look.color_inactive_buffer = on
+2016-03-22 09:20:13		  weechat.look.color_inactive_message = on
+2016-03-22 09:20:13		  weechat.look.color_inactive_prefix = on
+2016-03-22 09:20:13		  weechat.look.color_inactive_prefix_buffer = on
+2016-03-22 09:20:13		  weechat.look.color_inactive_time = off
+2016-03-22 09:20:13		  weechat.look.color_inactive_window = on
+2016-03-22 09:20:13		  weechat.look.color_nick_offline = off
+2016-03-22 09:20:13		  weechat.look.color_pairs_auto_reset = 5
+2016-03-22 09:20:13		  weechat.look.color_real_white = off
+2016-03-22 09:20:13		  weechat.look.command_chars = ""
+2016-03-22 09:20:13		  weechat.look.command_incomplete = off
+2016-03-22 09:20:13		  weechat.look.confirm_quit = off
+2016-03-22 09:20:13		  weechat.look.confirm_upgrade = off
+2016-03-22 09:20:13		  weechat.look.day_change = on
+2016-03-22 09:20:13		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2016-03-22 09:20:13		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2016-03-22 09:20:13		  weechat.look.eat_newline_glitch = off
+2016-03-22 09:20:13		  weechat.look.emphasized_attributes = ""
+2016-03-22 09:20:13		  weechat.look.highlight = ""
+2016-03-22 09:20:13		  weechat.look.highlight_regex = ""
+2016-03-22 09:20:13		  weechat.look.highlight_tags = ""
+2016-03-22 09:20:13		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2016-03-22 09:20:13		  weechat.look.hotlist_buffer_separator = ", "
+2016-03-22 09:20:13		  weechat.look.hotlist_count_max = 2
+2016-03-22 09:20:13		  weechat.look.hotlist_count_min_msg = 2
+2016-03-22 09:20:13		  weechat.look.hotlist_names_count = 3
+2016-03-22 09:20:13		  weechat.look.hotlist_names_length = 0
+2016-03-22 09:20:13		  weechat.look.hotlist_names_level = 12
+2016-03-22 09:20:13		  weechat.look.hotlist_names_merged_buffers = off
+2016-03-22 09:20:13		  weechat.look.hotlist_prefix = "H: "
+2016-03-22 09:20:13		  weechat.look.hotlist_remove = merged
+2016-03-22 09:20:13		  weechat.look.hotlist_short_names = on
+2016-03-22 09:20:13		  weechat.look.hotlist_sort = group_time_asc
+2016-03-22 09:20:13		  weechat.look.hotlist_suffix = ""
+2016-03-22 09:20:13		  weechat.look.hotlist_unique_numbers = on
+2016-03-22 09:20:13		  weechat.look.input_cursor_scroll = 20
+2016-03-22 09:20:13		  weechat.look.input_share = none
+2016-03-22 09:20:13		  weechat.look.input_share_overwrite = off
+2016-03-22 09:20:13		  weechat.look.input_undo_max = 32
+2016-03-22 09:20:13		  weechat.look.item_buffer_filter = "*"
+2016-03-22 09:20:13		  weechat.look.item_buffer_zoom = "!"
+2016-03-22 09:20:13		  weechat.look.item_mouse_status = "M"
+2016-03-22 09:20:13		  weechat.look.item_time_format = "%H:%M"
+2016-03-22 09:20:13		  weechat.look.jump_current_to_previous_buffer = on
+2016-03-22 09:20:13		  weechat.look.jump_previous_buffer_when_closing = on
+2016-03-22 09:20:13		  weechat.look.jump_smart_back_to_buffer = on
+2016-03-22 09:20:13		  weechat.look.key_bind_safe = on
+2016-03-22 09:20:13		  weechat.look.key_grab_delay = 800
+2016-03-22 09:20:13		  weechat.look.mouse = off
+2016-03-22 09:20:13		  weechat.look.mouse_timer_delay = 100
+2016-03-22 09:20:13		  weechat.look.nick_prefix = ""
+2016-03-22 09:20:13		  weechat.look.nick_suffix = ""
+2016-03-22 09:20:13		  weechat.look.paste_auto_add_newline = on
+2016-03-22 09:20:13		  weechat.look.paste_bracketed = on
+2016-03-22 09:20:13		  weechat.look.paste_bracketed_timer_delay = 10
+2016-03-22 09:20:13		  weechat.look.paste_max_lines = 1
+2016-03-22 09:20:13		  weechat.look.prefix_action = " *"
+2016-03-22 09:20:13		  weechat.look.prefix_align = right
+2016-03-22 09:20:13		  weechat.look.prefix_align_max = 0
+2016-03-22 09:20:13		  weechat.look.prefix_align_min = 0
+2016-03-22 09:20:13		  weechat.look.prefix_align_more = "+"
+2016-03-22 09:20:13		  weechat.look.prefix_align_more_after = on
+2016-03-22 09:20:13		  weechat.look.prefix_buffer_align = right
+2016-03-22 09:20:13		  weechat.look.prefix_buffer_align_max = 0
+2016-03-22 09:20:13		  weechat.look.prefix_buffer_align_more = "+"
+2016-03-22 09:20:13		  weechat.look.prefix_buffer_align_more_after = on
+2016-03-22 09:20:13		  weechat.look.prefix_error = "=!="
+2016-03-22 09:20:13		  weechat.look.prefix_join = "-->"
+2016-03-22 09:20:13		  weechat.look.prefix_network = "--"
+2016-03-22 09:20:13		  weechat.look.prefix_quit = "<--"
+2016-03-22 09:20:13		  weechat.look.prefix_same_nick = ""
+2016-03-22 09:20:13		  weechat.look.prefix_suffix = "|"
+2016-03-22 09:20:13		  weechat.look.quote_nick_prefix = "<"
+2016-03-22 09:20:13		  weechat.look.quote_nick_suffix = ">"
+2016-03-22 09:20:13		  weechat.look.quote_time_format = "%H:%M:%S"
+2016-03-22 09:20:13		  weechat.look.read_marker = line
+2016-03-22 09:20:13		  weechat.look.read_marker_always_show = off
+2016-03-22 09:20:13		  weechat.look.read_marker_string = "- "
+2016-03-22 09:20:13		  weechat.look.save_config_on_exit = on
+2016-03-22 09:20:13		  weechat.look.save_layout_on_exit = none
+2016-03-22 09:20:13		  weechat.look.scroll_amount = 3
+2016-03-22 09:20:13		  weechat.look.scroll_bottom_after_switch = off
+2016-03-22 09:20:13		  weechat.look.scroll_page_percent = 100
+2016-03-22 09:20:13		  weechat.look.search_text_not_found_alert = on
+2016-03-22 09:20:13		  weechat.look.separator_horizontal = "-"
+2016-03-22 09:20:13		  weechat.look.separator_vertical = ""
+2016-03-22 09:20:13		  weechat.look.tab_width = 1
+2016-03-22 09:20:13		  weechat.look.time_format = "%a, %d %b %Y %T"
+2016-03-22 09:20:13		  weechat.look.window_auto_zoom = off
+2016-03-22 09:20:13		  weechat.look.window_separator_horizontal = on
+2016-03-22 09:20:13		  weechat.look.window_separator_vertical = on
+2016-03-22 09:20:13		  weechat.look.window_title = "WeeChat ${info:version}"
+2016-03-22 09:20:13		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2016-03-22 09:20:13		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2016-03-22 09:20:13		[color] (weechat.conf)
+2016-03-22 09:20:13		  weechat.color.bar_more = lightmagenta
+2016-03-22 09:20:13		  weechat.color.chat = default
+2016-03-22 09:20:13		  weechat.color.chat_bg = default
+2016-03-22 09:20:13		  weechat.color.chat_buffer = white
+2016-03-22 09:20:13		  weechat.color.chat_channel = white
+2016-03-22 09:20:13		  weechat.color.chat_day_change = cyan
+2016-03-22 09:20:13		  weechat.color.chat_delimiters = green
+2016-03-22 09:20:13		  weechat.color.chat_highlight = yellow
+2016-03-22 09:20:13		  weechat.color.chat_highlight_bg = magenta
+2016-03-22 09:20:13		  weechat.color.chat_host = cyan
+2016-03-22 09:20:13		  weechat.color.chat_inactive_buffer = default
+2016-03-22 09:20:13		  weechat.color.chat_inactive_window = default
+2016-03-22 09:20:13		  weechat.color.chat_nick = lightcyan
+2016-03-22 09:20:13		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2016-03-22 09:20:13		  weechat.color.chat_nick_offline = default
+2016-03-22 09:20:13		  weechat.color.chat_nick_offline_highlight = default
+2016-03-22 09:20:13		  weechat.color.chat_nick_offline_highlight_bg = blue
+2016-03-22 09:20:13		  weechat.color.chat_nick_other = cyan
+2016-03-22 09:20:13		  weechat.color.chat_nick_prefix = green
+2016-03-22 09:20:13		  weechat.color.chat_nick_self = white
+2016-03-22 09:20:13		  weechat.color.chat_nick_suffix = green
+2016-03-22 09:20:13		  weechat.color.chat_prefix_action = white
+2016-03-22 09:20:13		  weechat.color.chat_prefix_buffer = brown
+2016-03-22 09:20:13		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2016-03-22 09:20:13		  weechat.color.chat_prefix_error = yellow
+2016-03-22 09:20:13		  weechat.color.chat_prefix_join = lightgreen
+2016-03-22 09:20:13		  weechat.color.chat_prefix_more = lightmagenta
+2016-03-22 09:20:13		  weechat.color.chat_prefix_network = magenta
+2016-03-22 09:20:13		  weechat.color.chat_prefix_quit = lightred
+2016-03-22 09:20:13		  weechat.color.chat_prefix_suffix = green
+2016-03-22 09:20:13		  weechat.color.chat_read_marker = magenta
+2016-03-22 09:20:13		  weechat.color.chat_read_marker_bg = default
+2016-03-22 09:20:13		  weechat.color.chat_server = brown
+2016-03-22 09:20:13		  weechat.color.chat_tags = red
+2016-03-22 09:20:13		  weechat.color.chat_text_found = yellow
+2016-03-22 09:20:13		  weechat.color.chat_text_found_bg = lightmagenta
+2016-03-22 09:20:13		  weechat.color.chat_time = default
+2016-03-22 09:20:13		  weechat.color.chat_time_delimiters = brown
+2016-03-22 09:20:13		  weechat.color.chat_value = cyan
+2016-03-22 09:20:13		  weechat.color.chat_value_null = blue
+2016-03-22 09:20:13		  weechat.color.emphasized = yellow
+2016-03-22 09:20:13		  weechat.color.emphasized_bg = magenta
+2016-03-22 09:20:13		  weechat.color.input_actions = lightgreen
+2016-03-22 09:20:13		  weechat.color.input_text_not_found = red
+2016-03-22 09:20:13		  weechat.color.nicklist_away = cyan
+2016-03-22 09:20:13		  weechat.color.nicklist_group = green
+2016-03-22 09:20:13		  weechat.color.separator = blue
+2016-03-22 09:20:13		  weechat.color.status_count_highlight = magenta
+2016-03-22 09:20:13		  weechat.color.status_count_msg = brown
+2016-03-22 09:20:13		  weechat.color.status_count_other = default
+2016-03-22 09:20:13		  weechat.color.status_count_private = green
+2016-03-22 09:20:13		  weechat.color.status_data_highlight = lightmagenta
+2016-03-22 09:20:13		  weechat.color.status_data_msg = yellow
+2016-03-22 09:20:13		  weechat.color.status_data_other = default
+2016-03-22 09:20:13		  weechat.color.status_data_private = lightgreen
+2016-03-22 09:20:13		  weechat.color.status_filter = green
+2016-03-22 09:20:13		  weechat.color.status_more = yellow
+2016-03-22 09:20:13		  weechat.color.status_mouse = green
+2016-03-22 09:20:13		  weechat.color.status_name = white
+2016-03-22 09:20:13		  weechat.color.status_name_ssl = lightgreen
+2016-03-22 09:20:13		  weechat.color.status_nicklist_count = default
+2016-03-22 09:20:13		  weechat.color.status_number = yellow
+2016-03-22 09:20:13		  weechat.color.status_time = default
+2016-03-22 09:20:13		[completion] (weechat.conf)
+2016-03-22 09:20:13		  weechat.completion.base_word_until_cursor = on
+2016-03-22 09:20:13		  weechat.completion.command_inline = on
+2016-03-22 09:20:13		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2016-03-22 09:20:13		  weechat.completion.nick_add_space = on
+2016-03-22 09:20:13		  weechat.completion.nick_completer = ":"
+2016-03-22 09:20:13		  weechat.completion.nick_first_only = off
+2016-03-22 09:20:13		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2016-03-22 09:20:13		  weechat.completion.partial_completion_alert = on
+2016-03-22 09:20:13		  weechat.completion.partial_completion_command = off
+2016-03-22 09:20:13		  weechat.completion.partial_completion_command_arg = off
+2016-03-22 09:20:13		  weechat.completion.partial_completion_count = on
+2016-03-22 09:20:13		  weechat.completion.partial_completion_other = off
+2016-03-22 09:20:13		[history] (weechat.conf)
+2016-03-22 09:20:13		  weechat.history.display_default = 5
+2016-03-22 09:20:13		  weechat.history.max_buffer_lines_minutes = 0
+2016-03-22 09:20:13		  weechat.history.max_buffer_lines_number = 4096
+2016-03-22 09:20:13		  weechat.history.max_commands = 100
+2016-03-22 09:20:13		  weechat.history.max_visited_buffers = 50
+2016-03-22 09:20:13		[network] (weechat.conf)
+2016-03-22 09:20:13		  weechat.network.connection_timeout = 60
+2016-03-22 09:20:13		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2016-03-22 09:20:13		  weechat.network.gnutls_handshake_timeout = 30
+2016-03-22 09:20:13		  weechat.network.proxy_curl = ""
+2016-03-22 09:20:13		[plugin] (weechat.conf)
+2016-03-22 09:20:13		  weechat.plugin.autoload = "*"
+2016-03-22 09:20:13		  weechat.plugin.debug = off
+2016-03-22 09:20:13		  weechat.plugin.extension = ".so,.dll"
+2016-03-22 09:20:13		  weechat.plugin.path = "%h/plugins"
+2016-03-22 09:20:13		  weechat.plugin.save_config_on_unload = on
+2016-03-22 09:20:13		[bar] (weechat.conf)
+2016-03-22 09:20:13		  weechat.bar.input.color_bg = default
+2016-03-22 09:20:13		  weechat.bar.input.color_delim = cyan
+2016-03-22 09:20:13		  weechat.bar.input.color_fg = default
+2016-03-22 09:20:13		  weechat.bar.input.conditions = ""
+2016-03-22 09:20:13		  weechat.bar.input.filling_left_right = vertical
+2016-03-22 09:20:13		  weechat.bar.input.filling_top_bottom = horizontal
+2016-03-22 09:20:13		  weechat.bar.input.hidden = off
+2016-03-22 09:20:13		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2016-03-22 09:20:13		  weechat.bar.input.position = bottom
+2016-03-22 09:20:13		  weechat.bar.input.priority = 1000
+2016-03-22 09:20:13		  weechat.bar.input.separator = off
+2016-03-22 09:20:13		  weechat.bar.input.size = 1
+2016-03-22 09:20:13		  weechat.bar.input.size_max = 0
+2016-03-22 09:20:13		  weechat.bar.input.type = window
+2016-03-22 09:20:13		  weechat.bar.nicklist.color_bg = default
+2016-03-22 09:20:13		  weechat.bar.nicklist.color_delim = cyan
+2016-03-22 09:20:13		  weechat.bar.nicklist.color_fg = default
+2016-03-22 09:20:13		  weechat.bar.nicklist.conditions = "${nicklist}"
+2016-03-22 09:20:13		  weechat.bar.nicklist.filling_left_right = vertical
+2016-03-22 09:20:13		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2016-03-22 09:20:13		  weechat.bar.nicklist.hidden = off
+2016-03-22 09:20:13		  weechat.bar.nicklist.items = "buffer_nicklist"
+2016-03-22 09:20:13		  weechat.bar.nicklist.position = right
+2016-03-22 09:20:13		  weechat.bar.nicklist.priority = 200
+2016-03-22 09:20:13		  weechat.bar.nicklist.separator = on
+2016-03-22 09:20:13		  weechat.bar.nicklist.size = 0
+2016-03-22 09:20:13		  weechat.bar.nicklist.size_max = 0
+2016-03-22 09:20:13		  weechat.bar.nicklist.type = window
+2016-03-22 09:20:13		  weechat.bar.status.color_bg = blue
+2016-03-22 09:20:13		  weechat.bar.status.color_delim = cyan
+2016-03-22 09:20:13		  weechat.bar.status.color_fg = default
+2016-03-22 09:20:13		  weechat.bar.status.conditions = ""
+2016-03-22 09:20:13		  weechat.bar.status.filling_left_right = vertical
+2016-03-22 09:20:13		  weechat.bar.status.filling_top_bottom = horizontal
+2016-03-22 09:20:13		  weechat.bar.status.hidden = off
+2016-03-22 09:20:13		  weechat.bar.status.items = "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+2016-03-22 09:20:13		  weechat.bar.status.position = bottom
+2016-03-22 09:20:13		  weechat.bar.status.priority = 500
+2016-03-22 09:20:13		  weechat.bar.status.separator = off
+2016-03-22 09:20:13		  weechat.bar.status.size = 1
+2016-03-22 09:20:13		  weechat.bar.status.size_max = 0
+2016-03-22 09:20:13		  weechat.bar.status.type = window
+2016-03-22 09:20:13		  weechat.bar.title.color_bg = blue
+2016-03-22 09:20:13		  weechat.bar.title.color_delim = cyan
+2016-03-22 09:20:13		  weechat.bar.title.color_fg = default
+2016-03-22 09:20:13		  weechat.bar.title.conditions = ""
+2016-03-22 09:20:13		  weechat.bar.title.filling_left_right = vertical
+2016-03-22 09:20:13		  weechat.bar.title.filling_top_bottom = horizontal
+2016-03-22 09:20:13		  weechat.bar.title.hidden = off
+2016-03-22 09:20:13		  weechat.bar.title.items = "buffer_title"
+2016-03-22 09:20:13		  weechat.bar.title.position = top
+2016-03-22 09:20:13		  weechat.bar.title.priority = 500
+2016-03-22 09:20:13		  weechat.bar.title.separator = off
+2016-03-22 09:20:13		  weechat.bar.title.size = 1
+2016-03-22 09:20:13		  weechat.bar.title.size_max = 0
+2016-03-22 09:20:13		  weechat.bar.title.type = window
+2016-03-22 09:20:13		[var] (plugins.conf)
+2016-03-22 09:20:13		  plugins.var.fifo.fifo = "on"
+2016-03-22 09:20:13		  plugins.var.guile.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.javascript.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.lua.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.perl.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.python.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.ruby.check_license = "off"
+2016-03-22 09:20:13		  plugins.var.tcl.check_license = "off"
+2016-03-22 09:20:13		[default] (charset.conf)
+2016-03-22 09:20:13		  charset.default.decode = "iso-8859-1"
+2016-03-22 09:20:13		  charset.default.encode = ""
+2016-03-22 09:20:13		[look] (logger.conf)
+2016-03-22 09:20:13		  logger.look.backlog = 20
+2016-03-22 09:20:13		[color] (logger.conf)
+2016-03-22 09:20:13		  logger.color.backlog_end = default
+2016-03-22 09:20:13		  logger.color.backlog_line = default
+2016-03-22 09:20:13		[file] (logger.conf)
+2016-03-22 09:20:13		  logger.file.auto_log = on
+2016-03-22 09:20:13		  logger.file.flush_delay = 120
+2016-03-22 09:20:13		  logger.file.info_lines = off
+2016-03-22 09:20:13		  logger.file.mask = "$plugin.$name.weechatlog"
+2016-03-22 09:20:13		  logger.file.name_lower_case = on
+2016-03-22 09:20:13		  logger.file.nick_prefix = ""
+2016-03-22 09:20:13		  logger.file.nick_suffix = ""
+2016-03-22 09:20:13		  logger.file.path = "%h/logs/"
+2016-03-22 09:20:13		  logger.file.replacement_char = "_"
+2016-03-22 09:20:13		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2016-03-22 09:20:13		[command] (exec.conf)
+2016-03-22 09:20:13		  exec.command.default_options = ""
+2016-03-22 09:20:13		  exec.command.purge_delay = 0
+2016-03-22 09:20:13		[color] (exec.conf)
+2016-03-22 09:20:13		  exec.color.flag_finished = lightred
+2016-03-22 09:20:13		  exec.color.flag_running = lightgreen
+2016-03-22 09:20:13		[look] (trigger.conf)
+2016-03-22 09:20:13		  trigger.look.enabled = on
+2016-03-22 09:20:13		  trigger.look.monitor_strip_colors = off
+2016-03-22 09:20:13		[color] (trigger.conf)
+2016-03-22 09:20:13		  trigger.color.flag_command = lightgreen
+2016-03-22 09:20:13		  trigger.color.flag_conditions = yellow
+2016-03-22 09:20:13		  trigger.color.flag_regex = lightcyan
+2016-03-22 09:20:13		  trigger.color.flag_return_code = lightmagenta
+2016-03-22 09:20:13		  trigger.color.regex = white
+2016-03-22 09:20:13		  trigger.color.replace = cyan
+2016-03-22 09:20:13		  trigger.color.trigger = green
+2016-03-22 09:20:13		  trigger.color.trigger_disabled = red
+2016-03-22 09:20:13		[trigger] (trigger.conf)
+2016-03-22 09:20:13		  trigger.trigger.beep.arguments = ""
+2016-03-22 09:20:13		  trigger.trigger.beep.command = "/print -beep"
+2016-03-22 09:20:13		  trigger.trigger.beep.conditions = "${tg_displayed} && (${tg_highlight} || ${tg_msg_pv})"
+2016-03-22 09:20:13		  trigger.trigger.beep.enabled = on
+2016-03-22 09:20:13		  trigger.trigger.beep.hook = print
+2016-03-22 09:20:13		  trigger.trigger.beep.regex = ""
+2016-03-22 09:20:13		  trigger.trigger.beep.return_code = ok
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.command = ""
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.conditions = ""
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.enabled = on
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.hook = modifier
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.regex = "==^((/(msg|m|quote) +nickserv +(id|identify|register|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+) +)|/oper +[^ ]+ +|/quote +pass +|/set +[^ ]*password[^ ]* +|/secure +(passphrase|decrypt|set +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2016-03-22 09:20:13		  trigger.trigger.cmd_pass.return_code = ok
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.arguments = "5000|irc_message_auth"
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.command = ""
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.conditions = ""
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.enabled = on
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.hook = modifier
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.regex = "==^(.*(id|identify|register|ghost +[^ ]+|release +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2016-03-22 09:20:13		  trigger.trigger.msg_auth.return_code = ok
+2016-03-22 09:20:13		  trigger.trigger.server_pass.arguments = "5000|input_text_display;5000|history_add"
+2016-03-22 09:20:13		  trigger.trigger.server_pass.command = ""
+2016-03-22 09:20:13		  trigger.trigger.server_pass.conditions = ""
+2016-03-22 09:20:13		  trigger.trigger.server_pass.enabled = on
+2016-03-22 09:20:13		  trigger.trigger.server_pass.hook = modifier
+2016-03-22 09:20:13		  trigger.trigger.server_pass.regex = "==^(/(server|connect) .*-(sasl_)?password=)([^ ]+)(.*)==${re:1}${hide:*,${re:4}}${re:5}"
+2016-03-22 09:20:13		  trigger.trigger.server_pass.return_code = ok
+2016-03-22 09:20:13		[color] (aspell.conf)
+2016-03-22 09:20:13		  aspell.color.misspelled = lightred
+2016-03-22 09:20:13		  aspell.color.suggestions = default
+2016-03-22 09:20:13		[check] (aspell.conf)
+2016-03-22 09:20:13		  aspell.check.commands = "ame,amsg,away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2016-03-22 09:20:13		  aspell.check.default_dict = ""
+2016-03-22 09:20:13		  aspell.check.during_search = off
+2016-03-22 09:20:13		  aspell.check.enabled = off
+2016-03-22 09:20:13		  aspell.check.real_time = off
+2016-03-22 09:20:13		  aspell.check.suggestions = -1
+2016-03-22 09:20:13		  aspell.check.word_min_length = 2
+2016-03-22 09:20:13		[cmd] (alias.conf)
+2016-03-22 09:20:13		  alias.cmd.AAWAY = "allserv /away"
+2016-03-22 09:20:13		  alias.cmd.AME = "allchan /me"
+2016-03-22 09:20:13		  alias.cmd.AMSG = "allchan /msg *"
+2016-03-22 09:20:13		  alias.cmd.ANICK = "allserv /nick"
+2016-03-22 09:20:13		  alias.cmd.BEEP = "print -beep"
+2016-03-22 09:20:13		  alias.cmd.BYE = "quit"
+2016-03-22 09:20:13		  alias.cmd.C = "buffer clear"
+2016-03-22 09:20:13		  alias.cmd.CHAT = "dcc chat"
+2016-03-22 09:20:13		  alias.cmd.CL = "buffer clear"
+2016-03-22 09:20:13		  alias.cmd.CLOSE = "buffer close"
+2016-03-22 09:20:13		  alias.cmd.EXIT = "quit"
+2016-03-22 09:20:13		  alias.cmd.IG = "ignore"
+2016-03-22 09:20:13		  alias.cmd.J = "join"
+2016-03-22 09:20:13		  alias.cmd.K = "kick"
+2016-03-22 09:20:13		  alias.cmd.KB = "kickban"
+2016-03-22 09:20:13		  alias.cmd.LEAVE = "part"
+2016-03-22 09:20:13		  alias.cmd.M = "msg"
+2016-03-22 09:20:13		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2016-03-22 09:20:13		  alias.cmd.MUB = "unban *"
+2016-03-22 09:20:13		  alias.cmd.N = "names"
+2016-03-22 09:20:13		  alias.cmd.Q = "query"
+2016-03-22 09:20:13		  alias.cmd.REDRAW = "window refresh"
+2016-03-22 09:20:13		  alias.cmd.SAY = "msg *"
+2016-03-22 09:20:13		  alias.cmd.SIGNOFF = "quit"
+2016-03-22 09:20:13		  alias.cmd.T = "topic"
+2016-03-22 09:20:13		  alias.cmd.UB = "unban"
+2016-03-22 09:20:13		  alias.cmd.UMODE = "mode $nick"
+2016-03-22 09:20:13		  alias.cmd.V = "command core version"
+2016-03-22 09:20:13		  alias.cmd.W = "who"
+2016-03-22 09:20:13		  alias.cmd.WC = "window merge"
+2016-03-22 09:20:13		  alias.cmd.WI = "whois"
+2016-03-22 09:20:13		  alias.cmd.WII = "whois $1 $1"
+2016-03-22 09:20:13		  alias.cmd.WW = "whowas"
+2016-03-22 09:20:13		[completion] (alias.conf)
+2016-03-22 09:20:13		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2016-03-22 09:20:13		[look] (xfer.conf)
+2016-03-22 09:20:13		  xfer.look.auto_open_buffer = on
+2016-03-22 09:20:13		  xfer.look.progress_bar_size = 20
+2016-03-22 09:20:13		  xfer.look.pv_tags = "notify_private"
+2016-03-22 09:20:13		[color] (xfer.conf)
+2016-03-22 09:20:13		  xfer.color.status_aborted = lightred
+2016-03-22 09:20:13		  xfer.color.status_active = lightblue
+2016-03-22 09:20:13		  xfer.color.status_connecting = yellow
+2016-03-22 09:20:13		  xfer.color.status_done = lightgreen
+2016-03-22 09:20:13		  xfer.color.status_failed = lightred
+2016-03-22 09:20:13		  xfer.color.status_waiting = lightcyan
+2016-03-22 09:20:13		  xfer.color.text = default
+2016-03-22 09:20:13		  xfer.color.text_bg = default
+2016-03-22 09:20:13		  xfer.color.text_selected = white
+2016-03-22 09:20:13		[network] (xfer.conf)
+2016-03-22 09:20:13		  xfer.network.blocksize = 65536
+2016-03-22 09:20:13		  xfer.network.fast_send = on
+2016-03-22 09:20:13		  xfer.network.own_ip = ""
+2016-03-22 09:20:13		  xfer.network.port_range = ""
+2016-03-22 09:20:13		  xfer.network.speed_limit = 0
+2016-03-22 09:20:13		  xfer.network.timeout = 300
+2016-03-22 09:20:13		[file] (xfer.conf)
+2016-03-22 09:20:13		  xfer.file.auto_accept_chats = off
+2016-03-22 09:20:13		  xfer.file.auto_accept_files = off
+2016-03-22 09:20:13		  xfer.file.auto_accept_nicks = ""
+2016-03-22 09:20:13		  xfer.file.auto_check_crc32 = off
+2016-03-22 09:20:13		  xfer.file.auto_rename = on
+2016-03-22 09:20:13		  xfer.file.auto_resume = on
+2016-03-22 09:20:13		  xfer.file.convert_spaces = on
+2016-03-22 09:20:13		  xfer.file.download_path = "%h/xfer"
+2016-03-22 09:20:13		  xfer.file.upload_path = "~"
+2016-03-22 09:20:13		  xfer.file.use_nick_in_filename = on
+2016-03-22 09:20:13		[look] (irc.conf)
+2016-03-22 09:20:13		  irc.look.buffer_open_before_autojoin = on
+2016-03-22 09:20:13		  irc.look.buffer_open_before_join = off
+2016-03-22 09:20:13		  irc.look.buffer_switch_autojoin = on
+2016-03-22 09:20:13		  irc.look.buffer_switch_join = on
+2016-03-22 09:20:13		  irc.look.color_nicks_in_names = off
+2016-03-22 09:20:13		  irc.look.color_nicks_in_nicklist = off
+2016-03-22 09:20:13		  irc.look.color_nicks_in_server_messages = on
+2016-03-22 09:20:13		  irc.look.color_pv_nick_like_channel = on
+2016-03-22 09:20:13		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2016-03-22 09:20:13		  irc.look.display_away = local
+2016-03-22 09:20:13		  irc.look.display_ctcp_blocked = on
+2016-03-22 09:20:13		  irc.look.display_ctcp_reply = on
+2016-03-22 09:20:13		  irc.look.display_ctcp_unknown = on
+2016-03-22 09:20:13		  irc.look.display_host_join = on
+2016-03-22 09:20:13		  irc.look.display_host_join_local = on
+2016-03-22 09:20:13		  irc.look.display_host_quit = on
+2016-03-22 09:20:13		  irc.look.display_join_message = "329,332,333,366"
+2016-03-22 09:20:13		  irc.look.display_old_topic = on
+2016-03-22 09:20:13		  irc.look.display_pv_away_once = on
+2016-03-22 09:20:13		  irc.look.display_pv_back = on
+2016-03-22 09:20:13		  irc.look.highlight_channel = "$nick"
+2016-03-22 09:20:13		  irc.look.highlight_pv = "$nick"
+2016-03-22 09:20:13		  irc.look.highlight_server = "$nick"
+2016-03-22 09:20:13		  irc.look.highlight_tags_restrict = "irc_privmsg,irc_notice"
+2016-03-22 09:20:13		  irc.look.item_away_message = on
+2016-03-22 09:20:13		  irc.look.item_channel_modes_hide_args = "k"
+2016-03-22 09:20:13		  irc.look.item_display_server = buffer_plugin
+2016-03-22 09:20:13		  irc.look.item_nick_modes = on
+2016-03-22 09:20:13		  irc.look.item_nick_prefix = on
+2016-03-22 09:20:13		  irc.look.join_auto_add_chantype = off
+2016-03-22 09:20:13		  irc.look.msgbuffer_fallback = current
+2016-03-22 09:20:13		  irc.look.new_channel_position = none
+2016-03-22 09:20:13		  irc.look.new_pv_position = none
+2016-03-22 09:20:13		  irc.look.nick_color_force = ""
+2016-03-22 09:20:13		  irc.look.nick_color_hash = sum
+2016-03-22 09:20:13		  irc.look.nick_color_stop_chars = "_|["
+2016-03-22 09:20:13		  irc.look.nick_completion_smart = speakers
+2016-03-22 09:20:13		  irc.look.nick_mode = prefix
+2016-03-22 09:20:13		  irc.look.nick_mode_empty = off
+2016-03-22 09:20:13		  irc.look.nicks_hide_password = "nickserv"
+2016-03-22 09:20:13		  irc.look.notice_as_pv = auto
+2016-03-22 09:20:13		  irc.look.notice_welcome_redirect = on
+2016-03-22 09:20:13		  irc.look.notice_welcome_tags = ""
+2016-03-22 09:20:13		  irc.look.notify_tags_ison = "notify_message"
+2016-03-22 09:20:13		  irc.look.notify_tags_whois = "notify_message"
+2016-03-22 09:20:13		  irc.look.part_closes_buffer = off
+2016-03-22 09:20:13		  irc.look.pv_buffer = independent
+2016-03-22 09:20:13		  irc.look.pv_tags = "notify_private"
+2016-03-22 09:20:13		  irc.look.raw_messages = 256
+2016-03-22 09:20:13		  irc.look.server_buffer = merge_with_core
+2016-03-22 09:20:13		  irc.look.smart_filter = on
+2016-03-22 09:20:13		  irc.look.smart_filter_delay = 5
+2016-03-22 09:20:13		  irc.look.smart_filter_join = on
+2016-03-22 09:20:13		  irc.look.smart_filter_join_unmask = 30
+2016-03-22 09:20:13		  irc.look.smart_filter_mode = "+"
+2016-03-22 09:20:13		  irc.look.smart_filter_nick = on
+2016-03-22 09:20:13		  irc.look.smart_filter_quit = on
+2016-03-22 09:20:13		  irc.look.temporary_servers = off
+2016-03-22 09:20:13		  irc.look.topic_strip_colors = off
+2016-03-22 09:20:13		[color] (irc.conf)
+2016-03-22 09:20:13		  irc.color.input_nick = lightcyan
+2016-03-22 09:20:13		  irc.color.item_away = yellow
+2016-03-22 09:20:13		  irc.color.item_channel_modes = default
+2016-03-22 09:20:13		  irc.color.item_lag_counting = default
+2016-03-22 09:20:13		  irc.color.item_lag_finished = yellow
+2016-03-22 09:20:13		  irc.color.item_nick_modes = default
+2016-03-22 09:20:13		  irc.color.message_join = green
+2016-03-22 09:20:13		  irc.color.message_quit = red
+2016-03-22 09:20:13		  irc.color.mirc_remap = "1,-1:darkgray"
+2016-03-22 09:20:13		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2016-03-22 09:20:13		  irc.color.notice = green
+2016-03-22 09:20:13		  irc.color.reason_quit = default
+2016-03-22 09:20:13		  irc.color.topic_current = default
+2016-03-22 09:20:13		  irc.color.topic_new = white
+2016-03-22 09:20:13		  irc.color.topic_old = default
+2016-03-22 09:20:13		[network] (irc.conf)
+2016-03-22 09:20:13		  irc.network.autoreconnect_delay_growing = 2
+2016-03-22 09:20:13		  irc.network.autoreconnect_delay_max = 600
+2016-03-22 09:20:13		  irc.network.ban_mask_default = "*!$ident@$host"
+2016-03-22 09:20:13		  irc.network.channel_encode = off
+2016-03-22 09:20:13		  irc.network.colors_receive = on
+2016-03-22 09:20:13		  irc.network.colors_send = on
+2016-03-22 09:20:13		  irc.network.lag_check = 60
+2016-03-22 09:20:13		  irc.network.lag_max = 1800
+2016-03-22 09:20:13		  irc.network.lag_min_show = 500
+2016-03-22 09:20:13		  irc.network.lag_reconnect = 0
+2016-03-22 09:20:13		  irc.network.lag_refresh_interval = 1
+2016-03-22 09:20:13		  irc.network.notify_check_ison = 1
+2016-03-22 09:20:13		  irc.network.notify_check_whois = 5
+2016-03-22 09:20:13		  irc.network.send_unknown_commands = off
+2016-03-22 09:20:13		  irc.network.whois_double_nick = off
+2016-03-22 09:20:13		[server_default] (irc.conf)
+2016-03-22 09:20:13		  irc.server_default.addresses = ""
+2016-03-22 09:20:13		  irc.server_default.anti_flood_prio_high = 2
+2016-03-22 09:20:13		  irc.server_default.anti_flood_prio_low = 2
+2016-03-22 09:20:13		  irc.server_default.autoconnect = off
+2016-03-22 09:20:13		  irc.server_default.autojoin = ""
+2016-03-22 09:20:13		  irc.server_default.autoreconnect = on
+2016-03-22 09:20:13		  irc.server_default.autoreconnect_delay = 10
+2016-03-22 09:20:13		  irc.server_default.autorejoin = off
+2016-03-22 09:20:13		  irc.server_default.autorejoin_delay = 30
+2016-03-22 09:20:13		  irc.server_default.away_check = 0
+2016-03-22 09:20:13		  irc.server_default.away_check_max_nicks = 25
+2016-03-22 09:20:13		  irc.server_default.capabilities = ""
+2016-03-22 09:20:13		  irc.server_default.command = ""
+2016-03-22 09:20:13		  irc.server_default.command_delay = 0
+2016-03-22 09:20:13		  irc.server_default.connection_timeout = 60
+2016-03-22 09:20:13		  irc.server_default.default_msg_kick = ""
+2016-03-22 09:20:13		  irc.server_default.default_msg_part = "WeeChat %v"
+2016-03-22 09:20:13		  irc.server_default.default_msg_quit = "WeeChat %v"
+2016-03-22 09:20:13		  irc.server_default.ipv6 = on
+2016-03-22 09:20:13		  irc.server_default.local_hostname = ""
+2016-03-22 09:20:13		  irc.server_default.nicks = "cal,cal1,cal2,cal3,cal4"  (default: "")
+2016-03-22 09:20:13		  irc.server_default.nicks_alternate = on
+2016-03-22 09:20:13		  irc.server_default.notify = ""
+2016-03-22 09:20:13		  irc.server_default.password = ""
+2016-03-22 09:20:13		  irc.server_default.proxy = ""
+2016-03-22 09:20:13		  irc.server_default.realname = ""
+2016-03-22 09:20:13		  irc.server_default.sasl_fail = continue
+2016-03-22 09:20:13		  irc.server_default.sasl_key = ""
+2016-03-22 09:20:13		  irc.server_default.sasl_mechanism = plain
+2016-03-22 09:20:13		  irc.server_default.sasl_password = ""
+2016-03-22 09:20:13		  irc.server_default.sasl_timeout = 15
+2016-03-22 09:20:13		  irc.server_default.sasl_username = ""
+2016-03-22 09:20:13		  irc.server_default.ssl = off
+2016-03-22 09:20:13		  irc.server_default.ssl_cert = ""
+2016-03-22 09:20:13		  irc.server_default.ssl_dhkey_size = 2048
+2016-03-22 09:20:13		  irc.server_default.ssl_fingerprint = ""
+2016-03-22 09:20:13		  irc.server_default.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2016-03-22 09:20:13		  irc.server_default.ssl_verify = on
+2016-03-22 09:20:13		  irc.server_default.username = "cal"  (default: "")
+2016-03-22 09:20:13		[look] (relay.conf)
+2016-03-22 09:20:13		  relay.look.auto_open_buffer = on
+2016-03-22 09:20:13		  relay.look.raw_messages = 256
+2016-03-22 09:20:13		[color] (relay.conf)
+2016-03-22 09:20:13		  relay.color.client = cyan
+2016-03-22 09:20:13		  relay.color.status_active = lightblue
+2016-03-22 09:20:13		  relay.color.status_auth_failed = lightred
+2016-03-22 09:20:13		  relay.color.status_connecting = yellow
+2016-03-22 09:20:13		  relay.color.status_disconnected = lightred
+2016-03-22 09:20:13		  relay.color.status_waiting_auth = brown
+2016-03-22 09:20:13		  relay.color.text = default
+2016-03-22 09:20:13		  relay.color.text_bg = default
+2016-03-22 09:20:13		  relay.color.text_selected = white
+2016-03-22 09:20:13		[network] (relay.conf)
+2016-03-22 09:20:13		  relay.network.allowed_ips = ""
+2016-03-22 09:20:13		  relay.network.bind_address = ""
+2016-03-22 09:20:13		  relay.network.clients_purge_delay = 0
+2016-03-22 09:20:13		  relay.network.compression_level = 6
+2016-03-22 09:20:13		  relay.network.ipv6 = on
+2016-03-22 09:20:13		  relay.network.max_clients = 5
+2016-03-22 09:20:13		  relay.network.password = ""
+2016-03-22 09:20:13		  relay.network.ssl_cert_key = "%h/ssl/relay.pem"
+2016-03-22 09:20:13		  relay.network.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2016-03-22 09:20:13		  relay.network.websocket_allowed_origins = ""
+2016-03-22 09:20:13		[irc] (relay.conf)
+2016-03-22 09:20:13		  relay.irc.backlog_max_minutes = 1440
+2016-03-22 09:20:13		  relay.irc.backlog_max_number = 256
+2016-03-22 09:20:13		  relay.irc.backlog_since_last_disconnect = on
+2016-03-22 09:20:13		  relay.irc.backlog_since_last_message = off
+2016-03-22 09:20:13		  relay.irc.backlog_tags = "irc_privmsg"
+2016-03-22 09:20:13		  relay.irc.backlog_time_format = "[%H:%M] "
+2016-03-22 09:20:13		[look] (script.conf)
+2016-03-22 09:20:13		  script.look.columns = "%s %n %V %v %u | %d | %t"
+2016-03-22 09:20:13		  script.look.diff_color = on
+2016-03-22 09:20:13		  script.look.diff_command = "auto"
+2016-03-22 09:20:13		  script.look.display_source = on
+2016-03-22 09:20:13		  script.look.quiet_actions = on
+2016-03-22 09:20:13		  script.look.sort = "p,n"
+2016-03-22 09:20:13		  script.look.translate_description = on
+2016-03-22 09:20:13		  script.look.use_keys = on
+2016-03-22 09:20:13		[color] (script.conf)
+2016-03-22 09:20:13		  script.color.status_autoloaded = cyan
+2016-03-22 09:20:13		  script.color.status_held = white
+2016-03-22 09:20:13		  script.color.status_installed = lightcyan
+2016-03-22 09:20:13		  script.color.status_obsolete = lightmagenta
+2016-03-22 09:20:13		  script.color.status_popular = yellow
+2016-03-22 09:20:13		  script.color.status_running = lightgreen
+2016-03-22 09:20:13		  script.color.status_unknown = lightred
+2016-03-22 09:20:13		  script.color.text = default
+2016-03-22 09:20:13		  script.color.text_bg = default
+2016-03-22 09:20:13		  script.color.text_bg_selected = red
+2016-03-22 09:20:13		  script.color.text_date = default
+2016-03-22 09:20:13		  script.color.text_date_selected = white
+2016-03-22 09:20:13		  script.color.text_delimiters = default
+2016-03-22 09:20:13		  script.color.text_description = default
+2016-03-22 09:20:13		  script.color.text_description_selected = white
+2016-03-22 09:20:13		  script.color.text_extension = default
+2016-03-22 09:20:13		  script.color.text_extension_selected = white
+2016-03-22 09:20:13		  script.color.text_name = cyan
+2016-03-22 09:20:13		  script.color.text_name_selected = lightcyan
+2016-03-22 09:20:13		  script.color.text_selected = white
+2016-03-22 09:20:13		  script.color.text_tags = brown
+2016-03-22 09:20:13		  script.color.text_tags_selected = yellow
+2016-03-22 09:20:13		  script.color.text_version = magenta
+2016-03-22 09:20:13		  script.color.text_version_loaded = default
+2016-03-22 09:20:13		  script.color.text_version_loaded_selected = white
+2016-03-22 09:20:13		  script.color.text_version_selected = lightmagenta
+2016-03-22 09:20:13		[scripts] (script.conf)
+2016-03-22 09:20:13		  script.scripts.autoload = on
+2016-03-22 09:20:13		  script.scripts.cache_expire = 1440
+2016-03-22 09:20:13		  script.scripts.download_timeout = 30
+2016-03-22 09:20:13		  script.scripts.hold = ""
+2016-03-22 09:20:13		  script.scripts.path = "%h/script"
+2016-03-22 09:20:13		  script.scripts.url = "http://weechat.org/files/plugins.xml.gz"
+2016-03-22 09:20:13		  script.scripts.url_force_https = on
+2016-03-22 09:20:13		596 options
+2016-03-22 09:24:19		Option changed: irc.server_default.nicks = "Cenobite,Coenobite,Ceno,Cenobite1"  (default: "")
+2016-03-22 09:25:02		Option changed: irc.server_default.username = "cenobite"  (default: "")
+2016-03-22 09:25:25		[irc]  /server  list|listfull [<server>]
+2016-03-22 09:25:25		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-03-22 09:25:25		                copy|rename <server> <new_name>
+2016-03-22 09:25:25		                reorder <server> [<server>...]
+2016-03-22 09:25:25		                del|keep <server>
+2016-03-22 09:25:25		                deloutq|jump|raw
+2016-03-22 09:25:25		list, add or remove IRC servers
+2016-03-22 09:25:25		    list: list servers (without argument, this list is displayed)
+2016-03-22 09:25:25		listfull: list servers with detailed info for each server
+2016-03-22 09:25:25		     add: add a new server
+2016-03-22 09:25:25		  server: server name, for internal and display use
+2016-03-22 09:25:25		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-03-22 09:25:25		    temp: add a temporary server (not saved)
+2016-03-22 09:25:25		  option: set option for server (for boolean option, value can be omitted)
+2016-03-22 09:25:25		nooption: set boolean option to 'off' (for example: -nossl)
+2016-03-22 09:25:25		    copy: duplicate a server
+2016-03-22 09:25:25		  rename: rename a server
+2016-03-22 09:25:25		 reorder: reorder list of servers
+2016-03-22 09:25:25		    keep: keep server in config file (for temporary servers only)
+2016-03-22 09:25:25		     del: delete a server
+2016-03-22 09:25:25		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-03-22 09:25:25		    jump: jump to server buffer
+2016-03-22 09:25:25		     raw: open buffer with raw IRC data
+2016-03-22 09:25:25		Examples:
+2016-03-22 09:25:25		  /server listfull
+2016-03-22 09:25:25		  /server add freenode chat.freenode.net
+2016-03-22 09:25:25		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-03-22 09:25:25		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-03-22 09:25:25		  /server copy freenode freenode-test
+2016-03-22 09:25:25		  /server rename freenode-test freenode2
+2016-03-22 09:25:25		  /server reorder freenode2 freenode
+2016-03-22 09:25:25		  /server del freenode
+2016-03-22 09:25:25		  /server deloutq
+2016-03-22 09:27:39		irc: server freenode added
+2016-03-22 09:28:06		[server] (irc.conf)
+2016-03-22 09:28:06		  irc.server.freenode.addresses = "chat.freenode.net"  (default if null: "")
+2016-03-22 09:28:06		1 option (matching with "irc.server.freenode.addresses")
+2016-03-22 09:28:23		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2016-03-22 09:28:39		[server] (irc.conf)
+2016-03-22 09:28:39		  irc.server.freenode.ssl = null -> off
+2016-03-22 09:28:39		1 option (matching with "irc.server.freenode.ssl")
+2016-03-22 09:28:49		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2016-03-22 09:30:18		Passphrase added
+2016-03-22 09:30:36		Secured data "freenode_password" set
+2016-03-22 09:30:36		Options saved to sec.conf
+2016-03-22 09:31:41		Option changed: irc.server.freenode.command = "/msg nickserv identify ${sec.data.freenode_password}"  (default if null: "")
+2016-03-22 09:31:58	=!=	Error with command "/server freendoe" (help on command: /help server)
+2016-03-22 09:32:01	=!=	Error with command "/server freenode" (help on command: /help server)
+2016-03-22 09:40:00		[irc]  /list  [<channel>[,<channel>...]] [<server>] [-re <regex>]
+2016-03-22 09:40:00		list channels and their topic
+2016-03-22 09:40:00		channel: channel to list
+2016-03-22 09:40:00		 server: server name
+2016-03-22 09:40:00		  regex: POSIX extended regular expression used to filter results (case insensitive, can start by "(?-i)" to become case sensitive)
+2016-03-22 09:40:00		Examples:
+2016-03-22 09:40:00		  list all channels on server (can be very slow on large networks):
+2016-03-22 09:40:00		    /list
+2016-03-22 09:40:00		  list channel #weechat:
+2016-03-22 09:40:00		    /list #weechat
+2016-03-22 09:40:00		  list all channels beginning with "#weechat" (can be very slow on large networks):
+2016-03-22 09:40:00		    /list -re #weechat.*
+2016-03-22 10:08:50		fifo: pipe closed
+2016-03-22 21:37:19		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-22 21:54:17		fifo: pipe closed
+2016-03-23 15:03:19		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-23 15:03:24	=!=	Error with command "/server freenode" (help on command: /help server)
+2016-03-23 16:52:49		fifo: pipe closed
+2016-03-24 10:56:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-24 11:07:43		fifo: pipe closed
+2016-03-24 11:08:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-24 11:10:16	⚠ 	Error: can not merge windows, there's no other window with same size near current one
+2016-03-24 11:22:28		[irc]  /list  [<channel>[,<channel>...]] [<server>] [-re <regex>]
+2016-03-24 11:22:28		list channels and their topic
+2016-03-24 11:22:28		channel: channel to list
+2016-03-24 11:22:28		 server: server name
+2016-03-24 11:22:28		  regex: POSIX extended regular expression used to filter results (case insensitive, can start by "(?-i)" to become case sensitive)
+2016-03-24 11:22:28		Examples:
+2016-03-24 11:22:28		  list all channels on server (can be very slow on large networks):
+2016-03-24 11:22:28		    /list
+2016-03-24 11:22:28		  list channel #weechat:
+2016-03-24 11:22:28		    /list #weechat
+2016-03-24 11:22:28		  list all channels beginning with "#weechat" (can be very slow on large networks):
+2016-03-24 11:22:28		    /list -re #weechat.*
+2016-03-24 11:25:20	⚠ 	Error: unknown command "/clear" (type /help for help)
+2016-03-24 17:14:27		fifo: removing old fifo pipe "/home/cal/.weechat/weechat_fifo_27542"
+2016-03-24 17:14:27		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-24 17:33:39		fifo: pipe closed
+2016-03-24 17:34:15		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-24 17:34:21		All servers:
+2016-03-24 17:34:21		   freenode
+2016-03-24 17:38:46		irc: server snoonet added
+2016-03-24 17:39:47		Option changed: irc.server.snoonet.addresses = "irc.snoonet.org/6697"  (default if null: "")
+2016-03-24 17:40:01		Option changed: irc.server.snoonet.ssl = on  (default if null: off)
+2016-03-24 17:40:15	⚠ 	Error with command "/server snoonet" (help on command: /help server)
+2016-03-24 19:46:21		Secured data "snoonet_password" set
+2016-03-24 19:46:21		Options saved to sec.conf
+2016-03-24 19:47:15		Option changed: irc.server.snoonet.command = "/msg nickserv identify ${sec.data.snoonet_password}"  (default if null: "")
+2016-03-24 20:25:16		[irc]  /users  [<target>]
+2016-03-24 20:25:16		list of users logged into the server
+2016-03-24 20:25:16		target: server name
+2016-03-24 21:38:57		fifo: pipe closed
+2016-03-25 17:38:01		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-25 18:16:59		fifo: pipe closed
+2016-03-27 16:34:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-03-27 16:35:03	⚠ 	irc: command "join" must be executed on connected irc server
+2016-03-27 16:41:24		fifo: pipe closed

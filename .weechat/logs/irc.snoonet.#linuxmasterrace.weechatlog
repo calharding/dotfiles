@@ -1,0 +1,489 @@
+2016-03-24 20:24:27	◥	Cenobite (cenobite@user/Cenobite) has joined #linuxmasterrace
+2016-03-24 20:24:27	ℹ 	Topic for #linuxmasterrace is "https://i.imgur.com/U49A9we.jpg | https://github.com/Leo-G/DevopsWiki | Mumble: mumble.winterfox.xyz | MUD: unixbird.imegumii.space:6250 |"
+2016-03-24 20:24:27	ℹ 	Topic set by Shadowhand (Shadowhand@178.62.65.223) on Sat, 19 Mar 2016 10:03:15
+2016-03-24 20:24:27	ℹ 	Channel #linuxmasterrace: 132 nicks (3 ops, 5 halfops, 2 voices, 122 normals)
+2016-03-24 20:24:27	ℹ 	Notice(caligula.snoonet.org): Replaying up to 10 lines of pre-join history spanning up to 3000 seconds
+2016-03-24 20:24:27	@R0flcopt3r	whitephoenix, full format? what nonsense is this?
+2016-03-24 20:24:27	Tuxfuk_Phone2	medfly: what's the difference between netbsd's licensing and the gpl?
+2016-03-24 20:24:27	medfly	let's be honest now... NetBSD's licensing is *weird*
+2016-03-24 20:24:28	whitephoenix	R0flcopt3r, my sd card was giving me issues so I'm doing a full format on it then reimaging
+2016-03-24 20:24:28	@R0flcopt3r	whitephoenix, oh
+2016-03-24 20:24:28	shiro	medfly: A webcomic once explained it to me as "You can lend your toys to your friend, but make sure he gives them back"
+2016-03-24 20:24:28	medfly	Tuxfuk_Phone2: it's mostly various versions of BSD license
+2016-03-24 20:24:28	Tuxfuk_Phone2	oh okay
+2016-03-24 20:24:28	medfly	some of the userland is GPL, I think it may be optional
+2016-03-24 20:24:28	medfly	there's no license mismatch between the two
+2016-03-24 20:24:29	ℹ 	Channel created on Sat, 21 Feb 2015 12:06:24
+2016-03-24 20:24:48	medfly	other *BSD projects care more about removing GPL'd stuff
+2016-03-24 20:24:58	ℹ 	Topic for #linuxmasterrace is "https://i.imgur.com/U49A9we.jpg | https://github.com/Leo-G/DevopsWiki | Mumble: mumble.winterfox.xyz | MUD: unixbird.imegumii.space:6250 |"
+2016-03-24 20:24:58	ℹ 	Topic set by Shadowhand (Shadowhand@178.62.65.223) on Sat, 19 Mar 2016 10:03:15
+2016-03-24 20:26:06	medfly	more in the sense that they have the means to care I guess
+2016-03-24 20:26:15	Tuxfuk_Phone2	why dont they want the gpl?
+2016-03-24 20:27:06	medfly	GPL makes your project GPL
+2016-03-24 20:27:08	Tuxfuk_Phone2	btw i posted that to r/rule34
+2016-03-24 20:27:15	medfly	... what exactly
+2016-03-24 20:27:35	Pie-jacker875	the squidward with a dildo on his nose?
+2016-03-24 20:27:38	◣	Injigo (quassel@Snoonet-bgg.661.f35a8i.IP) has quit (Connection closed)
+2016-03-24 20:27:54	◥	Tuxfuk_Phone (yaaic@Snoonet-i7i033.um3c.5d4n.6n61lt.IP) has joined #linuxmasterrace
+2016-03-24 20:27:55	+gonzobot	​ add Arch Sucks, Gentoo Swallows
+2016-03-24 20:28:02	Tuxfuk_Phone	the link from earlier
+2016-03-24 20:28:04	Tuxfuk_Phone	yeah
+2016-03-24 20:28:16	◣	Tuxfuk_Phone2 (yaaic@Snoonet-1h8vdn.vt4s.tvvs.qlnfi0.IP) has quit (Connection closed)
+2016-03-24 20:28:30	@R0flcopt3r	fucks sake
+2016-03-24 20:28:39	@R0flcopt3r	they're now blasting music at full poop
+2016-03-24 20:28:47	Tuxfuk_Phone	hehehe i got an upvote
+2016-03-24 20:28:50	@R0flcopt3r	nice
+2016-03-24 20:28:59	@R0flcopt3r	the drop is incoming
+2016-03-24 20:29:02	@R0flcopt3r	time to hold on :S
+2016-03-24 20:29:16	medfly	Tuxfuk_Phone: if you mix in almost any other license it does not change the entire project's license
+2016-03-24 20:29:25	◥	calexil_Arch (jd@Snoonet-gj5.irv.h476uj.IP) has joined #linuxmasterrace
+2016-03-24 20:29:25	+gonzobot	​ Roses are red, violets are blue, sudo pacman -Syu
+2016-03-24 20:29:31	calexil_Arch	im baaaack
+2016-03-24 20:29:38	Tuxfuk_Phone	gtfo
+2016-03-24 20:29:42	@R0flcopt3r	my mouse is literally moving
+2016-03-24 20:29:42	calexil_Arch	bass drops
+2016-03-24 20:29:49	@R0flcopt3r	like the pointer is moving across my screen
+2016-03-24 20:29:50	Tuxfuk_Phone	Gentoo or winbloze
+2016-03-24 20:30:02	@R0flcopt3r	and my pants are vibrating like holy fuck
+2016-03-24 20:30:04	Tuxfuk_Phone	laptop?
+2016-03-24 20:30:14	@R0flcopt3r	I'm 20m away from these speakers
+2016-03-24 20:30:18	@R0flcopt3r	20 METERS!
+2016-03-24 20:30:24	◣	calexil_Arch (jd@Snoonet-gj5.irv.h476uj.IP) has quit (Connection closed)
+2016-03-24 20:30:27	Tuxfuk_Phone	oh lol
+2016-03-24 20:30:37	@R0flcopt3r	and there are a tons of shit in between
+2016-03-24 20:31:00	@R0flcopt3r	I feel bad for my hard drives
+2016-03-24 20:31:28	@R0flcopt3r	finally they turned it down!
+2016-03-24 20:31:30	@R0flcopt3r	aight
+2016-03-24 20:31:31	@R0flcopt3r	never mind
+2016-03-24 20:31:35	@R0flcopt3r	they put on more bass
+2016-03-24 20:31:37	Tuxfuk_Phone	medfly: but with the gpl, it changes shit?
+2016-03-24 20:31:53	medfly	Yes. that is the copy-left part.
+2016-03-24 20:32:17	@R0flcopt3r	PureTryOut, Shadowhand http://i.imgur.com/Mk1ThAd.gifv
+2016-03-24 20:32:17	+gonzobot	(R0flcopt3r) Title: Here, catch!
+2016-03-24 20:32:31	Shibe	how do i get xid of a window?
+2016-03-24 20:32:37	medfly	the existence of multiple GPL variants is also troubling
+2016-03-24 20:32:40	%Shadowhand	Awwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+2016-03-24 20:32:46	medfly	this is user-oriented. developers are annoyed by it.
+2016-03-24 20:32:54	medfly	and netbsd is like 90% developers
+2016-03-24 20:32:56	%Shadowhand	Also I started doing 3DS development.
+2016-03-24 20:33:06	@R0flcopt3r	nice!
+2016-03-24 20:33:36	Tuxfuk_Phone	fat chicks should not wear yogaponts
+2016-03-24 20:34:01	@R0flcopt3r	Tuxfuk_Phone, yeah, so go change into some proper pants!
+2016-03-24 20:35:05	@R0flcopt3r	they're now playing freestyla 
+2016-03-24 20:35:10	@R0flcopt3r	or whatever it's called
+2016-03-24 20:36:12	@R0flcopt3r	music stopped!
+2016-03-24 20:36:14	@R0flcopt3r	thank good!
+2016-03-24 20:36:37	%Shadowhand	R0flcopt3r https://github.com/RShadowhand/GL9
+2016-03-24 20:36:37	+gonzobot	(Shadowhand) Title: GitHub - RShadowhand/GL9: GodMode9 Explorer - A full access file browser for the Nintendo 3DS console
+2016-03-24 20:36:42	◥	Airn (Airn@Snoonet-d0i.pga.pk7v4h.IP) has joined #linuxmasterrace
+2016-03-24 20:36:45	%Shadowhand	Gotta change the description tho
+2016-03-24 20:37:03	@R0flcopt3r	nice!
+2016-03-24 20:37:52	Tuxfuk_Phone	oh shit
+2016-03-24 20:37:55	Tuxfuk_Phone	got me
+2016-03-24 20:38:19	@R0flcopt3r	I should get some of those ear dots things
+2016-03-24 20:38:26	%Shadowhand	ear plugs you mean
+2016-03-24 20:38:28	@R0flcopt3r	or else I won't have any hearing left
+2016-03-24 20:38:29	@R0flcopt3r	yeah
+2016-03-24 20:38:44	@R0flcopt3r	like, there's no use in putting your headset on
+2016-03-24 20:38:55	Tuxfuk_Phone	jesus this woman is clearing out subway
+2016-03-24 20:38:55	@R0flcopt3r	cause the bass just makes your drivers vibrate 
+2016-03-24 20:39:02	@R0flcopt3r	I ate a sub today!
+2016-03-24 20:39:03	Tuxfuk_Phone	got fucking 4 cookies
+2016-03-24 20:39:04	@R0flcopt3r	at subway!
+2016-03-24 20:39:06	@R0flcopt3r	in sweeden!
+2016-03-24 20:39:33	Tuxfuk_Phone	and she got all the oils and fatty shit
+2016-03-24 20:39:55	Tuxfuk_Phone	and her hair is dyed portially blue
+2016-03-24 20:40:07	Tuxfuk_Phone	in sweeden?
+2016-03-24 20:40:11	@R0flcopt3r	yepp
+2016-03-24 20:40:13	Tuxfuk_Phone	that's pretty cool!
+2016-03-24 20:40:18	@R0flcopt3r	I went to sweeden today!
+2016-03-24 20:40:30	@R0flcopt3r	and it's on e, heh
+2016-03-24 20:40:35	Tuxfuk_Phone	e?
+2016-03-24 20:40:39	zowlyfon	R0flcopt3r: get moulded iems
+2016-03-24 20:40:40	@R0flcopt3r	yeah, sweden
+2016-03-24 20:40:50	@R0flcopt3r	zowlyfon, not worth it
+2016-03-24 20:41:03	zowlyfon	get music earplugs then
+2016-03-24 20:41:14	@R0flcopt3r	why?
+2016-03-24 20:41:24	@R0flcopt3r	I want to lower the volume, not mute it
+2016-03-24 20:41:50	zowlyfon	thats what music earplugs do
+2016-03-24 20:41:59	Tuxfuk_Phone	are they using bluetooth?
+2016-03-24 20:42:01	zowlyfon	they lower everything by 5 - 15dB normally
+2016-03-24 20:42:09	Tuxfuk_Phone	are they on a wifi network?
+2016-03-24 20:42:12	zowlyfon	no
+2016-03-24 20:42:15	zowlyfon	they are earplugs
+2016-03-24 20:42:16	@R0flcopt3r	aight, but those ear plugs are usually free
+2016-03-24 20:42:18	@R0flcopt3r	you see?
+2016-03-24 20:42:19	zowlyfon	they plug your ears
+2016-03-24 20:42:25	zowlyfon	R0flcopt3r: not good ones
+2016-03-24 20:42:28	@R0flcopt3r	no
+2016-03-24 20:42:41	@R0flcopt3r	but that doesn't matter
+2016-03-24 20:42:49	@R0flcopt3r	I just need a slight reduction 
+2016-03-24 20:42:50	zowlyfon	if they are made of foam they are not music earpugs
+2016-03-24 20:43:01	zowlyfon	they won't dampen all frequencies evenl,y
+2016-03-24 20:43:06	zowlyfon	they will affect the music
+2016-03-24 20:43:26	whitephoenix	okay here we go, trying without display
+2016-03-24 20:43:45	shiro	Foam? Is this the 90s?
+2016-03-24 20:43:50	Tuxfuk_Phone	if they're using any of those, you con boot them
+2016-03-24 20:44:25	@R0flcopt3r	zowlyfon, I'm not going to buy ear buds or whatever you want to call them
+2016-03-24 20:44:30	@R0flcopt3r	just because it's to loud here
+2016-03-24 20:44:35	@R0flcopt3r	HERE
+2016-03-24 20:44:38	shiro	I only use earbuds (the shroom variety), to pipe music directly into my head
+2016-03-24 20:44:40	@R0flcopt3r	not everywhere I go
+2016-03-24 20:44:45	@R0flcopt3r	just here, these days
+2016-03-24 20:44:49	@R0flcopt3r	until sunday
+2016-03-24 20:44:57	Jennifer-Lawrence	abck
+2016-03-24 20:45:04	Jennifer-Lawrence	and R0flcopt3r i saw that
+2016-03-24 20:45:06	@R0flcopt3r	good
+2016-03-24 20:45:07	Jennifer-Lawrence	nice ass
+2016-03-24 20:45:14	Jennifer-Lawrence	and legs
+2016-03-24 20:45:37	◥	whitephoenix0 (whitephoeni@Snoonet-b0q.cl0.h5ms9t.IP) has joined #linuxmasterrace
+2016-03-24 20:46:09	Tuxfuk_Phone	nice tits
+2016-03-24 20:46:46	whitephoenix0	okay rpi doesn't seem to be reading sd now
+2016-03-24 20:47:09	Jennifer-Lawrence	damn
+2016-03-24 20:47:27	Jennifer-Lawrence	ever think about upgrading?
+2016-03-24 20:47:30	Jennifer-Lawrence	B+?
+2016-03-24 20:47:42	whitephoenix0	I'd prefer not to if possible
+2016-03-24 20:48:32	◣	whitephoenix (whitephoeni@Snoonet-b0q.cl0.h5ms9t.IP) has quit (Ping timeout: 121 seconds)
+2016-03-24 20:48:54	ℹ 	whitephoenix0 is now known as whitephoenix
+2016-03-24 20:49:50	Jennifer-Lawrence	wait where did you buy that?
+2016-03-24 20:49:56	whitephoenix	amazon
+2016-03-24 20:49:59	whitephoenix	it worked fine for a while
+2016-03-24 20:50:05	whitephoenix	I think the sd card is the problem
+2016-03-24 20:50:09	Jennifer-Lawrence	same when i bought my first one
+2016-03-24 20:50:16	Jennifer-Lawrence	turned out to be the cheap chinese model
+2016-03-24 20:50:21	medfly	I am also getting a B+.
+2016-03-24 20:50:24	medfly	I traded my laptop for it.
+2016-03-24 20:50:26	Jennifer-Lawrence	and the  SD card wouldnt read
+2016-03-24 20:50:27	whitephoenix	the volume does not contain a recognized file system
+2016-03-24 20:50:29	whitephoenix	that's not good
+2016-03-24 20:50:29	medfly	pretty much
+2016-03-24 20:50:30	Tuxfuk_Phone	i have a b+
+2016-03-24 20:50:36	Jennifer-Lawrence	B+ ++
+2016-03-24 20:50:38	Jennifer-Lawrence	B++
+2016-03-24 20:50:44	Tuxfuk_Phone	b--
+2016-03-24 20:50:48	Jennifer-Lawrence	no
+2016-03-24 20:50:53	%Shadowhand	C++
+2016-03-24 20:50:55	Tuxfuk_Phone	yes
+2016-03-24 20:51:02	Jennifer-Lawrence	D++
+2016-03-24 20:51:05	Himrin	c++++
+2016-03-24 20:51:12	Tuxfuk_Phone	V++
+2016-03-24 20:51:13	Jennifer-Lawrence	Java++
+2016-03-24 20:51:22	Himrin	Java+-
+2016-03-24 20:51:24	Tuxfuk_Phone	cancer++
+2016-03-24 20:51:42	Pie-jacker875	C+=
+2016-03-24 20:53:07	@R0flcopt3r	sombody do R0flcopt3r++
+2016-03-24 20:53:09	@R0flcopt3r	plz
+2016-03-24 20:53:14	%Shadowhand	Shadowhand++
+2016-03-24 20:53:22	Jennifer-Lawrence	R0flcopt3r++
+2016-03-24 20:53:24	@R0flcopt3r	woo!
+2016-03-24 20:53:26	Jennifer-Lawrence	.points R0flcopt3r 
+2016-03-24 20:53:27	+gonzobot	(Jennifer-Lawrence) R0flcopt3r has a total score of 0 (+2/-2) in #linuxmasterrace.
+2016-03-24 20:53:31	Jennifer-Lawrence	yee
+2016-03-24 20:53:31	%Shadowhand	.points
+2016-03-24 20:53:32	+gonzobot	(Shadowhand)  has a total score of 20 (+21/-1) in #linuxmasterrace.
+2016-03-24 20:53:32	@R0flcopt3r	I need more
+2016-03-24 20:53:32	@R0flcopt3r	plz
+2016-03-24 20:53:34	Himrin	.points somebody do R0flcopt3r
+2016-03-24 20:53:34	+gonzobot	(Himrin) I couldn't find somebody do R0flcopt3r in the database.
+2016-03-24 20:53:36	%Shadowhand	Lord jesus what
+2016-03-24 20:53:43	Jennifer-Lawrence	Shadowhand, is killin it
+2016-03-24 20:53:44	@R0flcopt3r	Himrin, plz
+2016-03-24 20:53:49	Jennifer-Lawrence	Shadowhand++
+2016-03-24 20:53:51	Himrin	Shadowhand--
+2016-03-24 20:53:54	Himrin	Shadowhand--
+2016-03-24 20:53:54	@R0flcopt3r	Shadowhand++
+2016-03-24 20:53:55	Jennifer-Lawrence	no
+2016-03-24 20:53:56	Himrin	Shadowhand--
+2016-03-24 20:53:58	%Shadowhand	.points
+2016-03-24 20:53:59	@R0flcopt3r	Himrin--
+2016-03-24 20:53:59	+gonzobot	(Shadowhand)  has a total score of 20 (+21/-1) in #linuxmasterrace.
+2016-03-24 20:54:06	@R0flcopt3r	Himrin, only works once
+2016-03-24 20:54:13	Himrin	R0flcopt3r: I know.
+2016-03-24 20:54:19	Jennifer-Lawrence	.points
+2016-03-24 20:54:20	+gonzobot	(Jennifer-Lawrence)  has a total score of 20 (+21/-1) in #linuxmasterrace.
+2016-03-24 20:54:23	Himrin	I was just expressing my discontent.
+2016-03-24 20:54:25	Jennifer-Lawrence	wait
+2016-03-24 20:54:28	Jennifer-Lawrence	whut
+2016-03-24 20:54:29	@R0flcopt3r	Himrin, I see
+2016-03-24 20:54:31	Jennifer-Lawrence	.points Shadowhand 
+2016-03-24 20:54:32	+gonzobot	(Jennifer-Lawrence) Shadowhand has a total score of 9 (+14/-5) in #linuxmasterrace.
+2016-03-24 20:54:35	Jennifer-Lawrence	lol
+2016-03-24 20:54:39	Takios	ha :D
+2016-03-24 20:54:40	%Shadowhand	.points
+2016-03-24 20:54:40	+gonzobot	(Shadowhand)  has a total score of 20 (+21/-1) in #linuxmasterrace.
+2016-03-24 20:54:40	@R0flcopt3r	lolwat
+2016-03-24 20:54:42	@R0flcopt3r	hah!
+2016-03-24 20:54:46	%Shadowhand	lmao
+2016-03-24 20:54:47	%Shadowhand	++
+2016-03-24 20:54:48	@R0flcopt3r	wut
+2016-03-24 20:54:50	Jennifer-Lawrence	lol wut
+2016-03-24 20:54:51	%Shadowhand	++
+2016-03-24 20:54:52	Takios	.points Jennifer-Lawrence
+2016-03-24 20:54:53	+gonzobot	(Takios) Jennifer-Lawrence has a total score of 4 (+5/-1) in #linuxmasterrace.
+2016-03-24 20:54:54	%Shadowhand	hmm
+2016-03-24 20:54:58	%Shadowhand	.points Shadowhand
+2016-03-24 20:54:58	+gonzobot	(Shadowhand) Shadowhand has a total score of 9 (+14/-5) in #linuxmasterrace.
+2016-03-24 20:55:03	%Shadowhand	I have 9, wooooooo
+2016-03-24 20:55:04	@R0flcopt3r	uhm
+2016-03-24 20:55:13	@R0flcopt3r	Shadowhand, but you had 21 before!
+2016-03-24 20:55:15	Jennifer-Lawrence	thet points system is weird
+2016-03-24 20:55:16	Himrin	.points pants
+2016-03-24 20:55:16	+gonzobot	(Himrin) pants has a total score of -14 (+0/-14) in #linuxmasterrace.
+2016-03-24 20:55:20	%Shadowhand	R0flcopt3r, that was " "
+2016-03-24 20:55:20	Jennifer-Lawrence	.points points
+2016-03-24 20:55:20	+gonzobot	(Jennifer-Lawrence) points has a total score of 0 (+2/-2) in #linuxmasterrace.
+2016-03-24 20:55:21	Himrin	.points boobs
+2016-03-24 20:55:21	+gonzobot	(Himrin) boobs has a total score of 96 (+111/-15) in #linuxmasterrace.
+2016-03-24 20:55:26	@R0flcopt3r	Shadowhand, oh!
+2016-03-24 20:55:40	Himrin	boobs++
+2016-03-24 20:55:40	Takios	boobs has the most points iirc
+2016-03-24 20:55:43	Jennifer-Lawrence	ey R0flcopt3r is #1 in the channel stats
+2016-03-24 20:55:46	Jennifer-Lawrence	https://chanstats.snoonet.org/%23linuxmasterrace.html
+2016-03-24 20:55:46	+gonzobot	(Jennifer-Lawrence) Title: #linuxmasterrace @ Snoonet stats by Snoonet
+2016-03-24 20:55:51	Jennifer-Lawrence	congrats
+2016-03-24 20:55:55	@R0flcopt3r	woo!
+2016-03-24 20:56:02	Airn	my sister is ascending ^^ :D
+2016-03-24 20:56:09	@R0flcopt3r	Airn, nice!
+2016-03-24 20:56:12	Himrin	.top
+2016-03-24 20:56:19	Takios	.htop
+2016-03-24 20:56:23	Takios	:(
+2016-03-24 20:56:32	Himrin	.points help
+2016-03-24 20:56:33	+gonzobot	(Himrin) I couldn't find help in the database.
+2016-03-24 20:56:40	Jennifer-Lawrence	Airn, wat distro?
+2016-03-24 20:56:41	Airn	i'm installing Xubuntu on her HP Pavilion dv6700
+2016-03-24 20:56:44	Himrin	.topten
+2016-03-24 20:56:44	+gonzobot	(Himrin) The top 10 favorite things in #linuxmasterrace are: boobs with 97 points • triggered with 52 points • tea with 49 points • c with 41 points • zinn with 21 points •  with 20 points • zowlyfon with 17 points • arch with 14 points • mint with 13 points • clitmouse with 13 points 
+2016-03-24 20:56:47	Jennifer-Lawrence	ooo
+2016-03-24 20:56:57	Jennifer-Lawrence	LOL
+2016-03-24 20:56:59	Jennifer-Lawrence	triggered
+2016-03-24 20:57:04	Himrin	.bottomten
+2016-03-24 20:57:04	+gonzobot	(Himrin) The 10 most hated things in #linuxmasterrace are: c++ with -31 points • gamebag with -30 points • windows with -21 points • exherbo with -17 points • pants with -14 points • apple with -9 points • unixbird with -8 points • java with -7 points • france with -7 points • teamspeak with -6 points 
+2016-03-24 20:57:05	Takios	clitmouse
+2016-03-24 20:57:07	Takios	wtf
+2016-03-24 20:57:19	Jennifer-Lawrence	LOL gamebag has -30
+2016-03-24 20:57:20	Himrin	Yeah...
+2016-03-24 20:57:27	Jennifer-Lawrence	.points windows
+2016-03-24 20:57:27	+gonzobot	(Jennifer-Lawrence) windows has a total score of -21 (+3/-24) in #linuxmasterrace.
+2016-03-24 20:57:30	Takios	well deserved
+2016-03-24 20:57:31	Jennifer-Lawrence	.points windows7
+2016-03-24 20:57:32	+gonzobot	(Jennifer-Lawrence) windows7 has a total score of 4 (+4/0) in #linuxmasterrace.
+2016-03-24 20:57:33	Jennifer-Lawrence	good
+2016-03-24 20:57:35	Airn	why c++?
+2016-03-24 20:57:55	Airn	Windows 7 is good OS actually
+2016-03-24 20:57:58	Airn	best Windows
+2016-03-24 20:58:04	Jennifer-Lawrence	.highfive Airn 
+2016-03-24 20:58:04	⚡	zinixbot highfives Airn
+2016-03-24 20:58:10	@R0flcopt3r	arti, no! windows xp was best!
+2016-03-24 20:58:14	Jennifer-Lawrence	no
+2016-03-24 20:58:16	@R0flcopt3r	windows7--
+2016-03-24 20:58:18	Jennifer-Lawrence	windows Xp gaming edition
+2016-03-24 20:58:19	whitephoenix	98
+2016-03-24 20:58:23	Jennifer-Lawrence	was the best
+2016-03-24 20:58:24	@R0flcopt3r	Jennifer-Lawrence, ah, I had that
+2016-03-24 20:58:30	Airn	if had to descent myself i would go Win 7
+2016-03-24 20:58:35	Airn	second would 10 :D
+2016-03-24 20:58:42	Airn	would be*
+2016-03-24 20:58:42	@R0flcopt3r	I would go windows 10
+2016-03-24 20:58:44	Jennifer-Lawrence	nah son
+2016-03-24 20:58:44	whitephoenix	I would go windows 8.1
+2016-03-24 20:58:48	@R0flcopt3r	cause it's a whole lot better than windows 7
+2016-03-24 20:58:53	arti	win98 was the best
+2016-03-24 20:58:56	whitephoenix	fast as win10 with less spying
+2016-03-24 20:59:02	Airn	Windows 7 > Windows 10 > Windows 8.1
+2016-03-24 20:59:03	@R0flcopt3r	arti, windows ME!
+2016-03-24 20:59:08	Jennifer-Lawrence	^
+2016-03-24 20:59:09	arti	:D
+2016-03-24 20:59:13	@R0flcopt3r	8.1 is crap
+2016-03-24 20:59:17	Jennifer-Lawrence	true
+2016-03-24 20:59:20	@R0flcopt3r	like the biggest crap ever
+2016-03-24 20:59:22	@R0flcopt3r	worse than ME
+2016-03-24 20:59:24	Airn	+1
+2016-03-24 20:59:31	@R0flcopt3r	and everything else
+2016-03-24 20:59:52	@R0flcopt3r	I actually run it on my windows partition
+2016-03-24 21:00:03	Airn	i have Windows 10
+2016-03-24 21:00:19	◥	zinn_ (zinn@Snoonet-fh8.cl4.3n6jvg.IP) has joined #linuxmasterrace
+2016-03-24 21:00:31	zinn_	tfw
+2016-03-24 21:00:36	Airn	cuz Gears of War
+2016-03-24 21:00:40	zinn_	not sure if other in use is me or not me
+2016-03-24 21:00:41	medfly	I'm unhappy
+2016-03-24 21:00:45	zinn_	not sure i wanna ghost it
+2016-03-24 21:00:51	Jennifer-Lawrence	wait Airn wat gears of war?
+2016-03-24 21:00:54	◣	zinn (zinn@user/zinn) has quit (Ping timeout: 121 seconds)
+2016-03-24 21:00:54	ℹ 	zinn_ is now known as zinn
+2016-03-24 21:00:55	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-24 21:00:55	◣	zinn (zinn@Snoonet-fh8.cl4.3n6jvg.IP) has quit (Changing host)
+2016-03-24 21:00:55	◥	zinn (zinn@user/zinn) has joined #linuxmasterrace
+2016-03-24 21:00:55	ℹ 	Mode #linuxmasterrace [+h zinn] by caligula.snoonet.org
+2016-03-24 21:00:57	Jennifer-Lawrence	theres another one on windows?
+2016-03-24 21:01:13	@R0flcopt3r	uu! someone posted a california map for cities skylines!
+2016-03-24 21:01:15	Airn	Jennifer-Lawrence: Remaster of first Gears of War is Windows 10 ex
+2016-03-24 21:01:16	@R0flcopt3r	I'm going to play it now
+2016-03-24 21:01:24	Jennifer-Lawrence	man damn
+2016-03-24 21:01:29	Jennifer-Lawrence	i wanna play gears again
+2016-03-24 21:01:49	%zinn	huh
+2016-03-24 21:01:50	%zinn	it is me
+2016-03-24 21:01:53	Airn	shame it's Windows Store
+2016-03-24 21:01:54	%zinn	whoops
+2016-03-24 21:01:58	Airn	so no v-sync and shit
+2016-03-24 21:02:02	Jennifer-Lawrence	TIL zinn has a clone
+2016-03-24 21:02:19	%zinn	its just my znc buggin out
+2016-03-24 21:02:29	◣	zinn (zinn@user/zinn) has left #linuxmasterrace
+2016-03-24 21:02:37	Jennifer-Lawrence	zinn has a clone guys
+2016-03-24 21:02:52	◥	zinn (zinn@user/zinn) has joined #linuxmasterrace
+2016-03-24 21:02:52	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-24 21:02:52	+gonzobot	​ anything you can do I can do faster in vim
+2016-03-24 21:02:59	%zinn	man znc is funky
+2016-03-24 21:03:14	%zinn	i have two windows of this open
+2016-03-24 21:03:21	%zinn	and when i close one the other dies
+2016-03-24 21:03:29	◣	zinn (zinn@user/zinn) has left #linuxmasterrace
+2016-03-24 21:03:33	whitephoenix	sd card official fucked
+2016-03-24 21:03:40	◥	zinn (zinn@user/zinn) has joined #linuxmasterrace
+2016-03-24 21:03:40	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-24 21:03:40	+gonzobot	​ anything you can do I can do faster in vim
+2016-03-24 21:03:42	Jennifer-Lawrence	damn
+2016-03-24 21:03:53	Jennifer-Lawrence	wait whitephoenix link that pic of your PI again
+2016-03-24 21:03:54	%zinn	this is so fucked
+2016-03-24 21:04:09	whitephoenix	just a sec
+2016-03-24 21:04:11	Shibe	i give up
+2016-03-24 21:04:15	Shibe	there is no way of hiding an app from taskbar
+2016-03-24 21:04:21	whitephoenix	https://i.imgur.com/c8kPHcV.jpg
+2016-03-24 21:04:22	+gonzobot	(whitephoenix) Content Type: image/jpeg Size: 144KB
+2016-03-24 21:04:56	%zinn	now i have three copies
+2016-03-24 21:04:58	%zinn	wtf
+2016-03-24 21:05:03	%zinn	thjis is such utter bullshit
+2016-03-24 21:05:30	◣	Tuxfuk_Phone (yaaic@Snoonet-i7i033.um3c.5d4n.6n61lt.IP) has quit (Ping timeout: 121 seconds)
+2016-03-24 21:06:09	%zinn	and now it works perfectly
+2016-03-24 21:06:11	%zinn	fuck you too znc
+2016-03-24 21:06:29	Himrin	ZNC requests you buy it dinner first.
+2016-03-24 21:06:29	weeedbot	I do not support this request.
+2016-03-24 21:06:31	Jennifer-Lawrence	whitephoenix, u sure u got the legit model?
+2016-03-24 21:06:44	whitephoenix	Yeah
+2016-03-24 21:06:47	whitephoenix	it worked fine for a while
+2016-03-24 21:06:48	%zinn	Himrin: yep
+2016-03-24 21:06:57	whitephoenix	I had weird things happening to the sd card before
+2016-03-24 21:07:07	whitephoenix	and now I realize that was my problem all along most likely
+2016-03-24 21:07:15	%zinn	irc take so little data
+2016-03-24 21:07:17	%zinn	damn
+2016-03-24 21:07:17	Jennifer-Lawrence	yours dosent have the different colors on the ports
+2016-03-24 21:07:21	Jennifer-Lawrence	so yours should be legit
+2016-03-24 21:07:26	%zinn	like my current total usagei s 704KB
+2016-03-24 21:07:34	Jennifer-Lawrence	the one i had was a different color on the audio port
+2016-03-24 21:07:54	whitephoenix	It's legit I checked
+2016-03-24 21:07:58	Jennifer-Lawrence	but there is one fix i found if the sd card isnt reading properly
+2016-03-24 21:08:23	whitephoenix	I was looking at my sd card and the casing fell off so
+2016-03-24 21:09:19	Jennifer-Lawrence	one thing it may not be connecting properly
+2016-03-24 21:09:38	Shibe	linux really needs a proper widget app
+2016-03-24 21:09:41	Jennifer-Lawrence	when i had mine i put a small piece of paper in between the sd card and reader to make the proper connection
+2016-03-24 21:09:52	Jennifer-Lawrence	didnt work but thats what some people did
+2016-03-24 21:10:02	Jennifer-Lawrence	i guess it was my chinese model
+2016-03-24 21:12:03	%zinn	lol znc doesnt like when i add allowed ips
+2016-03-24 21:12:50	geosmin	howdy
+2016-03-24 21:13:00	Jennifer-Lawrence	partner
+2016-03-24 21:13:01	geosmin	i drank too much coffee, this isn't fun
+2016-03-24 21:13:31	geosmin	end of story
+2016-03-24 21:14:18	◥	frakturfreak (frakturfrea@user/frakturfreak) has joined #linuxmasterrace
+2016-03-24 21:14:37	medfly	 wow I live in a terrible country
+2016-03-24 21:14:52	medfly	the solution is to never go outside
+2016-03-24 21:15:25	geosmin	Shibe: what the hell is a widget app
+2016-03-24 21:15:33	Shibe	geosmin: something like rainmeter
+2016-03-24 21:15:35	Shibe	widgets
+2016-03-24 21:15:40	geosmin	Shibe: fuck no
+2016-03-24 21:15:42	Shibe	why
+2016-03-24 21:15:45	geosmin	useless
+2016-03-24 21:15:52	Shibe	no they're somewhat useful
+2016-03-24 21:15:57	Shibe	i like my conky but conky is broken atm
+2016-03-24 21:16:05	Shibe	and it cant be interacted with
+2016-03-24 21:16:05	geosmin	imo they're the pinnacle of OS gimmickness
+2016-03-24 21:16:12	geosmin	they're the flip 3D for all OSs
+2016-03-24 21:17:24	◥	Nothing_Much (Nothing_Muc@user/Nothing-Much/x-98833468) has joined #linuxmasterrace
+2016-03-24 21:17:55	geosmin	holy fuckballs does google-chrome take a long time to download
+2016-03-24 21:17:59	geosmin	it's been like 10 minutes
+2016-03-24 21:18:55	medfly	someone on another channel shared this
+2016-03-24 21:18:56	medfly	http://www.imagebam.com/image/809e98473580176
+2016-03-24 21:18:57	+gonzobot	(medfly) Title: ImageBam
+2016-03-24 21:18:57	medfly	wat
+2016-03-24 21:19:32	◥	tsahyt (tsahyt@Snoonet-iav.mg5.01tqf0.IP) has joined #linuxmasterrace
+2016-03-24 21:19:32	+gonzobot	​ overflow error in /dev/null
+2016-03-24 21:19:32	◣	tsahyt (tsahyt@Snoonet-iav.mg5.01tqf0.IP) has quit (Changing host)
+2016-03-24 21:19:32	◥	tsahyt (tsahyt@user/tsahyt) has joined #linuxmasterrace
+2016-03-24 21:19:44	medfly	it's a table
+2016-03-24 21:19:57	tsahyt	this is the weirdest bug. sometimes when I hibernate my machine, text rendering is completely broken after I start it again
+2016-03-24 21:22:20	tsahyt	the only way to fix it seems to be restarting X
+2016-03-24 21:22:40	tsahyt	mostly because I can't read shit while it's bugged, so I can't analyze it anyhow
+2016-03-24 21:27:58	Himrin	tsahyt: Can you switch to a TTY to grab the logs?
+2016-03-24 21:28:21	◣	medfly (notf@Snoonet-mbq.86t.141ci1.IP) has left #linuxmasterrace
+2016-03-24 21:31:00	◥	ransur0t (lance@Snoonet-udrjh6.a1pr.h97g.0jglhi.IP) has joined #linuxmasterrace
+2016-03-24 21:33:20	◥	lilbiebs (lilbieb@Snoonet-q1a.qv3.mcf17j.IP) has joined #linuxmasterrace
+2016-03-24 21:34:18	Shibe	r/dailyprogrammer is making me feel insecure
+2016-03-24 21:34:46	calexil	okay nerds
+2016-03-24 21:34:47	calexil	hit me
+2016-03-24 21:34:57	calexil	why shouldn't people use unetbootin again?
+2016-03-24 21:35:02	⚡	Alexendoo hits calexil
+2016-03-24 21:35:13	calexil	I herd the explanation a while ago and cant find tha article
+2016-03-24 21:35:23	shiro	because DD is better and the images provided by unetbootin are kinda bad
+2016-03-24 21:36:19	TTv2	Hey
+2016-03-24 21:37:21	◣	frakturfreak (frakturfrea@user/frakturfreak) has quit (Ping timeout: 121 seconds)
+2016-03-24 21:37:22	◥	medfly (notf@Snoonet-mbq.86t.141ci1.IP) has joined #linuxmasterrace
+2016-03-24 21:37:27	⚡	medfly sighs
+2016-03-24 21:37:41	medfly	I need to stick to fucking around with open source
+2016-03-24 21:37:44	medfly	the rest of the world is pretty lame
+2016-03-24 21:38:57	ℹ 	irc: disconnected from server
+2016-03-25 17:38:25	◥	Cenobite (cenobite@user/Cenobite) has joined #linuxmasterrace
+2016-03-25 17:38:25	ℹ 	Topic for #linuxmasterrace is "https://i.imgur.com/U49A9we.jpg | https://github.com/Leo-G/DevopsWiki | Mumble: mumble.winterfox.xyz | MUD: unixbird.imegumii.space:6250 |"
+2016-03-25 17:38:25	ℹ 	Topic set by Shadowhand (Shadowhand@178.62.65.223) on Sat, 19 Mar 2016 10:03:15
+2016-03-25 17:38:25	ℹ 	Channel #linuxmasterrace: 134 nicks (3 ops, 5 halfops, 2 voices, 124 normals)
+2016-03-25 17:38:25	ℹ 	Notice(caligula.snoonet.org): Replaying up to 10 lines of pre-join history spanning up to 3000 seconds
+2016-03-25 17:38:25	PureTryOut	intel gpu?
+2016-03-25 17:38:25	zowlyfon	yeah
+2016-03-25 17:38:25	PureTryOut	has top notch drivers
+2016-03-25 17:38:25	zowlyfon	i7 3770k
+2016-03-25 17:38:25	whitephoenix	no worries best buy is always there to sell you low-end gpus at high-end prices
+2016-03-25 17:38:26	PureTryOut	:p
+2016-03-25 17:38:26	zowlyfon	thats the same CPU as my main PC
+2016-03-25 17:38:26	zowlyfon	the one I am on now
+2016-03-25 17:38:26	zowlyfon	whitephoenix: we don't have bestbuy
+2016-03-25 17:38:26	PureTryOut	AWindowsKrill, what Esperanto skill are you at now?
+2016-03-25 17:38:27	ℹ 	Channel created on Sat, 21 Feb 2015 12:06:24
+2016-03-25 17:41:30	◥	rho (rhomeo@user/rho) has joined #linuxmasterrace
+2016-03-25 17:45:22	ℹ 	fuhnoo[DRUNK] is now known as fuhnoo
+2016-03-25 17:46:29	◥	PJ (PJB3005@user/PJ) has joined #linuxmasterrace
+2016-03-25 18:06:48	awkwardtechdude	damn, updating crouton is taking so fucking long on this internet connection
+2016-03-25 18:09:25	◥	zinn_ (zinn@Snoonet-drp.0lr.b35fdg.IP) has joined #linuxmasterrace
+2016-03-25 18:09:35	◣	zinn (alex@user/zinn) has quit (NickServ (GHOST command used by zinn_))
+2016-03-25 18:09:35	◣	zinn_ (zinn@Snoonet-drp.0lr.b35fdg.IP) has quit (Changing host)
+2016-03-25 18:09:35	◥	zinn_ (zinn@user/zinn) has joined #linuxmasterrace
+2016-03-25 18:09:35	ℹ 	zinn_ is now known as zinn
+2016-03-25 18:09:35	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-25 18:10:13	◥	alex (alex@Snoonet-4na.ucb.igu5r9.IP) has joined #linuxmasterrace
+2016-03-25 18:10:32	ℹ 	alex is now known as Snoo36305
+2016-03-25 18:11:03	%zinn	is alex my clone
+2016-03-25 18:11:05	%zinn	is the real question
+2016-03-25 18:12:11	Takios	we're all your clones, zinn
+2016-03-25 18:12:16	%zinn	o
+2016-03-25 18:13:39	%unixbird	what tf should i do on my VPS
+2016-03-25 18:13:47	◣	zinn (zinn@user/zinn) has quit (Quit: "Stupid RPi rebooting all the time")
+2016-03-25 18:13:47	ℹ 	Snoo36305 is now known as zinn
+2016-03-25 18:13:48	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-25 18:13:48	◣	zinn (alex@Snoonet-4na.ucb.igu5r9.IP) has quit (Changing host)
+2016-03-25 18:13:48	◥	zinn (alex@user/zinn) has joined #linuxmasterrace
+2016-03-25 18:13:48	ℹ 	Mode #linuxmasterrace [+h zinn] by caligula.snoonet.org
+2016-03-25 18:14:09	◥	Two2Dee (Two2Dee@user/Two2Dee) has joined #linuxmasterrace
+2016-03-25 18:14:23	◥	zinn_ (zinn@Snoonet-drp.0lr.b35fdg.IP) has joined #linuxmasterrace
+2016-03-25 18:14:39	Takios	unixbird: why do you have a VPS if you don't even know what to do with it
+2016-03-25 18:14:47	◣	zinn (alex@user/zinn) has quit (NickServ (GHOST command used by zinn_))
+2016-03-25 18:14:47	◣	zinn_ (zinn@Snoonet-drp.0lr.b35fdg.IP) has quit (Changing host)
+2016-03-25 18:14:47	◥	zinn_ (zinn@user/zinn) has joined #linuxmasterrace
+2016-03-25 18:14:47	ℹ 	zinn_ is now known as zinn
+2016-03-25 18:14:47	ℹ 	Mode #linuxmasterrace [+h zinn] by ModAboose
+2016-03-25 18:15:10	%zinn	why the fuck is my znc so shitty
+2016-03-25 18:15:25	◥	alex (alex@Snoonet-4na.ucb.igu5r9.IP) has joined #linuxmasterrace
+2016-03-25 18:15:30	whitephoenix	My amazon order is under the prime free two-day shipping threshold - anything else I should consider?
+2016-03-25 18:15:39	%zinn	swear to fuck if thats is me again
+2016-03-25 18:15:42	ℹ 	alex is now known as Snoo62808
+2016-03-25 18:15:45	%zinn	i will murder znc
+2016-03-25 18:15:47	%unixbird	hahahahahha
+2016-03-25 18:15:48	%zinn	Snoo62808: speak damn you
+2016-03-25 18:16:34	awkwardtechdude	bye, I'm'm'a go on a giant road trip from the Rockies back to arkansas.
+2016-03-25 18:16:46	Takios	awkwardtechdude: don't die and have fun
+2016-03-25 18:16:54	awkwardtechdude	I mean, my irc will be connected because it's at home, but I won't be able to use it.
+2016-03-25 18:16:59	ℹ 	irc: disconnected from server

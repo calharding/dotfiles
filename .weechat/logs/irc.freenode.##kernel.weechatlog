@@ -1,0 +1,134 @@
+2016-03-24 11:24:44	◥	Cenobite (~cenobite@unaffiliated/cenobite) has joined ##kernel
+2016-03-24 11:24:44	ℹ 	Topic for ##kernel is "Channel for linux,unix-like kernel discussion | BOOKS lwn.net/Kernel/LDD3 | BROWSER lxr.linux.no/source | PASTEBIN codepad.org | HOWTO http://goo.gl/wzsul http://goo.gl/zi5V"
+2016-03-24 11:24:44	ℹ 	Topic set by jnxa on Mon, 12 Mar 2012 13:09:58
+2016-03-24 11:24:44	ℹ 	Channel ##kernel: 331 nicks (1 op, 0 voices, 330 normals)
+2016-03-24 11:24:44	ℹ 	PvNotice(ChanServ): Welcome to ##kernel - Feel free to ask, don't ask if you can ask.
+2016-03-24 11:24:46	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:43
+2016-03-24 11:25:21	◣	xelxebar (~xelxebar@2001:268:c012:e07e:48db:50b2:84fd:2) has quit (Ping timeout: 248 seconds)
+2016-03-24 11:30:03	◣	DevBox (~DevBox@unaffiliated/zacdev) has quit (Ping timeout: 260 seconds)
+2016-03-24 11:33:55	◣	obsrwr_home (~obsrwr@2001:b30:2802:1219:a::c11) has quit (Remote host closed the connection)
+2016-03-24 11:37:07	◣	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has quit (Ping timeout: 264 seconds)
+2016-03-24 11:38:19	◥	valdis (~valdis@2601:5c0:c100:993:be85:56ff:fe1f:4f6d) has joined ##kernel
+2016-03-24 11:39:38	◥	xelxebar (~xelxebar@2001:268:c01c:7df8:698:678e:c187:7ba0) has joined ##kernel
+2016-03-24 11:45:27	oneforall2	isabled bluetooth and rewire and stll lays
+2016-03-24 11:45:34	oneforall2	lays*
+2016-03-24 11:45:48	oneforall2	err delays*
+2016-03-24 11:46:13	oneforall2	ny ideas what I can look at to see where the conflict is?
+2016-03-24 11:46:21	oneforall2	y/any
+2016-03-24 11:50:05	◣	hejianet (~hejianet@60.247.125.150) has quit (Remote host closed the connection)
+2016-03-24 11:50:06	◥	ubijtsa (~ubijtsa@176.10.250.69) has joined ##kernel
+2016-03-24 11:50:29	ℹ 	ubijtsa is now known as Guest48333
+2016-03-24 11:50:31	◥	hejianet (~hejianet@60.247.125.150) has joined ##kernel
+2016-03-24 11:50:48	◥	Buster (Buster@2001:470:1f0b:1639::2) has joined ##kernel
+2016-03-24 11:55:12	◣	hejianet (~hejianet@60.247.125.150) has quit (Ping timeout: 276 seconds)
+2016-03-24 11:55:49	◥	harrow (~harrow@2607:5300:100:200::160d) has joined ##kernel
+2016-03-24 11:56:55	◣	oneforall2 (~guru@d209-89-194-70.abhsia.telus.net) has quit (Ping timeout: 248 seconds)
+2016-03-24 12:01:26	◥	yosafbridge (~yosafbrid@105.ip-167-114-152.net) has joined ##kernel
+2016-03-24 12:01:31	◣	jijz (jkalliya@nat/redhat/x-ffjykifepvlserpw) has quit (Quit: Leaving)
+2016-03-24 12:02:08	◥	linkedinyou (~linkediny@unaffiliated/linkedinyou) has joined ##kernel
+2016-03-24 12:02:13	◣	Guest48333 (~ubijtsa@176.10.250.69) has quit (Changing host)
+2016-03-24 12:02:13	◥	Guest48333 (~ubijtsa@unaffiliated/ubijtsa) has joined ##kernel
+2016-03-24 12:02:42	◥	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has joined ##kernel
+2016-03-24 12:02:48	◥	Relsak (~dragan@unaffiliated/kasler) has joined ##kernel
+2016-03-24 12:13:36	◥	Anticom (~timo.m@217.6.33.234) has joined ##kernel
+2016-03-24 12:17:26	◣	huzaifas (~huzaifas@14.97.151.61) has quit (Ping timeout: 244 seconds)
+2016-03-24 12:20:22	◣	Relsak (~dragan@unaffiliated/kasler) has quit (Ping timeout: 268 seconds)
+2016-03-24 12:20:47	◣	harrow (~harrow@2607:5300:100:200::160d) has quit (Read error: Connection reset by peer)
+2016-03-24 12:21:49	specing	What hardware failure am I looking at if the machine sometimes freezes and dstat says "missed X ticks"?
+2016-03-24 12:21:49	◣	yosafbridge (~yosafbrid@105.ip-167-114-152.net) has quit (Read error: Connection reset by peer)
+2016-03-24 12:22:18	specing	RTC battery gone?
+2016-03-24 12:24:27	◥	araujo (~araujo@58.216.99.104) has joined ##kernel
+2016-03-24 12:24:27	◣	araujo (~araujo@58.216.99.104) has quit (Changing host)
+2016-03-24 12:24:27	◥	araujo (~araujo@gentoo/developer/araujo) has joined ##kernel
+2016-03-24 12:24:55	◥	rosenarch (~rosenarch@53565197.cm-6-7b.dynamic.ziggo.nl) has joined ##kernel
+2016-03-24 12:25:11	◣	araujo (~araujo@gentoo/developer/araujo) has quit (Max SendQ exceeded)
+2016-03-24 12:26:22	◥	araujo (~araujo@gentoo/developer/araujo) has joined ##kernel
+2016-03-24 12:26:27	◣	nev75 (~nev@188.162.14.70) has left ##kernel
+2016-03-24 12:26:53	◣	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has quit (Ping timeout: 252 seconds)
+2016-03-24 12:27:44	◥	oneforall2 (~guru@d209-89-194-70.abhsia.telus.net) has joined ##kernel
+2016-03-24 12:31:07	◥	towo` (~towo@unaffiliated/towo/x-4064351) has joined ##kernel
+2016-03-24 12:32:40	◥	yosafbridge (~yosafbrid@2607:5300:100:200::160d) has joined ##kernel
+2016-03-24 12:35:58	◥	harrow (~harrow@2607:5300:100:200::160d) has joined ##kernel
+2016-03-24 12:39:49	◥	demok (~okan@24.133.190.76) has joined ##kernel
+2016-03-24 12:40:12	◣	phil42 (~pi@c-76-125-104-228.hsd1.ar.comcast.net) has quit (Quit: Leaving)
+2016-03-24 12:41:28	◥	balbir_ (~balbir@14-202-194-140.static.tpgi.com.au) has joined ##kernel
+2016-03-24 12:43:11	◣	hackman (~hackman@194.12.255.42) has quit (Ping timeout: 260 seconds)
+2016-03-24 12:52:42	◣	rosenarch (~rosenarch@53565197.cm-6-7b.dynamic.ziggo.nl) has quit (Quit: WeeChat 1.4)
+2016-03-24 12:53:10	◣	towo` (~towo@unaffiliated/towo/x-4064351) has quit (Quit: Leaving)
+2016-03-24 12:54:35	◥	towo` (~towo@2a02:810a:8e40:5e4:48e5:fcff:b187:2513) has joined ##kernel
+2016-03-24 12:54:35	◣	towo` (~towo@2a02:810a:8e40:5e4:48e5:fcff:b187:2513) has quit (Changing host)
+2016-03-24 12:54:35	◥	towo` (~towo@unaffiliated/towo/x-4064351) has joined ##kernel
+2016-03-24 13:01:38	◥	sean (~sean@56.110.255.149.in-addr.arpa) has joined ##kernel
+2016-03-24 13:06:43	◥	nuclear_horse (~nuclear_h@83.234.69.145) has joined ##kernel
+2016-03-24 13:07:19	◥	kostrahb (c3712058@gateway/web/freenode/ip.195.113.32.88) has joined ##kernel
+2016-03-24 13:08:56	broonie	specing: No, more likely some trap into the BIOS ran for a long time or we ran with interrupts disable for a long time.
+2016-03-24 13:10:24	◥	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has joined ##kernel
+2016-03-24 13:10:47	◥	gpiccoli (~gpiccoli@189-68-84-188.dsl.telesp.net.br) has joined ##kernel
+2016-03-24 13:19:02	◣	Buster (Buster@2001:470:1f0b:1639::2) has quit
+2016-03-24 13:19:16	◥	akahat (~akahat@103.25.0.243) has joined ##kernel
+2016-03-24 13:20:06	kostrahb	Hi, how kernel handles response from usb slave device? I used usb skeleton driver to create device file to send (ascii) commands to a motor controll unit. It should gave me some response (according to manual "immediately after recieving the command"; also in ascii) but when reading the file there is no response.
+2016-03-24 13:28:29	◣	gavin_guo (~androirc@27.247.64.15) has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+2016-03-24 13:30:45	◣	TJ- (~root@jeeves.iam.tj) has quit (Quit: WeeChat 1.3)
+2016-03-24 13:31:06	◥	TJ- (root@2a02:8011:2007::2) has joined ##kernel
+2016-03-24 13:37:07	◣	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has quit (Ping timeout: 240 seconds)
+2016-03-24 13:40:12	◣	barometz (~dominic@82-171-13-144.ip.telfort.nl) has quit (Quit: Reconnecting)
+2016-03-24 13:40:25	◥	barometz (~dominic@82-171-13-144.ip.telfort.nl) has joined ##kernel
+2016-03-24 13:41:42	◥	halves (~halves@191.191.255.166) has joined ##kernel
+2016-03-24 13:44:20	◥	makaveli0227TL (~makaveli0@69.74.59.115) has joined ##kernel
+2016-03-24 13:49:07	◣	makaveli0227TL (~makaveli0@69.74.59.115) has quit (Ping timeout: 240 seconds)
+2016-03-24 13:56:31	◥	cclaudio (cclaudio@nat/ibm/x-vwnkiqienjcpcxxj) has joined ##kernel
+2016-03-24 13:57:17	◥	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has joined ##kernel
+2016-03-24 13:59:03	◥	mreznik (~mreznik@ip4-46-39-178-82.cust.nbox.cz) has joined ##kernel
+2016-03-24 13:59:06	◣	mreznik (~mreznik@ip4-46-39-178-82.cust.nbox.cz) has quit (Remote host closed the connection)
+2016-03-24 13:59:33	◣	halves (~halves@191.191.255.166) has quit (Quit: Leaving)
+2016-03-24 14:03:22	◥	halves (~halves@191.191.255.166) has joined ##kernel
+2016-03-24 14:04:24	◥	mreznik (~mreznik@ip4-46-39-178-82.cust.nbox.cz) has joined ##kernel
+2016-03-24 14:05:55	◣	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has quit (Ping timeout: 248 seconds)
+2016-03-24 14:08:33	◣	akahat (~akahat@103.25.0.243) has quit (Ping timeout: 248 seconds)
+2016-03-24 14:11:14	◣	mreznik (~mreznik@ip4-46-39-178-82.cust.nbox.cz) has quit (Quit: Leaving)
+2016-03-24 14:12:19	◥	slashd (~slashd@modemcable157.191-130-66.mc.videotron.ca) has joined ##kernel
+2016-03-24 14:12:49	◣	slashd (~slashd@modemcable157.191-130-66.mc.videotron.ca) has quit (Changing host)
+2016-03-24 14:12:49	◥	slashd (~slashd@ubuntu/member/slashd) has joined ##kernel
+2016-03-24 14:14:28	◣	auxiliation (~auxiliati@2607:5300:60:1abf:b6f7::1) has quit (Ping timeout: 268 seconds)
+2016-03-24 14:16:50	◥	akahat (~akahat@103.25.0.243) has joined ##kernel
+2016-03-24 14:17:44	◥	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has joined ##kernel
+2016-03-24 14:20:28	◣	leon_e (~leon_e@119.123.115.125) has quit (Quit: Konversation terminated!)
+2016-03-24 14:20:42	◥	araujo_ (~araujo@122.225.36.248) has joined ##kernel
+2016-03-24 14:21:53	◣	araujo_ (~araujo@122.225.36.248) has quit (Max SendQ exceeded)
+2016-03-24 14:22:48	◥	araujo_ (~araujo@122.228.64.248) has joined ##kernel
+2016-03-24 14:23:29	◣	araujo (~araujo@gentoo/developer/araujo) has quit (Ping timeout: 248 seconds)
+2016-03-24 14:24:07	◣	araujo_ (~araujo@122.228.64.248) has quit (Max SendQ exceeded)
+2016-03-24 14:27:23	◣	akahat (~akahat@103.25.0.243) has quit (Ping timeout: 260 seconds)
+2016-03-24 14:29:05	◥	akahat (~akahat@103.25.0.243) has joined ##kernel
+2016-03-24 14:31:37	◣	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has quit (Ping timeout: 240 seconds)
+2016-03-24 14:35:26	◣	towo` (~towo@unaffiliated/towo/x-4064351) has quit (Quit: Leaving)
+2016-03-24 14:40:46	◥	towo` (~towo@unaffiliated/towo/x-4064351) has joined ##kernel
+2016-03-24 14:41:36	◣	armyriad (~armyriad@d2.00.39a9.ip4.static.sl-reverse.com) has quit (Ping timeout: 268 seconds)
+2016-03-24 14:42:09	◣	swatti (~memory@business-89-132-60-56.business.broadband.hu) has quit (Remote host closed the connection)
+2016-03-24 14:43:31	◥	akrpic77 (~Adium@188-230-178-89.dynamic.t-2.net) has joined ##kernel
+2016-03-24 14:43:43	◣	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has quit (Ping timeout: 264 seconds)
+2016-03-24 14:44:55	◣	marcograss_ (~marcogras@45.56.152.52) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-24 14:50:53	◣	hpt (~hpt@123.114.155.48) has quit (Ping timeout: 240 seconds)
+2016-03-24 14:55:20	◥	Guard1an (~Guard1an@2a01:7b8:2000:3d:3119:28aa:b6e5:f9cb) has joined ##kernel
+2016-03-24 14:55:20	◣	Guard1an (~Guard1an@2a01:7b8:2000:3d:3119:28aa:b6e5:f9cb) has quit (Changing host)
+2016-03-24 14:55:20	◥	Guard1an (~Guard1an@unaffiliated/guard1an) has joined ##kernel
+2016-03-24 15:06:38	◥	Relsak (~dragan@unaffiliated/kasler) has joined ##kernel
+2016-03-24 15:08:44	◥	Rico (~Rico@unaffiliated/rico29) has joined ##kernel
+2016-03-24 15:08:51	Rico	hello
+2016-03-24 15:09:23	Rico	does somebody here know where I cand find informations about STP support in 2.6.32 ?
+2016-03-24 15:10:11	◥	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined ##kernel
+2016-03-24 15:19:29	◣	Anticom (~timo.m@217.6.33.234) has quit (Quit: Bye bye)
+2016-03-24 15:20:35	◣	f0f4r (~f0f4r@134.243.14.46.static.wline.lns.sme.cust.swisscom.ch) has quit (Remote host closed the connection)
+2016-03-24 15:21:42	◥	hackman (~hackman@management.1h.com) has joined ##kernel
+2016-03-24 15:22:57	_dw	a time machine might be useful
+2016-03-24 15:25:17	◥	hejianet (~hejianet@223.166.32.163) has joined ##kernel
+2016-03-24 15:28:51	◣	links (jaison@nat/redhat/x-idfvvrbvgczcaofg) has quit (Ping timeout: 260 seconds)
+2016-03-24 15:29:04	◥	shylesh (~shylesh@59.95.70.183) has joined ##kernel
+2016-03-24 15:29:43	◥	makaveli0227TL (~makaveli0@69.74.59.115) has joined ##kernel
+2016-03-24 15:42:10	◥	phil42 (~pi@c-76-125-104-228.hsd1.ar.comcast.net) has joined ##kernel
+2016-03-24 15:43:22	◣	balbir_ (~balbir@14-202-194-140.static.tpgi.com.au) has quit (Ping timeout: 276 seconds)
+2016-03-24 15:48:40	◣	akahat (~akahat@103.25.0.243) has quit (Quit: Leaving)
+2016-03-24 15:56:06	◥	marcograss (~marcogras@104.237.91.134) has joined ##kernel
+2016-03-24 15:58:19	◣	heinrich5991 (~hein5991@unaffiliated/heinrich5991) has quit (Ping timeout: 276 seconds)
+2016-03-24 15:59:53	◣	BOKALDO (~BOKALDO@87.110.89.2) has quit (Quit: Leaving)
+2016-03-24 16:00:57	◥	heinrich5991 (~hein5991@unaffiliated/heinrich5991) has joined ##kernel

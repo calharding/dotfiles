@@ -1,0 +1,21 @@
+2016-03-24 11:05:30	-->	Cenobite (~cenobite@unaffiliated/cenobite) has joined #git
+2016-03-24 11:05:30	--	Topic for #git is "Welcome to #git, the place for git help and vulnerabilities: http://seclists.org/oss-sec/2016/q1/645 | First visit? Read: http://jk.gs/git | Getting "cannot send to channel"? /msg gitinfo .voice | Fork by yourself, shame on you. Fork with a friend, now we're getting somewhere."
+2016-03-24 11:05:30	--	Topic set by Eugene (eugene@kashpureff.org) on Tue, 22 Mar 2016 18:49:36
+2016-03-24 11:05:30	--	Channel #git: 1210 nicks (2 ops, 16 voices, 1192 normals)
+2016-03-24 11:05:32	--	Channel created on Sun, 26 Nov 2006 08:42:45
+2016-03-24 11:05:39	hborderiou	I see this : http://pastebin.com/7MZG1UxL
+2016-03-24 11:05:44	-->	drbean (~drbean@124.219.82.42) has joined #git
+2016-03-24 11:06:32	j416	hborderiou: and what did you expect?
+2016-03-24 11:06:53	<--	drbean_ (~drbean@124.219.83.42) has quit (Ping timeout: 240 seconds)
+2016-03-24 11:06:58	hborderiou	i expect to have my branch02 on the right side of branch01
+2016-03-24 11:07:23	j416	branch02 is based on branch01. it is one commit ahead.
+2016-03-24 11:07:37	hborderiou	my branch02 depending on branch01
+2016-03-24 11:07:43	--	irc: disconnected from server
+2016-03-24 11:08:59	◥	Cenobite (~cenobite@unaffiliated/cenobite) has joined #git
+2016-03-24 11:08:59	ℹ 	Topic for #git is "Welcome to #git, the place for git help and vulnerabilities: http://seclists.org/oss-sec/2016/q1/645 | First visit? Read: http://jk.gs/git | Getting "cannot send to channel"? /msg gitinfo .voice | Fork by yourself, shame on you. Fork with a friend, now we're getting somewhere."
+2016-03-24 11:08:59	ℹ 	Topic set by Eugene (eugene@kashpureff.org) on Tue, 22 Mar 2016 18:49:36
+2016-03-24 11:08:59	ℹ 	Channel #git: 1210 nicks (2 ops, 16 voices, 1192 normals)
+2016-03-24 11:09:01	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:45
+2016-03-24 11:09:21	hborderiou	branch02 is a new fonctionnality that depends on branch01
+2016-03-24 11:09:31	j416	branch01 is not based on the current master
+2016-03-24 11:09:50	◣	Cenobite (~cenobite@unaffiliated/cenobite) has left #git
