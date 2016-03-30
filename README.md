@@ -1,4 +1,4 @@
 # dotfiles
-dotfiles for /home
+Some useful dotfiles from /home, such as .bashrc, et al.
 
-Some of this stuff is confidential (e.g., ssh keys, gpg keys), so keep it PRIVATE!
+
