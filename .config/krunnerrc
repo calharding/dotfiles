@@ -1,0 +1,5 @@
+[General]
+history=icedove,konsole,torchat
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_icedove.desktop,1 services_org.kde.konsole.desktop,1 services_torchat.desktop

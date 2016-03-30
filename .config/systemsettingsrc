@@ -1,0 +1,16 @@
+[DownloadDialog Settings]
+Window-Maximized 768x1366=true
+
+[KPropertiesDialog]
+Height 768=435
+Width 1366=406
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 768x1366=true
+
+[Open-with settings]
+CompletionMode=5
+History=redshift

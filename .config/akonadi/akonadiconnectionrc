@@ -1,0 +1,6 @@
+[Data]
+Method=UnixPath
+UnixPath=/tmp/akonadi-cal.LxVpp5/akonadiserver.socket
+
+[DBUS]
+Address="unix:path=/run/user/1000/bus"

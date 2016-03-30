@@ -1,0 +1,9 @@
+[Added Associations]
+application/vnd.ms-excel.sheet.macroEnabled.12=libreoffice-calc.desktop;
+message/rfc822=userapp-Icedove-AMJAFY.desktop;
+x-scheme-handler/mailto=userapp-Icedove-AMJAFY.desktop;
+
+[Default Applications]
+application/vnd.ms-excel.sheet.macroEnabled.12=libreoffice-calc.desktop;
+message/rfc822=userapp-Icedove-AMJAFY.desktop
+x-scheme-handler/mailto=userapp-Icedove-AMJAFY.desktop

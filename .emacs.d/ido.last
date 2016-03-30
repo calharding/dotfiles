@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/cal/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/cal/Documents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "PC.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/cal/Documents/" (22261 26036 283300 373000) "../" "./" "PC.txt" "#PC.txt#")
+
+ ("/home/cal/" (22261 22920 915445 588000) ".Skype/" ".xinitrc~" ".profile" ".mozilla/" "Templates/" ".steampath" ".lesshst" ".subversion/" ".xinitrc" "code/" ".urxvt/" ".bashrc" ".elisp/" ".viminfo" ".bashrc.original" ".ssh/" ".fonts/" "Documents/" ".gconf/" ".emacs.el" ".weechat/" ".fehbg" "../" ".lastpass/" ".steam/" ".w3m/" ".gnupg/" ".cache/" ".Xresources" ".ICEauthority" ".npm/" "Music/" ".nano/" ".pki/" ".lyrics/" "bin/" ".pulse-cookie" "Desktop/" ".torchat/" ".bashrc~" ".claws-mail/" ".wget-hsts" ".steampid" "./" ".ncmpcpp/" ".bash_history" ".bash_logout" "Pictures/" ".wallpaper/" ".macromedia/" ".pip/" ".config/" "Steam/" ".Xauthority" ".emacs.d/" "Videos/" ".adobe/" ".recently-used" "Downloads/" "Public/" ".local/" ".icedove/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

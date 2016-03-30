@@ -1,0 +1,11 @@
+[Favorites]
+FavoriteURLs=/usr/share/applications/kde4/kfmclient_html.desktop,/usr/share/applications/kde4/Kontact.desktop,/usr/share/applications/systemsettings.desktop,/usr/share/applications/org.kde.dolphin.desktop,/usr/share/applications/org.kde.kate.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations,baloosearch
+
+[RecentlyUsed]
+Applications=org.kde.kate.desktop,iceweasel.desktop,org.kde.dolphin.desktop,systemsettings.desktop,org.kde.konsole.desktop
